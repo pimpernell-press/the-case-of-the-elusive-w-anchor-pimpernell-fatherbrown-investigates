@@ -6,13 +6,23 @@ venv/
 
 # --- Build artefacts ---
 outputs/
-publication/
-!publication/
-!publication/manuscript.md
 *.epub
 *.pdf
 *.docx
 
+# Ignore the publication folder by default, then allow source files inside it
+publication/*
+!publication/
+!publication/**/*.md
+!publication/**/*.yaml
+!publication/**/*.yml
+!publication/**/*.json
+!publication/**/*.png
+!publication/**/*.jpg
+!publication/**/*.jpeg
+!publication/**/*.svg
+!publication/**/*.ttf
+!publication/**/*.otf
 
 # --- Logs / temp ---
 *.log
@@ -26,4 +36,3 @@ Thumbs.db
 
 # HTML chunks are derived exports until an assembler exists
 inputs/canonical/chunks/
-
