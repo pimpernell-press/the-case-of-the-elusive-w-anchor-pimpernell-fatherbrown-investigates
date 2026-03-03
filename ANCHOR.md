@@ -1,14 +1,12 @@
-@'
-
 \# Reproducible Self‑Pub Kit — Anchor (Ground Truth)
 
 
 
-Last updated: 2026-03-03
+Last updated: 2026-03-03  
 
-Owner machine: Windows (PowerShell)
+Owner machine: Windows (PowerShell)  
 
-Repo: https://github.com/tonefreqhz/reproducible-self-pub-kit
+Repo: https://github.com/tonefreqhz/reproducible-self-pub-kit  
 
 Branch: main
 
@@ -20,17 +18,17 @@ Branch: main
 
 \## 1) Current state (what exists)
 
-\- Repo root: C:\\Users\\peewe\\OneDrive\\Desktop\\reproducible-self-pub-kit
+\- Repo root: `C:\\Users\\peewe\\OneDrive\\Desktop\\reproducible-self-pub-kit`
 
-\- tools/build\_book.py exists and is committed/pushed.
+\- `tools/build\_book.py` exists and is committed/pushed.
 
 \- Orchestrator:
 
 &nbsp; - Sequential targets: PDF → EPUB → DOCX
 
-&nbsp; - Flags: --all, --pdf, --epub, --docx
+&nbsp; - Flags: `--all`, `--pdf`, `--epub`, `--docx`
 
-&nbsp; - No flags defaults to --all
+&nbsp; - No flags defaults to `--all`
 
 
 
@@ -40,17 +38,17 @@ Branch: main
 
 \## 2) Commands that WORK on this machine
 
-\- Use Python via launcher (python command not on PATH):
+\- Use Python via launcher (\*\*python command not on PATH\*\*):
 
-&nbsp; - py --version -> Python 3.13.12 confirmed
+&nbsp; - `py --version` → Python 3.13.12 confirmed
 
-&nbsp; - py tools/build\_book.py --all
+&nbsp; - `py tools\\build\_book.py --all`
 
 
 
 \- LaTeX engine present:
 
-&nbsp; - xelatex --version works (TeX Live 2025)
+&nbsp; - `xelatex --version` works (TeX Live 2025)
 
 
 
@@ -60,9 +58,9 @@ Branch: main
 
 \## 3) Git status (what was pushed)
 
-\- Commit: d43f679 on main
+\- Commit: `d43f679` on `main`
 
-\- Message: Add sequential multi-target build orchestration (pdf/epub/docx)
+\- Message: "Add sequential multi-target build orchestration (pdf/epub/docx)"
 
 
 
@@ -74,15 +72,15 @@ Branch: main
 
 \- Pandoc:
 
-&nbsp; - pandoc --version failed (not recognized)
+&nbsp; - `pandoc --version` failed (not recognized)
 
-&nbsp; - Installing via: winget install --id JohnMacFarlane.Pandoc -e
+&nbsp; - Installing via: `winget install --id JohnMacFarlane.Pandoc -e`
 
 &nbsp; - After install: reopen PowerShell, then run:
 
-&nbsp;   - pandoc --version
+&nbsp;   - `pandoc --version`
 
-&nbsp;   - where.exe pandoc
+&nbsp;   - `where.exe pandoc`
 
 
 
@@ -94,11 +92,11 @@ Branch: main
 
 Generate (from Markdown):
 
-\- outputs/pdf/book.pdf
+\- `outputs/pdf/book.pdf`
 
-\- outputs/epub/book.epub
+\- `outputs/epub/book.epub`
 
-\- outputs/docx/book.docx
+\- `outputs/docx/book.docx`
 
 
 
@@ -106,7 +104,7 @@ Toolchain target:
 
 \- Pandoc for EPUB + DOCX
 
-\- Pandoc + --pdf-engine=xelatex for PDF
+\- Pandoc + `--pdf-engine=xelatex` for PDF
 
 
 
@@ -116,17 +114,17 @@ Toolchain target:
 
 \## 6) Manuscript source (update this)
 
-Canonical source: Markdown
+Canonical source: Markdown  
 
 Expected main file (change if different):
 
-\- publication/manuscript.md
+\- `publication\\manuscript.md`
 
 
 
 Check:
 
-\- Test-Path .\\publication\\manuscript.md
+\- `Test-Path .\\publication\\manuscript.md`
 
 
 
@@ -136,13 +134,11 @@ Check:
 
 \## 7) Guardrails
 
-\- Prefer py over python in all commands.
+\- Prefer `py` over `python` in all commands.
 
 \- Keep builds deterministic + sequential.
 
 \- Update this anchor whenever toolchain/paths change.
-
-'@ | Set-Content -Encoding UTF8 .\\ANCHOR.md
 
 
 
