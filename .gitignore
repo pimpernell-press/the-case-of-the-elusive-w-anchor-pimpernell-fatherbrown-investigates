@@ -7,9 +7,12 @@ venv/
 # --- Build artefacts ---
 outputs/
 publication/
+!publication/
+!publication/manuscript.md
 *.epub
 *.pdf
 *.docx
+
 
 # --- Logs / temp ---
 *.log
