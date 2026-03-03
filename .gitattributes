@@ -1,0 +1,5 @@
+# Keep lock + requirements consistent across OSes
+requirements*.txt text eol=lf
+requirements.in     text eol=lf
+*.md                text eol=lf
+*.ps1               text eol=lf
