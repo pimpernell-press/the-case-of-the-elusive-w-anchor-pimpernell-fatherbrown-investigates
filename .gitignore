@@ -23,3 +23,7 @@ publication/
 Thumbs.db
 .vscode/
 .idea/
+
+# HTML chunks are derived exports until an assembler exists
+inputs/canonical/chunks/
+
