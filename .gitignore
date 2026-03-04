@@ -1,2 +1,6 @@
 ﻿outputs/
 _debug.*
+.venv/
+__pycache__/
+archive/
+*.bak

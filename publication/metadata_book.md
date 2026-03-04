@@ -1,4 +1,4 @@
----
+﻿---
 title: "Reproducible Self‑Pub Kit"
 subtitle: "Shipping Without Surprises"
 author: "Author Name"

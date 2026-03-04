@@ -55,3 +55,49 @@ This is the planned organization. It is a roadmap, not a guarantee, until build 
 
 ## Recent changes
 - 2026-03-03: Public repo created; initial skeleton committed.
+---
+
+##  User Manual Note  How writing + assembling + building works here
+
+This repo is designed so you can write in small, easy-to-edit chapter files, then automatically assemble them into a single manuscript for publishing builds (EPUB/PDF/DOCX).
+
+###  What you edit (human-friendly source)
+You write and revise chapter files here:
+
+`inputs/canonical/chapters/`
+
+Each file is plain Markdown. A typical chapter starts with a top-level heading:
+
+```md
+# Chapter Title
+```
+
+This is the only place you should be writing prose day-to-day.
+
+###  What gets generated (machine-friendly build input)
+When youre ready to compile everything into one manuscript, the repo generates:
+
+`publication/manuscript.md`
+
+Think of this as the print/export master file that is always reproducible from the chapters. You usually dont hand-edit this file; its assembled from the chapter folder.
+
+###  What gets built (deliverables)
+The build pipeline reads the assembled manuscript and produces:
+
+- `outputs/pdf/manuscript.pdf`
+- `outputs/epub/manuscript.epub`
+- `outputs/docx/manuscript.docx`
+
+These are the files you upload to services like Draft2Digital.
+
+###  Standard workflow (the mental model)
+1. **Edit:** change one chapter Markdown file  
+2. **Assemble:** regenerate `publication/manuscript.md` from chapters  
+3. **Build:** regenerate EPUB/PDF/DOCX from `publication/manuscript.md`  
+4. **Version:** commit changes + add a progress log entry  
+
+### Why this is better than one big doc
+- Chapters are easier to navigate and review.
+- You avoid mystery edits inside large files.
+- Builds become consistent and repeatable across machines.
+

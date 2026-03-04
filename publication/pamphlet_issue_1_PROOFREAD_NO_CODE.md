@@ -1,5 +1,5 @@
-# Reproducible SelfPub Kit
-
+Reproducible SelfPub Kit
+Shipping Without Surprises
 Release notes for writers whove been burned by little quirks
 You are not expected to understand this.
 
@@ -24,11 +24,7 @@ Which file is the real one?
 
 This pamphlet is a small answer: one canonical manuscript + one repeatable build + version history you can trust. Not glamorous. Just reliably boring.
 
-
----
-
-# Contents & Foreword
-
+Contents & Foreword
 Contents
 Origin Story: the quirks that ate publication day
 Ground Truth: one manuscript, many outputs
@@ -45,11 +41,7 @@ The recurring theme isnt incompetence. Its drift: titles drift, covers drift, in
 
 This kit is how you stop drift from running your publishing schedule.
 
-
----
-
-# 1) Origin Story: the quirks that ate publication day
-
+1) Origin Story: the quirks that ate publication day
 Draft2Digital is brilliant at distribution. Reedsy is great for production. And yetbetween toolstiny quirks can hold up publication like a pebble in a train door.
 
 Common culprits:
@@ -77,11 +69,7 @@ Confirm the manuscript file is real and non-empty:
 
 Confirm code fences are balanced (even count):
 
-
----
-
-# 2) Ground Truth: one manuscript, many outputs
-
+2) Ground Truth: one manuscript, many outputs
 Publishing pain usually comes from one root cause:
 
 You stop knowing which file is the truth.
@@ -124,11 +112,7 @@ the commands that should work
 the checks you run when reality starts drifting
 When youre tired, obvious becomes expensive. Anchor files are cheap insurance.
 
-
----
-
-# 3) Versioning with Git: stop selling yourself work you already did
-
+3) Versioning with Git: stop selling yourself work you already did
 Git is not here to turn you into a developer. Its here to prevent these disasters:
 
 I fixed it yesterday. Where did it go?
@@ -163,11 +147,7 @@ Clarify Anchor contract and add build checks
 Fix heading levels to improve EPUB navigation
 Your future self doesnt need poetry. They need context.
 
-
----
-
-# 4) Metadata discipline: titles, subtitles, series, and the Great Drift
-
+4) Metadata discipline: titles, subtitles, series, and the Great Drift
 Metadata is the most boring part of publishinguntil it costs you hours.
 
 Drift happens when these dont match:
@@ -192,11 +172,7 @@ author name spelling/punctuation (yes, it matters)
 EPUB note (quiet but important)
 EPUB readers and libraries surface metadata aggressively. If your EPUB looks wrong in a device library, its often metadatanot layout.
 
-
----
-
-# 5) Covers that match reality (outside and inside)
-
+5) Covers that match reality (outside and inside)
 Covers are where drift becomes visible and embarrassing.
 
 The classic mismatch:
@@ -216,11 +192,7 @@ tiny subtitle change turning into four separate edits across tools
 Time-saving principle:
 Make metadata edits once, then rebuild and re-export.
 
-
----
-
-# 6) Flexible by design: kids books  technical  academic
-
+6) Flexible by design: kids books  technical  academic
 Different writers have different habits. Good. The workflow should adapt without breaking.
 
 This kit is deliberately permissive:
@@ -245,11 +217,7 @@ forcing pagination for EPUB/DOCX (they dont have pages in the same way)
 Formatting philosophy (for tired humans)
 If you cant explain why a formatting trick exists in one sentence, it doesnt belong in the canonical manuscript.
 
-
----
-
-# 7) Quick timeline + firstship checklist
-
+7) Quick timeline + firstship checklist
 Getting to shipped is mostly reducing avoidable surprises.
 
 A sane timeline (pamphlet edition)
@@ -259,7 +227,7 @@ Spot-check the usual failure points
 Commit the changes that produced the shippable build
 Upload/distribute
 Tag the release (optional, but helpful)
-firstship checklist (fast, not fancy)
+Firstship checklist (fast, not fancy)
 Content sanity
 
 Title/subtitle/author match YAML and cover
@@ -284,11 +252,7 @@ one code block
 one major section break
 Most disasters show up right there.
 
-
----
-
-# 8) Microindex for tired humans
-
+8) Microindex for tired humans
 This is the Im panicking, where is that thing section.
 
 Anchor file: the contract for whats real (paths, tools, commands, outputs)
