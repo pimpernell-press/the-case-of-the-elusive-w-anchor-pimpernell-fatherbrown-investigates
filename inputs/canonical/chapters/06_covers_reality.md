@@ -1,0 +1,20 @@
+# 5) Covers that match reality (outside and inside)
+
+Covers are where drift becomes visible and embarrassing.
+
+The classic mismatch:
+
+cover says Title: Subtitle
+title page inside says Title (or an older subtitle)
+store listing says something else entirely
+Minimum cover alignment checklist
+cover text matches YAML (title/subtitle/author)
+internal title page matches YAML (or you intentionally omit subtitle and document that choice)
+EPUB metadata matches YAML
+filenames are boring and consistent (no final_final_REAL2)
+Where people lose time
+exporting multiple cover sizes and forgetting which is live
+tweaking cover text after upload but not updating the manuscript
+tiny subtitle change turning into four separate edits across tools
+Time-saving principle:
+Make metadata edits once, then rebuild and re-export.
