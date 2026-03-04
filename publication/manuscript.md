@@ -1,4 +1,4 @@
-# Reproducible SelfPub Kit
+﻿# Reproducible SelfPub Kit
 
 Release notes for writers whove been burned by little quirks
 You are not expected to understand this.
@@ -307,3 +307,4 @@ This kit doesnt remove quirks from the world.
 It makes them repeatable, diagnosable, and  eventually  boring.
 
 Note: This Reproducible Self-Pub Kit is based on the architecture and patterns from the Home@ix FAIR project (see https://github.com/tonefreqhz/hom-ixFAIRindex), which established the foundational workflow for reproducible builds, PROJECT_ROOT anchoring, build invariants, and the Build Notes Anchor to prevent AI/human drift in long-running development.
+

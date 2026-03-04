@@ -1,0 +1,9 @@
+﻿INGEST JOB: 2026-03-04_190030_f6224b96
+Title:      Home@ix
+Input:      C:\Users\peewe\OneDrive\Desktop\homeix\publication\print_latest\index.html
+Copied To:  C:\Users\peewe\OneDrive\Desktop\reproducible-self-pub-kit\manuscripts\incoming\2026-03-04_190030_f6224b96\original.html
+SHA256:     c0399456fb4a004cc7f37818cb2c107aa7406f78f014d898ca2d86d4abe777f7
+Time:       2026-03-04T19:00:30.8334494+01:00
+
+Normalize: html -> gfm (pandoc)
+Normalized: C:\Users\peewe\OneDrive\Desktop\reproducible-self-pub-kit\manuscripts\staging\2026-03-04_190030_f6224b96\normalized.md

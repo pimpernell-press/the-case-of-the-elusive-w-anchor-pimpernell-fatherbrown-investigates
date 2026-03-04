@@ -4,3 +4,6 @@ _debug.*
 __pycache__/
 archive/
 *.bak
+
+/manuscripts/incoming/
+/manuscripts/staging/

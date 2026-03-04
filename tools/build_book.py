@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import re
@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import sys
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
 from paths import project_paths
@@ -66,50 +67,50 @@ def read_title_from_meta(meta_path: Path) -> str | None:
     return None
 
 
-def compute_out_stem(src: Path, meta: Path | None, out_stem: str | None) -> str:
-    if out_stem:
-        return slugify(out_stem)
-
+def compute_base_title(src: Path, meta: Path | None) -> str:
     if meta:
         title = read_title_from_meta(meta)
         if title:
-            return slugify(title)
+            return title
+    return src.stem
 
-    return slugify(src.stem)
+
+def compute_display_title(base_title: str, label: str | None) -> str:
+    label = (label or "").strip()
+    return f"{base_title}  {label}" if label else base_title
 
 
-def parse_args(argv: list[str]) -> tuple[Path | None, Targets, Path | None, Path | None, str | None]:
+def compute_out_stem_with_label_and_date(
+    *,
+    src: Path,
+    meta: Path | None,
+    out_stem_arg: str | None,
+    label: str | None,
+    date_stamp: bool,
+) -> str:
+    base_title = compute_base_title(src=src, meta=meta)
+    base_stem = slugify(out_stem_arg) if out_stem_arg else slugify(base_title)
+    label_stem = slugify(label) if (label and label.strip()) else ""
+    parts = [p for p in [base_stem, label_stem] if p]
+    if date_stamp:
+        parts.append(date.today().isoformat())
+    return "__".join(parts) if parts else "book"
+
+
+def parse_args(argv: list[str]) -> tuple[Path | None, Targets, Path | None, Path | None, str | None, str | None, bool]:
     ap = argparse.ArgumentParser(description="Reproducible Self-Pub Kit builder (sequential)")
-    ap.add_argument(
-        "--project-root",
-        type=Path,
-        default=None,
-        help="Override PROJECT_ROOT (defaults to auto-detected repo root).",
-    )
+    ap.add_argument("--project-root", type=Path, default=None)
+    ap.add_argument("--src", type=Path, default=None, help="Default: publication/manuscript.md")
+    ap.add_argument("--meta", type=Path, default=None, help="Pandoc --metadata-file (also used for title naming)")
+    ap.add_argument("--out-stem", type=str, default=None, help="Override output filename stem")
 
-    ap.add_argument(
-        "--src",
-        type=Path,
-        default=None,
-        help="Path to manuscript markdown (default: publication/manuscript.md).",
-    )
-    ap.add_argument(
-        "--meta",
-        type=Path,
-        default=None,
-        help="Optional metadata file (Pandoc --metadata-file) and used for output naming (title: ...).",
-    )
-    ap.add_argument(
-        "--out-stem",
-        type=str,
-        default=None,
-        help="Optional override for output filename stem (e.g. 'my-book-v2').",
-    )
+    ap.add_argument("--label", type=str, default=None, help="Append to title + output stem (e.g. 'Draft Manuscript')")
+    ap.add_argument("--date-stamp", action="store_true", help="Append YYYY-MM-DD to output stem")
 
-    ap.add_argument("--all", action="store_true", help="Build PDF + EPUB + DOCX (sequential).")
-    ap.add_argument("--pdf", action="store_true", help="Build PDF.")
-    ap.add_argument("--epub", action="store_true", help="Build EPUB.")
-    ap.add_argument("--docx", action="store_true", help="Build DOCX.")
+    ap.add_argument("--all", action="store_true")
+    ap.add_argument("--pdf", action="store_true")
+    ap.add_argument("--epub", action="store_true")
+    ap.add_argument("--docx", action="store_true")
 
     args = ap.parse_args(argv)
 
@@ -119,20 +120,16 @@ def parse_args(argv: list[str]) -> tuple[Path | None, Targets, Path | None, Path
     else:
         targets = Targets(pdf=args.pdf, epub=args.epub, docx=args.docx)
 
-    return args.project_root, targets, args.src, args.meta, args.out_stem
+    return args.project_root, targets, args.src, args.meta, args.out_stem, args.label, args.date_stamp
 
 
 def resolve_under_root(root: Path, p: Path | None) -> Path | None:
-    """
-    If p is relative, treat it as relative to PROJECT_ROOT.
-    This keeps existence checks and subprocess cwd behavior consistent.
-    """
     if p is None:
         return None
     return (root / p).resolve() if not p.is_absolute() else p.resolve()
 
 
-def print_config(pp, src: Path, meta: Path | None, out_stem: str) -> None:
+def print_config(pp, src: Path, meta: Path | None, out_stem: str, display_title: str) -> None:
     lines = [
         "Build config",
         f"PROJECT_ROOT = {pp.root}",
@@ -145,97 +142,96 @@ def print_config(pp, src: Path, meta: Path | None, out_stem: str) -> None:
         f"src = {src}",
         f"meta = {meta}" if meta else "meta = (none)",
         f"out_stem = {out_stem}",
+        f"display_title = {display_title}",
     ]
     print("\n".join(lines))
 
 
 def validate_skeleton(pp) -> None:
     must_exist_dir(pp.inputs, "inputs")
-    ensure_dir(pp.outputs)  # outputs/ is created on build (ANCHOR)
+    ensure_dir(pp.outputs)
     must_exist_dir(pp.publication, "publication")
     print("OK: path sanity checks passed.")
 
 
 def manuscript_source(pp, src_arg: Path | None) -> Path:
-    # Default location. Override with --src.
     return src_arg if src_arg is not None else pp.manuscript_md
 
 
-def pandoc_base_cmd(src: Path, out: Path, meta: Path | None) -> list[str]:
-    """
-    Construct a Pandoc command that always includes source and output,
-    and conditionally includes a metadata file.
-    """
+def pandoc_base_cmd(src: Path, out: Path, meta: Path | None, display_title: str | None) -> list[str]:
     cmd = ["pandoc", str(src), "-o", str(out)]
     if meta is not None:
         must_exist_file(meta, "metadata")
         cmd.extend(["--metadata-file", str(meta)])
+    if display_title:
+        cmd.extend(["--metadata", f"title={display_title}"])
     return cmd
 
 
-def build_pdf(pp, src: Path, out_stem: str, meta: Path | None) -> None:
+def build_pdf(pp, src: Path, out_stem: str, meta: Path | None, display_title: str) -> None:
     out_dir = pp.outputs / "pdf"
     ensure_dir(out_dir)
-
     must_exist_file(src, "manuscript markdown")
 
     out = out_dir / f"{out_stem}.pdf"
-    cmd = pandoc_base_cmd(src=src, out=out, meta=meta)
+    cmd = pandoc_base_cmd(src=src, out=out, meta=meta, display_title=display_title)
     cmd.extend(["--pdf-engine=xelatex"])
     run(cmd, cwd=pp.root)
     print(f"Built PDF: {out}")
 
 
-def build_epub(pp, src: Path, out_stem: str, meta: Path | None) -> None:
+def build_epub(pp, src: Path, out_stem: str, meta: Path | None, display_title: str) -> None:
     out_dir = pp.outputs / "epub"
     ensure_dir(out_dir)
-
     must_exist_file(src, "manuscript markdown")
 
     out = out_dir / f"{out_stem}.epub"
-    cmd = pandoc_base_cmd(src=src, out=out, meta=meta)
+    cmd = pandoc_base_cmd(src=src, out=out, meta=meta, display_title=display_title)
     run(cmd, cwd=pp.root)
     print(f"Built EPUB: {out}")
 
 
-def build_docx(pp, src: Path, out_stem: str, meta: Path | None) -> None:
+def build_docx(pp, src: Path, out_stem: str, meta: Path | None, display_title: str) -> None:
     out_dir = pp.outputs / "docx"
     ensure_dir(out_dir)
-
     must_exist_file(src, "manuscript markdown")
 
     out = out_dir / f"{out_stem}.docx"
-    cmd = pandoc_base_cmd(src=src, out=out, meta=meta)
+    cmd = pandoc_base_cmd(src=src, out=out, meta=meta, display_title=display_title)
     run(cmd, cwd=pp.root)
     print(f"Built DOCX: {out}")
 
 
 def main(argv: list[str]) -> int:
-    project_root, targets, src_arg, meta_arg, out_stem_arg = parse_args(argv)
+    project_root, targets, src_arg, meta_arg, out_stem_arg, label, date_stamp = parse_args(argv)
     pp = project_paths(project_root)
 
-    # Preflight tools so failures are readable and early.
     require_tool("pandoc")
     if targets.pdf:
         require_tool("xelatex")
 
     src = manuscript_source(pp, src_arg)
     src = resolve_under_root(pp.root, src)
-    assert src is not None  # src is always a Path here
+    assert src is not None
 
     meta_arg = resolve_under_root(pp.root, meta_arg)
 
-    out_stem = compute_out_stem(src=src, meta=meta_arg, out_stem=out_stem_arg)
+    base_title = compute_base_title(src=src, meta=meta_arg)
+    display_title = compute_display_title(base_title=base_title, label=label)
 
-    print_config(pp, src=src, meta=meta_arg, out_stem=out_stem)
+    out_stem = compute_out_stem_with_label_and_date(
+        src=src, meta=meta_arg, out_stem_arg=out_stem_arg, label=label, date_stamp=date_stamp
+    )
+
+    print_config(pp, src=src, meta=meta_arg, out_stem=out_stem, display_title=display_title)
     validate_skeleton(pp)
 
     if targets.pdf:
-        build_pdf(pp, src, out_stem, meta_arg)
+        build_pdf(pp, src, out_stem, meta_arg, display_title)
     if targets.epub:
-        build_epub(pp, src, out_stem, meta_arg)
+        build_epub(pp, src, out_stem, meta_arg, display_title)
     if targets.docx:
-        build_docx(pp, src, out_stem, meta_arg)
+        build_docx(pp, src, out_stem, meta_arg, display_title)
 
     print("OK: build finished (sequential).")
     return 0

@@ -1,4 +1,4 @@
-# Reproducible Self-Pub Kit  PRINT_AND_BUILD_NOTES (Anchor)
+﻿# Reproducible Self-Pub Kit  PRINT_AND_BUILD_NOTES (Anchor)
 
 ## Build invariant (must hold)
 All canonical paths resolve from **PROJECT_ROOT** (repo root), not from:
@@ -100,4 +100,30 @@ These are the files you upload to services like Draft2Digital.
 - Chapters are easier to navigate and review.
 - You avoid mystery edits inside large files.
 - Builds become consistent and repeatable across machines.
+
+
+---
+
+##  Git workflow (new user guidance)
+
+### Quick daily commands
+```powershell
+git status -sb
+git pull --ff-only
+git add -A
+git commit -m "Describe your change"
+git push
+```
+
+### Write a repo state report
+```powershell
+.\tools\write_repo_state_report.ps1
+```
+
+Reports are written to: `publication/_reports/`.
+Latest repo state report: `publication/_reports/repo_state_2026-03-04_193619.md`
+
+
+
+
 
