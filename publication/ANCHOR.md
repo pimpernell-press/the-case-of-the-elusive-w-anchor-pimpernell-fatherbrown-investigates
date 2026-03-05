@@ -6,7 +6,7 @@
 > Coding Club: **no drift, no leaks.**
 
 Last updated: 2026-03-04  
-Owner machine: Windows (PowerShell)  
+Owner machine: Windows (PowerShell 7.5.4)  
 Repo: https://github.com/tonefreqhz/reproducible-self-pub-kit  
 Branch: main
 
@@ -22,10 +22,19 @@ This ANCHOR is the **single source of truth** for: repo layout, commands, verifi
 ---
 
 ## 1) Machine + repo ground truth
-- Owner machine: Windows (PowerShell)
+- Owner machine: Windows (PowerShell 7.5.4)
 - Repo: https://github.com/tonefreqhz/reproducible-self-pub-kit
 - Branch: `main`
 - Repo root (owner machine): `C:\Users\peewe\OneDrive\Desktop\reproducible-self-pub-kit`
+
+### Toolchain verification (must match)
+Run these in the repo root to confirm you are using PowerShell 7.5.4 (pwsh) and not Windows PowerShell 5.1.
+
+~~~powershell
+$PSVersionTable.PSVersion
+(Get-Process -Id $PID).Path
+~~~
+
 
 ### Repo root must match exactly (anti-drift)
 If the folder is suffixed (example: `.old`), rename it back to the canonical root:
