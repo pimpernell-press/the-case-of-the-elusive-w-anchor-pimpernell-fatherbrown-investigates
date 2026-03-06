@@ -1,4 +1,4 @@
-﻿# **Home@ix Follow-up:** Mortgage-Credit Concentration, M4 Dependency, and UK Housing Affordability Regimes â€” With a Reproducible Early-Warning Indicator (FAIR)
+# **Home@ix Follow-up:** Mortgage-Credit Concentration, M4 Dependency, and UK Housing Affordability Regimes â€” With a Reproducible Early-Warning Indicator (FAIR)
 
 **Author:** Home@ix (Working Paper / Draft)
 
@@ -435,4 +435,9 @@ If affordability deterioration is driven by **allocation and throughput failure 
 </div>
 
 ------------------------------------------------------------------------
+
+
+
+
+
 

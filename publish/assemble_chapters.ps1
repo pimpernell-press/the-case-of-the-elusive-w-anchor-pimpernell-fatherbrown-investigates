@@ -1,6 +1,6 @@
-﻿param(
+param(
   [string]$ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path,
-  [string]$ChaptersDir = "inputs\canonical\chapters",
+  [string]$ChaptersDir = "inputs/canonical/chapters",
   [string]$OutFile     = "publication\pamphlet_issue_1.md"
 )
 
@@ -30,5 +30,22 @@ foreach ($f in $files) {
   Get-Content -LiteralPath $f.FullName -Raw | Add-Content -LiteralPath $outPath -Encoding UTF8
   Add-Content -LiteralPath $outPath -Encoding UTF8 -Value ("`r`n<!-- END: " + $f.Name + " -->`r`n`r`n---`r`n")
 }
+
+# Strip consecutive '---' separators to leave only one
+$content = Get-Content -LiteralPath $outPath -Raw
+$lines = $content -split "`n"
+$newLines = @()
+$prevWasSeparator = $false
+foreach ($line in $lines) {
+    if ($line -eq '---') {
+        if (-not $prevWasSeparator) { $newLines += $line }
+        $prevWasSeparator = $true
+    } else {
+        $newLines += $line
+        $prevWasSeparator = $false
+    }
+}
+$content = $newLines -join "`n"
+Set-Content -LiteralPath $outPath -Encoding UTF8 -Value $content
 
 Write-Host "Assembled" $files.Count "chapters ->" $outPath

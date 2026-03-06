@@ -1,4 +1,4 @@
-﻿# **Home@ix FAIR:** A Forward Indicator of UK Housing Affordability Regimes Using Creditâ€“Price Decoupling and Market Depth
+# **Home@ix FAIR:** A Forward Indicator of UK Housing Affordability Regimes Using Creditâ€“Price Decoupling and Market Depth
 
 **Author:** Home@ix (Working Paper / Draft)
 
@@ -278,4 +278,9 @@ The figures referenced in Section 8 are produced by the FAIR build scripts in th
 </div>
 
 ------------------------------------------------------------------------
+
+
+
+
+
 

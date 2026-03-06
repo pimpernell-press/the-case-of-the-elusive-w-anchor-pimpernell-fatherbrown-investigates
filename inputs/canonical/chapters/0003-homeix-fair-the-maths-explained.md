@@ -1,4 +1,4 @@
-﻿# Home@ix FAIR â€” The Maths Explained
+# Home@ix FAIR â€” The Maths Explained
 
 This paper builds a **forward-looking affordability regime indicator** (FAIR) for UK housing. The maths is deliberately simple â€” it's accounting identities and z-score composites, not econometric estimation. Here's a structured walkthrough of every mathematical piece, from the supply identities through to the final FAIR number.
 
@@ -148,4 +148,9 @@ A **crash start** is defined algorithmically as: - A local price peak followed b
 ## FAIR Paper
 
 <div>
+
+
+
+
+
 
