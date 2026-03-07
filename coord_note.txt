@@ -12,3 +12,5 @@ Cover.tex fixed with --include-before-body, FAIR re-compiled to homeix/outputs/.
 Cover split into preamble/body, FAIR re-compiled to homeix/outputs/. Math preserved.
 === Content Fix Note ===
 FAIR.md table fixed, FAIR re-compiled to homeix/outputs/. Math preserved.
+=== Inspect Fix Note ===
+FAIR.md line 71 inspected/fixed, FAIR re-compiled to homeix/outputs/. Math preserved.
