@@ -22,3 +22,5 @@
 ### Next steps
 - Fix chunk HTML / assembly separator so '---' only appears between chunks (not between lines).
 - Re-assemble and rebuild; then proofread outputs.
+## WeighAnchor Command (W⚓)
+When things go pear-shaped (drift detected), invoke WeighAnchor (short: W⚓) to reset to anchor ground truth. Icon: W⚓ for call anchor when weighing anchor. Added for posterity—human sweats blood, AI pulls socks up.

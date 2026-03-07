@@ -1,4 +1,4 @@
-﻿# Home@ix â€” Full Working Book (Draft)
+# Home@ix â€” Full Working Book (Draft)
 
 **Print bundle:** print_20260302_230225 Â \|Â  **Built:** 2026-03-02 23:03
 
@@ -51,20 +51,20 @@ The marginal borrower in the UK housing market is, overwhelmingly, the first-tim
 
 ------------------------------------------------------------------------
 
-### Part Three: FAIR as the Empirical and Testable Evidence Base
+### Part Three: DoughForge as the Empirical and Testable Evidence Base
 
-Diagnosis without measurement is assertion. The third and central contribution of this book is the introduction of **Home@ix FAIR** â€” a transparent, reproducible, quarterly indicator designed to detect when the UK housing system is shifting into a regime of accelerated affordability deterioration, understood not as a price ratio but as an **access-and-allocation outcome**.
+Diagnosis without measurement is assertion. The third and central contribution of this book is the introduction of **Home@ix DoughForge** â€” a transparent, reproducible, quarterly indicator designed to detect when the UK housing system is shifting into a regime of accelerated affordability deterioration, understood not as a price ratio but as an **access-and-allocation outcome**.
 
-FAIR is built from two observable precursors to exclusion stress that are directly legible in aggregate data:
+DoughForge is built from two observable precursors to exclusion stress that are directly legible in aggregate data:
 
 - **Creditâ€“price decoupling:** house-price growth outrunning mortgage-stock growth â€” the signal that prices are detaching from the credit base that finances them, compressing access for mortgage-dependent buyers.
 - **Thin-market clearing:** turnover declining relative to stock â€” the signal that the market is rationing participation rather than clearing through price adjustment.
 
-Together, these two mechanisms encode the financialisation and macroprudential transmission story in a form that is *quarterly, auditable, and backtestable*. When credit tightens under Basel III-era underwriting standards, the wedge between price growth and mortgage-stock growth widens. When the eligible buyer pool narrows, turnover falls. FAIR rises. The regime signal fires â€” typically 2â€“3 years before the exclusion effect is visible in conventional affordability statistics.
+Together, these two mechanisms encode the financialisation and macroprudential transmission story in a form that is *quarterly, auditable, and backtestable*. When credit tightens under Basel III-era underwriting standards, the wedge between price growth and mortgage-stock growth widens. When the eligible buyer pool narrows, turnover falls. DoughForge rises. The regime signal fires â€” typically 2â€“3 years before the exclusion effect is visible in conventional affordability statistics.
 
 <div class="box">
 
-**What FAIR adds to the literature:** existing affordability measures are price-centric and contemporaneous. FAIR is regime-centric and forward-looking. It does not ask "are prices high?" It asks: "is the system moving into a state where access is about to deteriorate, and is that deterioration being driven by credit-channel dynamics rather than by fundamental demand?" That is a different â€” and, this book argues, more policy-relevant â€” question.
+**What DoughForge adds to the literature:** existing affordability measures are price-centric and contemporaneous. DoughForge is regime-centric and forward-looking. It does not ask "are prices high?" It asks: "is the system moving into a state where access is about to deteriorate, and is that deterioration being driven by credit-channel dynamics rather than by fundamental demand?" That is a different â€” and, this book argues, more policy-relevant â€” question.
 
 </div>
 
@@ -74,16 +74,16 @@ Together, these two mechanisms encode the financialisation and macroprudential t
 
 The book is organised as a working research bundle. Each section is self-contained but the argument builds sequentially:
 
-- **Chapter 1** (this chapter) frames the financial regime failure, the Basel III transmission mechanism, and FAIR as the empirical spine.
+- **Chapter 1** (this chapter) frames the financial regime failure, the Basel III transmission mechanism, and DoughForge as the empirical spine.
 - **Chapter 2** develops the four interlocking dimensions of crisis â€” credit impairment, mortgage concentration, M4 money supply dependency, and affordability as allocation failure â€” and shows how they amplify each other through coupled feedback loops.
 - **Chapter 3** examines why standard policy responses cannot break the feedback loops, and sets out the structural reform requirements implied by the regime diagnosis.
-- **Part I and the FAIR Papers** that follow provide the foundational market-function exhibits, the formal FAIR derivation, and the full reproducible technical specification.
+- **Part I and the DoughForge Papers** that follow provide the foundational market-function exhibits, the formal DoughForge derivation, and the full reproducible technical specification.
 
 The figures throughout are generated directly from the Home@ix data pipeline. Every number is traceable to a canonical input. Every chart is regenerable from the accompanying scripts. This is not only a research argument â€” it is a **reproducible evidence base**, designed to be stress-tested, extended, and challenged.
 
 <div class="box">
 
-**An invitation:** the FAIR indicator is intentionally open. Its weights are fixed by design, not estimated â€” which means they can be varied and the sensitivity tested. Its baseline windows are explicit â€” which means they can be contested. Its crash-start definitions are rule-based â€” which means they can be replicated by anyone with the data. The goal is not to close the debate about UK housing financialisation and regulatory transmission. It is to give that debate a reproducible empirical floor.
+**An invitation:** the DoughForge indicator is intentionally open. Its weights are fixed by design, not estimated â€” which means they can be varied and the sensitivity tested. Its baseline windows are explicit â€” which means they can be contested. Its crash-start definitions are rule-based â€” which means they can be replicated by anyone with the data. The goal is not to close the debate about UK housing financialisation and regulatory transmission. It is to give that debate a reproducible empirical floor.
 
 </div>
 
@@ -307,13 +307,13 @@ Reducing the 60% mortgage concentration in UK bank lending requires active polic
 
 ------------------------------------------------------------------------
 
-### 3.4 The FAIR Indicator as a Reform Monitor
+### 3.4 The DoughForge Indicator as a Reform Monitor
 
 Structural reform of the kind described above operates over years, not quarters. During the transition, policymakers and researchers need a forward-looking monitor that detects whether the regime is improving or deteriorating â€” and does so before the deterioration is visible in conventional affordability statistics.
 
-This is the operational role of **Home@ix FAIR**. By combining the creditâ€“price wedge (detecting decoupling between prices and the credit base that finances them) with the turnover term (detecting thin-market clearing), FAIR provides a quarterly signal of regime direction. A sustained FAIR above 20 indicates that the structural conditions for exclusion are intensifying, regardless of what headline price indices show. A sustained FAIR below zero indicates that credit and market-depth conditions are improving â€” though, as the interpretation bands note, very negative FAIR readings can themselves be stress-driven (post-crash credit collapse rather than genuine improvement in access).
+This is the operational role of **Home@ix DoughForge**. By combining the creditâ€“price wedge (detecting decoupling between prices and the credit base that finances them) with the turnover term (detecting thin-market clearing), DoughForge provides a quarterly signal of regime direction. A sustained DoughForge above 20 indicates that the structural conditions for exclusion are intensifying, regardless of what headline price indices show. A sustained DoughForge below zero indicates that credit and market-depth conditions are improving â€” though, as the interpretation bands note, very negative DoughForge readings can themselves be stress-driven (post-crash credit collapse rather than genuine improvement in access).
 
-The formal derivation, reproducible construction, and backtesting framework for FAIR are developed in the papers that follow. The chapters above have established the diagnostic foundation: the regime that FAIR is designed to detect, the mechanisms through which it operates, and the structural reforms that would, if implemented, cause FAIR to sustainably improve.
+The formal derivation, reproducible construction, and backtesting framework for DoughForge are developed in the papers that follow. The chapters above have established the diagnostic foundation: the regime that DoughForge is designed to detect, the mechanisms through which it operates, and the structural reforms that would, if implemented, cause DoughForge to sustainably improve.
 
 <div class="box">
 
@@ -368,7 +368,7 @@ Sources drawn upon across all parts of this working book. Where a formal publish
 
 Home@ix began from an observation that sounds simple but changes the whole measurement problem: in UK housing stress regimes, the market does not reliably clear through orderly repricing. It often clears through **rationing participation**. Turnover collapses, transaction chains fail, mortgage-dependent households are screened out, and the observed price index becomes a *selected statistic* produced by a thinner, wealthier transacting set.
 
-Part I sets the domain terms for the rest of the book. Before we define FAIR (the derived, reproducible regime indicator), we anchor the foundational claim with a canonical diagnostic module: turnover (market liquidity), cash-versus-mortgage dynamics (access to finance), and the balance between new build and old stock activity (delivery and churn capacity).
+Part I sets the domain terms for the rest of the book. Before we define DoughForge (the derived, reproducible regime indicator), we anchor the foundational claim with a canonical diagnostic module: turnover (market liquidity), cash-versus-mortgage dynamics (access to finance), and the balance between new build and old stock activity (delivery and churn capacity).
 
 <div class="box">
 
@@ -500,7 +500,7 @@ This repository is organised so a reader can move from source data to computed s
 
 - **Canonical inputs (source of truth):** `inputs/canonical/`
 - **Intermediate processing (rebuildable cache):** `build/processed/`
-- **Generated artefacts referenced by papers:** `outputs/figures/`, `outputs/fair_assets/`, `outputs/draft_paper_assets/`
+- **Generated artefacts referenced by papers:** `outputs/figures/`, `outputs/DoughForge_assets/`, `outputs/draft_paper_assets/`
 - **Portable publication bundle:** `publication/print_*/` containing `index.html` and copied `assets/`
 
 Operationally, the maths â€œcomputesâ€ as deterministic column derivations and transforms inside the Python scripts, and the figures are the audit trail of those computations.
@@ -548,13 +548,13 @@ A cross-nation comparison helps separate broad regime shifts from local noise. D
 
 <div id="part1-bridge-to-identity" class="section">
 
-### 2. Why this forces an accounting identity (and later, FAIR)
+### 2. Why this forces an accounting identity (and later, DoughForge)
 
 If the system clears through **quantities and composition** under stress, then an affordability framework must track access-to-finance and market depth/throughput â€” not just price levels.
 
 <div class="box">
 
-**Bridge statement:** Part I defines the failure mode (thin-market clearing). FAIR later converts that diagnosis into a reproducible quarterly monitor.
+**Bridge statement:** Part I defines the failure mode (thin-market clearing). DoughForge later converts that diagnosis into a reproducible quarterly monitor.
 
 </div>
 
@@ -580,4 +580,6 @@ If the system clears through **quantities and composition** under stress, then a
 ## Follow-up Paper
 
 <div>
+
+
 

@@ -1,4 +1,4 @@
-# **Home@ix Follow-up:** Mortgage-Credit Concentration, M4 Dependency, and UK Housing Affordability Regimes â€” With a Reproducible Early-Warning Indicator (FAIR)
+# **Home@ix Follow-up:** Mortgage-Credit Concentration, M4 Dependency, and UK Housing Affordability Regimes â€” With a Reproducible Early-Warning Indicator (DoughForge)
 
 **Author:** Home@ix (Working Paper / Draft)
 
@@ -12,7 +12,7 @@
 
 The UK housing affordability crisis is commonly presented as a price-to-income problem. That framing is incomplete in regimes where housing markets do not clear through price adjustment. Under stress, clearing occurs through quantities and composition: turnover falls, chains fail, mortgage-dependent households are rationed out, and the observed price level becomes a lagging and selected statistic.
 
-This paper connects four reinforcing dimensions: (i) credit impairment risk in commercial banks under mortgage-credit concentration, (ii) mortgage lending over-reliance and collateral feedback, (iii) structural dependency of broad money growth on mortgage credit creation, and (iv) affordability deterioration as an access-and-allocation outcome. It then operationalises the diagnosis using **Home@ix FAIR**, a transparent quarterly indicator designed as a **2â€“3 year forward regime signal** for affordability understood as throughput and access. FAIR combines a creditâ€“price decoupling wedge with a market-depth (turnover) term, optionally augmented by composition proxies.
+This paper connects four reinforcing dimensions: (i) credit impairment risk in commercial banks under mortgage-credit concentration, (ii) mortgage lending over-reliance and collateral feedback, (iii) structural dependency of broad money growth on mortgage credit creation, and (iv) affordability deterioration as an access-and-allocation outcome. It then operationalises the diagnosis using **Home@ix DoughForge**, a transparent quarterly indicator designed as a **2â€“3 year forward regime signal** for affordability understood as throughput and access. DoughForge combines a creditâ€“price decoupling wedge with a market-depth (turnover) term, optionally augmented by composition proxies.
 
 </div>
 
@@ -34,7 +34,7 @@ UK housing stress is not only about â€œhigh prices.â€ It is also about 
 - **Broad money is mortgage-sensitive:** when mortgage lending slows, broad money growth can undershoot nominal activity trends, reinforcing tight conditions.
 - **Near-term supply is throughput-constrained:** major housebuilders pace sales within a narrow absorption band (sales per outlet per week), limiting market clearing via volume.
 - **Affordability is an allocation problem in stress:** turnover collapses and buyer composition shifts (cash share rises), so the market â€œclearsâ€ by rationing access rather than by repricing alone.
-- **FAIR provides an operational monitor:** FAIR detects creditâ€“price decoupling and thinning market depth, giving a forward-looking regime signal consistent with the diagnosis.
+- **DoughForge provides an operational monitor:** DoughForge detects creditâ€“price decoupling and thinning market depth, giving a forward-looking regime signal consistent with the diagnosis.
 
 </div>
 
@@ -107,9 +107,9 @@ New-build supply often cannot surge quickly enough to restore clearing through v
 
 <div class="section">
 
-## 5. From Diagnosis to Tooling: The Home@ix FAIR Indicator
+## 5. From Diagnosis to Tooling: The Home@ix DoughForge Indicator
 
-The diagnosis implies two observable precursors to allocation stress that are available in aggregate data: **creditâ€“price decoupling** and **thin-market clearing**. FAIR is a reduced-form index that combines both.
+The diagnosis implies two observable precursors to allocation stress that are available in aggregate data: **creditâ€“price decoupling** and **thin-market clearing**. DoughForge is a reduced-form index that combines both.
 
 ### 5.1 Inputs (quarterly)
 
@@ -182,17 +182,17 @@ where \$\$\mu_X\$\$ and \$\$\sigma_X\$\$ are computed using baseline quarters on
 
 <div class="section">
 
-## 7. FAIR Definition, Interpretation, and Monitoring
+## 7. DoughForge Definition, Interpretation, and Monitoring
 
-FAIR is scaled for interpretability and designed to be auditable. Weights are intentionally simple and can be stress-tested.
+DoughForge is scaled for interpretability and designed to be auditable. Weights are intentionally simple and can be stress-tested.
 
-### 7.1 FAIR definition
+### 7.1 DoughForge definition
 
 Default (three-component) specification:
 
 <div class="eq">
 
-\$\$ FAIR_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) + 0.10 \cdot z(\Delta NB_t) \Big) \$\$
+\$\$ DoughForge_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) + 0.10 \cdot z(\Delta NB_t) \Big) \$\$
 
 </div>
 
@@ -200,7 +200,7 @@ If the new-build term is not available:
 
 <div class="eq">
 
-\$\$ FAIR_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) \Big) \$\$
+\$\$ DoughForge_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) \Big) \$\$
 
 </div>
 
@@ -208,7 +208,7 @@ If the new-build term is not available:
 
 <div class="eq">
 
-\$\$ \Delta FAIR_t = FAIR_t - FAIR\_{t-1} \$\$
+\$\$ \Delta DoughForge_t = DoughForge_t - DoughForge\_{t-1} \$\$
 
 </div>
 
@@ -216,11 +216,11 @@ The level indicates regime pressure; the first difference indicates acceleration
 
 ### 7.3 Practical interpretation bands
 
-- \$\$FAIR \ge 50\$\$: strong deterioration regime risk
-- \$\$20 \le FAIR \< 50\$\$: mild deterioration bias
-- \$\$-20 \le FAIR \< 20\$\$: neutral/noisy
-- \$\$-50 \le FAIR \< -20\$\$: mild improvement bias
-- \$\$FAIR \< -50\$\$: strong improvement regime (often stress-driven)
+- \$\$DoughForge \ge 50\$\$: strong deterioration regime risk
+- \$\$20 \le DoughForge \< 50\$\$: mild deterioration bias
+- \$\$-20 \le DoughForge \< 20\$\$: neutral/noisy
+- \$\$-50 \le DoughForge \< -20\$\$: mild improvement bias
+- \$\$DoughForge \< -50\$\$: strong improvement regime (often stress-driven)
 
 </div>
 
@@ -228,7 +228,7 @@ The level indicates regime pressure; the first difference indicates acceleration
 
 ## 8. Evaluation: Event-Based Backtesting (Crash-Start Definitions)
 
-FAIR can be evaluated as an early-warning tool using objective event definitions rather than narrative dating.
+DoughForge can be evaluated as an early-warning tool using objective event definitions rather than narrative dating.
 
 ### 8.1 Crash-start events (rule-based)
 
@@ -236,9 +236,9 @@ A â€œcrash startâ€ may be defined as a local price peak followed by a d
 
 ### 8.2 Illustrative warning rules
 
-- A: sustained level stress: \$\$FAIR \> 20\$\$ for 2 quarters
-- B: sustained acceleration: \$\$\Delta FAIR \> 5\$\$ for 2 quarters
-- C: broad stress-worsening: \$\$FAIR \> 0\$\$ and \$\$\Delta FAIR \ge 0\$\$
+- A: sustained level stress: \$\$DoughForge \> 20\$\$ for 2 quarters
+- B: sustained acceleration: \$\$\Delta DoughForge \> 5\$\$ for 2 quarters
+- C: broad stress-worsening: \$\$DoughForge \> 0\$\$ and \$\$\Delta DoughForge \ge 0\$\$
 
 ### 8.3 Metrics
 
@@ -251,18 +251,18 @@ A â€œcrash startâ€ may be defined as a local price peak followed by a d
 
 ## 9. Outputs and Visualisations (Reproducible)
 
-This draft renders the latest FAIR assets directly from the Home@ix output folders. All paths below are **relative to the server root** (the folder you run `py -m http.server` in).
+This draft renders the latest DoughForge assets directly from the Home@ix output folders. All paths below are **relative to the server root** (the folder you run `py -m http.server` in).
 
-### 9.1 FAIR headline level
+### 9.1 DoughForge headline level
 
 <figure>
-<img src="assets/figures/fig_fair_level.png" alt="Home@ix FAIR: Level (outputs/figures)" />
-<figcaption><strong>Figure 1.</strong> Home@ix FAIR (level). Source: <code>assets/figures/fig_fair_level.png</code></figcaption>
+<img src="assets/figures/fig_DoughForge_level.png" alt="Home@ix DoughForge: Level (outputs/figures)" />
+<figcaption><strong>Figure 1.</strong> Home@ix DoughForge (level). Source: <code>assets/figures/fig_DoughForge_level.png</code></figcaption>
 </figure>
 
 <figure>
-<img src="assets/fair_assets/fig_fair_level.png" alt="Home@ix FAIR: Level (outputs/fair_assets)" />
-<figcaption><strong>Figure 1b.</strong> Home@ix FAIR (level). Source: <code>assets/fair_assets/fig_fair_level.png</code></figcaption>
+<img src="assets/DoughForge_assets/fig_DoughForge_level.png" alt="Home@ix DoughForge: Level (outputs/DoughForge_assets)" />
+<figcaption><strong>Figure 1b.</strong> Home@ix DoughForge (level). Source: <code>assets/DoughForge_assets/fig_DoughForge_level.png</code></figcaption>
 </figure>
 
 ------------------------------------------------------------------------
@@ -270,13 +270,13 @@ This draft renders the latest FAIR assets directly from the Home@ix output folde
 ### 9.2 Component contributions
 
 <figure>
-<img src="assets/figures/fig_fair_contrib.png" alt="Home@ix FAIR: Contributions (outputs/figures)" />
-<figcaption><strong>Figure 2.</strong> FAIR component contributions. Source: <code>assets/figures/fig_fair_contrib.png</code></figcaption>
+<img src="assets/figures/fig_DoughForge_contrib.png" alt="Home@ix DoughForge: Contributions (outputs/figures)" />
+<figcaption><strong>Figure 2.</strong> DoughForge component contributions. Source: <code>assets/figures/fig_DoughForge_contrib.png</code></figcaption>
 </figure>
 
 <figure>
-<img src="assets/fair_assets/fig_fair_contributions.png" alt="Home@ix FAIR: Contributions (outputs/fair_assets)" />
-<figcaption><strong>Figure 2b.</strong> FAIR component contributions. Source: <code>assets/fair_assets/fig_fair_contributions.png</code></figcaption>
+<img src="assets/DoughForge_assets/fig_DoughForge_contributions.png" alt="Home@ix DoughForge: Contributions (outputs/DoughForge_assets)" />
+<figcaption><strong>Figure 2b.</strong> DoughForge component contributions. Source: <code>assets/DoughForge_assets/fig_DoughForge_contributions.png</code></figcaption>
 </figure>
 
 ------------------------------------------------------------------------
@@ -284,13 +284,13 @@ This draft renders the latest FAIR assets directly from the Home@ix output folde
 ### 9.3 Direction-of-flow (animated GIFs)
 
 <figure>
-<img src="assets/figures/anim_fair_flow.gif" alt="FAIR direction-of-flow animation (outputs/figures)" />
-<figcaption><strong>Figure 3.</strong> Direction-of-flow animation. Source: <code>assets/figures/anim_fair_flow.gif</code></figcaption>
+<img src="assets/figures/anim_DoughForge_flow.gif" alt="DoughForge direction-of-flow animation (outputs/figures)" />
+<figcaption><strong>Figure 3.</strong> Direction-of-flow animation. Source: <code>assets/figures/anim_DoughForge_flow.gif</code></figcaption>
 </figure>
 
 <figure>
-<img src="assets/fair_assets/anim_fair_direction_of_flow.gif" alt="FAIR direction-of-flow animation (outputs/fair_assets)" />
-<figcaption><strong>Figure 3b.</strong> Direction-of-flow animation. Source: <code>assets/fair_assets/anim_fair_direction_of_flow.gif</code></figcaption>
+<img src="assets/DoughForge_assets/anim_DoughForge_direction_of_flow.gif" alt="DoughForge direction-of-flow animation (outputs/DoughForge_assets)" />
+<figcaption><strong>Figure 3b.</strong> Direction-of-flow animation. Source: <code>assets/DoughForge_assets/anim_DoughForge_direction_of_flow.gif</code></figcaption>
 </figure>
 
 ------------------------------------------------------------------------
@@ -298,8 +298,8 @@ This draft renders the latest FAIR assets directly from the Home@ix output folde
 ### 9.4 Backtest / evaluation figures
 
 <figure>
-<img src="assets/draft_paper_assets/fig_price_and_fair_with_crisis_starts.png" alt="Price and FAIR with crash starts" />
-<figcaption><strong>Figure 4.</strong> Prices and FAIR with crash-start annotations. Source: <code>assets/draft_paper_assets/fig_price_and_fair_with_crisis_starts.png</code></figcaption>
+<img src="assets/draft_paper_assets/fig_price_and_DoughForge_with_crisis_starts.png" alt="Price and DoughForge with crash starts" />
+<figcaption><strong>Figure 4.</strong> Prices and DoughForge with crash-start annotations. Source: <code>assets/draft_paper_assets/fig_price_and_DoughForge_with_crisis_starts.png</code></figcaption>
 </figure>
 
 <figure>
@@ -329,7 +329,7 @@ Standard levers (rate cuts, planning reform, time-limited subsidies) can influen
 
 ## 11. Limitations and Extensions
 
-FAIR is intentionally reduced-form. It captures two dominant mechanisms but does not directly encode: arrears microdata, cash-buyer share, investor/renter distress transmission, or explicit developer pacing series. These are natural extensions that can be layered as satellite indicators.
+DoughForge is intentionally reduced-form. It captures two dominant mechanisms but does not directly encode: arrears microdata, cash-buyer share, investor/renter distress transmission, or explicit developer pacing series. These are natural extensions that can be layered as satellite indicators.
 
 </div>
 
@@ -337,7 +337,7 @@ FAIR is intentionally reduced-form. It captures two dominant mechanisms but does
 
 ## 12. Conclusion
 
-UK housing affordability is not only a price level story; it is a regime story about who can transact and how the market clears when credit tightens. Mortgage-credit concentration links affordability outcomes to financial stability dynamics, and broad money conditions can amplify stress. Home@ix FAIR translates this diagnosis into an operational, reproducible monitor of regime risk by combining creditâ€“price decoupling with market depth.
+UK housing affordability is not only a price level story; it is a regime story about who can transact and how the market clears when credit tightens. Mortgage-credit concentration links affordability outcomes to financial stability dynamics, and broad money conditions can amplify stress. Home@ix DoughForge translates this diagnosis into an operational, reproducible monitor of regime risk by combining creditâ€“price decoupling with market depth.
 
 </div>
 
@@ -347,14 +347,14 @@ UK housing affordability is not only a price level story; it is a regime story a
 
 Expected output directory contents (adjust to your workflow):
 
-- `assets/fair_assets/fair_quarterly_audit.csv`
-- `assets/figures/fig_fair_level.png`
-- `assets/figures/fig_fair_contrib.png`
-- `assets/figures/anim_fair_flow.gif`
-- `assets/fair_assets/fig_fair_level.png`
-- `assets/fair_assets/fig_fair_contributions.png`
-- `assets/fair_assets/anim_fair_direction_of_flow.gif`
-- `assets/draft_paper_assets/fig_price_and_fair_with_crisis_starts.png`
+- `assets/DoughForge_assets/DoughForge_quarterly_audit.csv`
+- `assets/figures/fig_DoughForge_level.png`
+- `assets/figures/fig_DoughForge_contrib.png`
+- `assets/figures/anim_DoughForge_flow.gif`
+- `assets/DoughForge_assets/fig_DoughForge_level.png`
+- `assets/DoughForge_assets/fig_DoughForge_contributions.png`
+- `assets/DoughForge_assets/anim_DoughForge_direction_of_flow.gif`
+- `assets/draft_paper_assets/fig_price_and_DoughForge_with_crisis_starts.png`
 - `assets/draft_paper_assets/fig_avg_leadtime_by_signal.png`
 
 </div>
@@ -363,11 +363,11 @@ Expected output directory contents (adjust to your workflow):
 
 ------------------------------------------------------------------------
 
-<div id="fair-preface" class="section">
+<div id="DoughForge-preface" class="section">
 
-## FAIR â€” Professional summary (LinkedIn-style)
+## DoughForge â€” Professional summary (LinkedIn-style)
 
-This section is a distilled, non-technical bridge into the FAIR working paper. It is written for housing policy, finance, and economics audiences.
+This section is a distilled, non-technical bridge into the DoughForge working paper. It is written for housing policy, finance, and economics audiences.
 
 <div class="box">
 
@@ -388,9 +388,9 @@ When turnover collapses and mortgage-dependent households are screened out, the 
 
 Headline arrears can look stable even as vulnerability rises, because the observed borrower pool can improve via **compositional selection** (marginal cohorts stop transacting or are screened out of new lending). Buy-to-let arrears can behave as a leading indicator when landlord cashflows tighten.
 
-### Introducing FAIR (a forward regime signal)
+### Introducing DoughForge (a forward regime signal)
 
-FAIR is a quarterly indicator designed as a **2â€“3 year forward regime signal** for affordability as access/allocation. It combines:
+DoughForge is a quarterly indicator designed as a **2â€“3 year forward regime signal** for affordability as access/allocation. It combines:
 
 - **Creditâ€“price decoupling** (a creditâ€“price wedge)
 - **Market depth** (turnover dynamics relative to stock)
@@ -400,7 +400,7 @@ FAIR is a quarterly indicator designed as a **2â€“3 year forward regime sig
 
 **Transparent form (as used in this project):**
 
-\$\$FAIR = 100 \times (0.55 \times \text{creditâ€“price wedge} - 0.35 \times \text{turnover growth} + 0.10 \times \Delta\text{new-build share})\$\$
+\$\$DoughForge = 100 \times (0.55 \times \text{creditâ€“price wedge} - 0.35 \times \text{turnover growth} + 0.10 \times \Delta\text{new-build share})\$\$
 
 Components are z-scored against pooled baseline windows (2003â€“2007 and 2013â€“2019) to avoid structural-break periods.
 
@@ -408,7 +408,7 @@ Components are z-scored against pooled baseline windows (2003â€“2007 and 20
 
 ### Interpretation bands
 
-| FAIR level | Regime signal                            |
+| DoughForge level | Regime signal                            |
 |------------|------------------------------------------|
 | â‰¥ 50       | Strong deterioration risk                |
 | 20 to 50   | Mild deterioration bias                  |
@@ -428,13 +428,15 @@ If affordability deterioration is driven by **allocation and throughput failure 
 
 <div class="box">
 
-**Bridge:** The FAIR paper that follows formalises the measurement, definitions, and reproducible build for this indicator.
+**Bridge:** The DoughForge paper that follows formalises the measurement, definitions, and reproducible build for this indicator.
 
 </div>
 
 </div>
 
 ------------------------------------------------------------------------
+
+
 
 
 

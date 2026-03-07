@@ -1,4 +1,4 @@
-# **Home@ix FAIR:** A Forward Indicator of UK Housing Affordability Regimes Using Creditâ€“Price Decoupling and Market Depth
+# **Home@ix DoughForge:** A Forward Indicator of UK Housing Affordability Regimes Using Creditâ€“Price Decoupling and Market Depth
 
 **Author:** Home@ix (Working Paper / Draft)
 
@@ -10,7 +10,7 @@
 
 ## Abstract
 
-UK housing affordability is usually discussed as a price level or a price-to-income ratio. That framing is necessary but incomplete because UK housing markets often do not clear primarily through price adjustment. In stressed regimes, markets clear through quantities and composition: turnover collapses, chains fail, mortgage-dependent households are rationed out, and observed prices can appear sticky or misleading. This paper introduces Home@ix FAIR: a quarterly indicator designed as a 2â€“3 year forward regime signal for affordability understood as access and allocation, not only price burden. FAIR is intentionally reduced-form and reproducible. It integrates a creditâ€“price wedge (prices outrunning mortgage-stock growth), a market-depth term (turnover dynamics) capturing thin-market clearing, and an optional composition term (new-build share dynamics). To avoid defining â€œnormalâ€ using crisis regimes and structural breaks, FAIR is normalised to pooled baseline windows excluding the Global Financial Crisis aftermath and Covid-era disruptions. FAIR is paired with a direction-of-flow statistic and can be evaluated via event-based backtesting (drawdown-defined crash starts). Together, the index and backtests form an operational toolkit for monitoring affordability regime risk.
+UK housing affordability is usually discussed as a price level or a price-to-income ratio. That framing is necessary but incomplete because UK housing markets often do not clear primarily through price adjustment. In stressed regimes, markets clear through quantities and composition: turnover collapses, chains fail, mortgage-dependent households are rationed out, and observed prices can appear sticky or misleading. This paper introduces Home@ix DoughForge: a quarterly indicator designed as a 2â€“3 year forward regime signal for affordability understood as access and allocation, not only price burden. DoughForge is intentionally reduced-form and reproducible. It integrates a creditâ€“price wedge (prices outrunning mortgage-stock growth), a market-depth term (turnover dynamics) capturing thin-market clearing, and an optional composition term (new-build share dynamics). To avoid defining â€œnormalâ€ using crisis regimes and structural breaks, DoughForge is normalised to pooled baseline windows excluding the Global Financial Crisis aftermath and Covid-era disruptions. DoughForge is paired with a direction-of-flow statistic and can be evaluated via event-based backtesting (drawdown-defined crash starts). Together, the index and backtests form an operational toolkit for monitoring affordability regime risk.
 
 </div>
 
@@ -20,18 +20,18 @@ UK housing affordability is usually discussed as a price level or a price-to-inc
 
 UK housing affordability is typically treated as a static burden ratio. Yet housing is not a frictionless market. When credit tightens or uncertainty rises, the UK housing market frequently clears via reduced participation rather than orderly repricing: transactions fall, turnover collapses, and access deteriorates even when price ratios appear stable.
 
-This paper introduces **Home@ix FAIR**, a reproducible quarterly indicator designed to act as a **2â€“3 year forward regime signal** for affordability understood as **access and allocation**. FAIR integrates:
+This paper introduces **Home@ix DoughForge**, a reproducible quarterly indicator designed to act as a **2â€“3 year forward regime signal** for affordability understood as **access and allocation**. DoughForge integrates:
 
 - a **creditâ€“price wedge** capturing decoupling between house-price growth and mortgage-stock growth;
 - a **market-depth / turnover term** capturing thin-market (quantity-clearing) stress; and
 - an **optional composition term** based on new-build share dynamics.
 
-To avoid contaminating baseline moments with crisis regimes and structural breaks, FAIR is normalised using pooled baseline windows:
+To avoid contaminating baseline moments with crisis regimes and structural breaks, DoughForge is normalised using pooled baseline windows:
 
 - **Baseline windows:** 2003Q1â€“2007Q4 and 2013Q1â€“2019Q4
 - **Excluded:** 2008â€“2012 (GFC and aftermath) and 2020+ (Covid and subsequent regime breaks)
 
-FAIR is accompanied by a direction-of-flow measure and can be assessed as an early-warning tool using objective event definitions (e.g., crash starts defined by drawdowns from local peaks).
+DoughForge is accompanied by a direction-of-flow measure and can be assessed as an early-warning tool using objective event definitions (e.g., crash starts defined by drawdowns from local peaks).
 
 </div>
 
@@ -62,7 +62,7 @@ A forward-looking affordability signal must capture two patterns that commonly p
 - **Creditâ€“price decoupling:** price growth outruns mortgage-stock growth.
 - **Thin-market clearing:** market depth collapses (turnover declines), indicating rationing and throughput failure.
 
-FAIR integrates these mechanisms into a single auditable index with an explicit baseline definition.
+DoughForge integrates these mechanisms into a single auditable index with an explicit baseline definition.
 
 </div>
 
@@ -70,7 +70,7 @@ FAIR integrates these mechanisms into a single auditable index with an explicit 
 
 ## Data and Reproducible Construction
 
-FAIR is computed from quarterly series produced by the Home@ix feature set.
+DoughForge is computed from quarterly series produced by the Home@ix feature set.
 
 ### Inputs (quarterly)
 
@@ -150,15 +150,15 @@ where \$\$\mu_X\$\$ and \$\$\sigma_X\$\$ are computed using baseline quarters on
 
 <div class="section">
 
-## The Home@ix FAIR Indicator
+## The Home@ix DoughForge Indicator
 
-### FAIR definition
+### DoughForge definition
 
 Default (three-component) specification:
 
 <div class="eq">
 
-\$\$ FAIR_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) + 0.10 \cdot z(\Delta NB_t) \Big) \$\$
+\$\$ DoughForge_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) + 0.10 \cdot z(\Delta NB_t) \Big) \$\$
 
 </div>
 
@@ -166,7 +166,7 @@ If the new-build term is not available, the final term is omitted:
 
 <div class="eq">
 
-\$\$ FAIR_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) \Big) \$\$
+\$\$ DoughForge_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) \Big) \$\$
 
 </div>
 
@@ -176,7 +176,7 @@ Define the direction-of-flow statistic:
 
 <div class="eq">
 
-\$\$ \Delta FAIR_t = FAIR_t - FAIR\_{t-1} \$\$
+\$\$ \Delta DoughForge_t = DoughForge_t - DoughForge\_{t-1} \$\$
 
 </div>
 
@@ -186,19 +186,19 @@ This is used for monitoring whether affordability pressure is accelerating or ea
 
 A simple interpretive scheme:
 
-- \$\$FAIR \ge 50\$\$: strong deterioration regime risk
-- \$\$20 \le FAIR \< 50\$\$: mild deterioration bias
-- \$\$-20 \le FAIR \< 20\$\$: neutral/noisy
-- \$\$-50 \le FAIR \< -20\$\$: mild improvement bias
-- \$\$FAIR \< -50\$\$: strong improvement regime (often stress-driven)
+- \$\$DoughForge \ge 50\$\$: strong deterioration regime risk
+- \$\$20 \le DoughForge \< 50\$\$: mild deterioration bias
+- \$\$-20 \le DoughForge \< 20\$\$: neutral/noisy
+- \$\$-50 \le DoughForge \< -20\$\$: mild improvement bias
+- \$\$DoughForge \< -50\$\$: strong improvement regime (often stress-driven)
 
 </div>
 
 <div class="section">
 
-## Using FAIR for Forward-Looking Evaluation (Event Backtesting)
+## Using DoughForge for Forward-Looking Evaluation (Event Backtesting)
 
-FAIR can be evaluated using objective events and simple warning rules.
+DoughForge can be evaluated using objective events and simple warning rules.
 
 ### Crash-start events (rule-based)
 
@@ -208,9 +208,9 @@ A â€œcrash startâ€ may be defined as a local price peak followed by a d
 
 Examples:
 
-- A: sustained level stress: \$\$FAIR \> 20\$\$ for 2 quarters
-- B: sustained acceleration: \$\$\Delta FAIR \> 5\$\$ for 2 quarters
-- C: broad stress-worsening: \$\$FAIR \> 0\$\$ and \$\$\Delta FAIR \ge 0\$\$
+- A: sustained level stress: \$\$DoughForge \> 20\$\$ for 2 quarters
+- B: sustained acceleration: \$\$\Delta DoughForge \> 5\$\$ for 2 quarters
+- C: broad stress-worsening: \$\$DoughForge \> 0\$\$ and \$\$\Delta DoughForge \ge 0\$\$
 
 ### Metrics
 
@@ -223,11 +223,11 @@ Examples:
 
 ## Outputs and Visualisations (Reproducible)
 
-The FAIR build produces:
+The DoughForge build produces:
 
-- a FAIR level figure (headline chart),
+- a DoughForge level figure (headline chart),
 - a component contributions figure (mechanism chart),
-- an animated direction-of-flow GIF emphasising \$\$\Delta FAIR_t\$\$,
+- an animated direction-of-flow GIF emphasising \$\$\Delta DoughForge_t\$\$,
 - and a tidy CSV export of intermediate series for auditability.
 
 ### Figure placeholders
@@ -235,13 +235,13 @@ The FAIR build produces:
 Replace the filenames with the paths to the generated assets.
 
 <figure>
-<img src="assets/fair_assets/fig_fair_level.png" style="max-width:100%; height:auto;" alt="Home@ix FAIR (EW): Level" />
-<figcaption><strong>Figure 1.</strong> Home@ix FAIR (EW): Level. Baseline windows: 2003Q1â€“2007Q4 and 2013Q1â€“2019Q4; excludes 2008â€“2012 and 2020+.</figcaption>
+<img src="assets/DoughForge_assets/fig_DoughForge_level.png" style="max-width:100%; height:auto;" alt="Home@ix DoughForge (EW): Level" />
+<figcaption><strong>Figure 1.</strong> Home@ix DoughForge (EW): Level. Baseline windows: 2003Q1â€“2007Q4 and 2013Q1â€“2019Q4; excludes 2008â€“2012 and 2020+.</figcaption>
 </figure>
 
 <figure>
-<img src="assets/fair_assets/fig_fair_contributions.png" style="max-width:100%; height:auto;" alt="Home@ix FAIR (EW): Component contributions" />
-<figcaption><strong>Figure 2.</strong> Home@ix FAIR (EW): Component contributions. FAIR is the sum of wedge, turnover, and optional new-build terms.</figcaption>
+<img src="assets/DoughForge_assets/fig_DoughForge_contributions.png" style="max-width:100%; height:auto;" alt="Home@ix DoughForge (EW): Component contributions" />
+<figcaption><strong>Figure 2.</strong> Home@ix DoughForge (EW): Component contributions. DoughForge is the sum of wedge, turnover, and optional new-build terms.</figcaption>
 </figure>
 
 </div>
@@ -250,7 +250,7 @@ Replace the filenames with the paths to the generated assets.
 
 ## Limitations and Extensions
 
-FAIR is a reduced-form indicator derived from aggregate market series. It does not directly encode distributional constraints (income heterogeneity, cash-buyer share, arrears microdata) or direct developer pacing series (e.g., sales per outlet per week) unless explicitly added. These are natural extensions; the baseline FAIR specification is intentionally reproducible and captures two dominant UK mechanisms: creditâ€“price decoupling and thin-market clearing.
+DoughForge is a reduced-form indicator derived from aggregate market series. It does not directly encode distributional constraints (income heterogeneity, cash-buyer share, arrears microdata) or direct developer pacing series (e.g., sales per outlet per week) unless explicitly added. These are natural extensions; the baseline DoughForge specification is intentionally reproducible and captures two dominant UK mechanisms: creditâ€“price decoupling and thin-market clearing.
 
 </div>
 
@@ -258,7 +258,7 @@ FAIR is a reduced-form indicator derived from aggregate market series. It does n
 
 ## Conclusion
 
-UK housing affordability is not only a price level problem; it is also an allocation and throughput problem. Home@ix FAIR provides a transparent, reproducible way to detect when the system is shifting into a regime where affordability is likely to deteriorate over a 2â€“3 year horizon via creditâ€“price decoupling and/or collapsing market depth. Combined with direction-of-flow and event backtesting, FAIR is positioned as an operational forward-looking tool: a single â€œNumberâ€ grounded in auditable data and interpretable mechanisms.
+UK housing affordability is not only a price level problem; it is also an allocation and throughput problem. Home@ix DoughForge provides a transparent, reproducible way to detect when the system is shifting into a regime where affordability is likely to deteriorate over a 2â€“3 year horizon via creditâ€“price decoupling and/or collapsing market depth. Combined with direction-of-flow and event backtesting, DoughForge is positioned as an operational forward-looking tool: a single â€œNumberâ€ grounded in auditable data and interpretable mechanisms.
 
 </div>
 
@@ -266,18 +266,20 @@ UK housing affordability is not only a price level problem; it is also an alloca
 
 ## Reproducibility Note
 
-The figures referenced in Section 8 are produced by the FAIR build scripts in the Home@ix workflow. The output directory should contain:
+The figures referenced in Section 8 are produced by the DoughForge build scripts in the Home@ix workflow. The output directory should contain:
 
-- `fair_quarterly_audit.csv`
-- `fig_fair_level.png`
-- `fig_fair_contributions.png`
-- `anim_fair_direction_of_flow.gif`
+- `DoughForge_quarterly_audit.csv`
+- `fig_DoughForge_level.png`
+- `fig_DoughForge_contributions.png`
+- `anim_DoughForge_direction_of_flow.gif`
 
 </div>
 
 </div>
 
 ------------------------------------------------------------------------
+
+
 
 
 

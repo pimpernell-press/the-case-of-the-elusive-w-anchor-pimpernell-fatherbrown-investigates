@@ -1,6 +1,6 @@
-# Home@ix FAIR â€” The Maths Explained
+# Home@ix DoughForge â€” The Maths Explained
 
-This paper builds a **forward-looking affordability regime indicator** (FAIR) for UK housing. The maths is deliberately simple â€” it's accounting identities and z-score composites, not econometric estimation. Here's a structured walkthrough of every mathematical piece, from the supply identities through to the final FAIR number.
+This paper builds a **forward-looking affordability regime indicator** (DoughForge) for UK housing. The maths is deliberately simple â€” it's accounting identities and z-score composites, not econometric estimation. Here's a structured walkthrough of every mathematical piece, from the supply identities through to the final DoughForge number.
 
 ------------------------------------------------------------------------
 
@@ -44,9 +44,9 @@ This is the paper's structural claim in equation form: *need persists when suppl
 
 ------------------------------------------------------------------------
 
-## ðŸ“Š 2. FAIR â€” The Indicator (Step by Step)
+## ðŸ“Š 2. DoughForge â€” The Indicator (Step by Step)
 
-FAIR converts the qualitative diagnosis ("markets clear through rationing, not repricing") into a **single reproducible number** each quarter.
+DoughForge converts the qualitative diagnosis ("markets clear through rationing, not repricing") into a **single reproducible number** each quarter.
 
 ### Step 1: Compute Year-on-Year Growth Rates
 
@@ -85,31 +85,31 @@ For any series \$\$X_t\$\$:
 
 where \$\$\mu_X\$\$ and \$\$\sigma_X\$\$ are computed **only from the baseline quarters**.
 
-### Step 5: FAIR Composite
+### Step 5: DoughForge Composite
 
 **Three-component version:**
 
-\$\$FAIR_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) + 0.10 \cdot z(\Delta NB_t) \Big)\$\$
+\$\$DoughForge_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) + 0.10 \cdot z(\Delta NB_t) \Big)\$\$
 
 **Two-component fallback** (when new-build data is unavailable):
 
-\$\$FAIR_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) \Big)\$\$
+\$\$DoughForge_t = 100 \cdot \Big( 0.55 \cdot z(W_t) - 0.35 \cdot z(g_t^{TO}) \Big)\$\$
 
 ### Step 6: Direction-of-Flow
 
-\$\$\Delta FAIR_t = FAIR_t - FAIR\_{t-1}\$\$
+\$\$\Delta DoughForge_t = DoughForge_t - DoughForge\_{t-1}\$\$
 
 ------------------------------------------------------------------------
 
 ## ðŸŽ¯ 3. Interpretation Bands
 
-| **FAIR range** | **Regime reading** |
+| **DoughForge range** | **Regime reading** |
 |----|----|
-| \$\$FAIR \ge 50\$\$ | Strong deterioration risk |
-| \$\$20 \le FAIR \< 50\$\$ | Mild deterioration bias |
-| \$\$-20 \le FAIR \< 20\$\$ | Neutral / noisy |
-| \$\$-50 \le FAIR \< -20\$\$ | Mild improvement bias |
-| \$\$FAIR \< -50\$\$ | Strong improvement (often itself stress-driven â€” e.g., post-crash credit collapse) |
+| \$\$DoughForge \ge 50\$\$ | Strong deterioration risk |
+| \$\$20 \le DoughForge \< 50\$\$ | Mild deterioration bias |
+| \$\$-20 \le DoughForge \< 20\$\$ | Neutral / noisy |
+| \$\$-50 \le DoughForge \< -20\$\$ | Mild improvement bias |
+| \$\$DoughForge \< -50\$\$ | Strong improvement (often itself stress-driven â€” e.g., post-crash credit collapse) |
 
 ------------------------------------------------------------------------
 
@@ -123,9 +123,9 @@ A **crash start** is defined algorithmically as: - A local price peak followed b
 
 | **Rule** | **Condition** | **What it captures** |
 |----|----|----|
-| A | \$\$FAIR \> 20\$\$ for 2 consecutive quarters | Sustained elevated stress |
-| B | \$\$\Delta FAIR \> 5\$\$ for 2 consecutive quarters | Sustained acceleration |
-| C | \$\$FAIR \> 0\$\$ and \$\$\Delta FAIR \ge 0\$\$ | Broad worsening (looser trigger) |
+| A | \$\$DoughForge \> 20\$\$ for 2 consecutive quarters | Sustained elevated stress |
+| B | \$\$\Delta DoughForge \> 5\$\$ for 2 consecutive quarters | Sustained acceleration |
+| C | \$\$DoughForge \> 0\$\$ and \$\$\Delta DoughForge \ge 0\$\$ | Broad worsening (looser trigger) |
 
 ### Evaluation Metrics
 
@@ -137,17 +137,19 @@ A **crash start** is defined algorithmically as: - A local price peak followed b
 ## ðŸ’¡ 5. Key Takeaways on the Maths
 
 1.  **Supply identities** use multiplication to encode the "weakest link" property.
-2.  **FAIR is a weighted z-score composite** with a baseline that excludes crisis windows.
+2.  **DoughForge is a weighted z-score composite** with a baseline that excludes crisis windows.
 3.  **No parameters are estimated** â€” fixed weights by design.
 4.  **Baseline choice** is the most consequential methodological decision.
 
 ------------------------------------------------------------------------
 
-<div id="fair" class="section">
+<div id="DoughForge" class="section">
 
-## FAIR Paper
+## DoughForge Paper
 
 <div>
+
+
 
 
 
