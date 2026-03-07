@@ -8,3 +8,5 @@ FAIR compiled from vault/canonical, output to homeix/outputs/. Separated from ou
 Cover.tex fixed with --include-before-body, FAIR re-compiled to homeix/outputs/. Math preserved.
 === LaTeX Preamble Fix Note ===
 \usepackage removed from cover.tex, FAIR re-compiled to homeix/outputs/. Math preserved.
+=== Package Split Note ===
+Cover split into preamble/body, FAIR re-compiled to homeix/outputs/. Math preserved.
