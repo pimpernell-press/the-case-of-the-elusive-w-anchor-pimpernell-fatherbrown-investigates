@@ -1,2 +1,4 @@
 === Coord Note ===
 Assets synced to homeix, FAIR compiled with cover in homeix/outputs/ (math preserved). Anti-drift, grounded.
+=== Updated Coord Note ===
+FAIR compiled from vault/canonical, output to homeix/outputs/. Separated from outputs/ pipeline (dough, pamphlets). Math preserved.
