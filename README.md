@@ -1,4 +1,4 @@
-﻿# reproducible-self-pub-kit
+# reproducible-self-pub-kit
 
 ## Source of truth
 Canonical workflow, paths, and rules live in **ANCHOR.md**.
@@ -16,3 +16,7 @@ git pull --ff-only
 git add -A
 git commit -m "Describe your change"
 git push
+
+
+## W⚓ Protocol
+See [W⚓_PROTOCOL.md](W⚓_PROTOCOL.md) for the emergency reset protocol.
