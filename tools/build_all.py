@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # Add repo root to path for anchor import
 $ErrorActionPreference = "Stop"
 
 # Always resolve PROJECT_ROOT relative to this script (not the current directory).
@@ -15,3 +18,4 @@ if (-not (Test-Path $script)) { throw "Build script not found: $script" }
 Write-Host "PROJECT_ROOT=$PROJECT_ROOT"
 Write-Host "RUN: $($py.Source) `"$script`" --project-root `"$PROJECT_ROOT`""
 & $py.Source $script --project-root $PROJECT_ROOT
+
