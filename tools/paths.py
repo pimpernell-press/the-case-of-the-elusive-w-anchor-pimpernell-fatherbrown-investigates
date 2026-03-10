@@ -1,9 +1,15 @@
+# tools/paths.py — Programmatic path resolver for build scripts.
+# Import this in scripts: from tools.paths import project_paths
+#
+# This is NOT anchor.py. anchor.py is the session-start verification tool.
+# This module resolves paths dynamically at runtime for any script that needs them.
+# See anchor.py at repo root for the canonical path registry.
+
 from __future__ import annotations
 import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # Add repo root to path for anchor import
 
-import os
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -95,5 +101,3 @@ def project_paths(project_root: Path | None = None) -> ProjectPaths:
         publish=root / "publish",
         templates=root / "templates",
     )
-
-

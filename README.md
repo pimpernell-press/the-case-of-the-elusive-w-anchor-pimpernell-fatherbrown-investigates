@@ -112,4 +112,4 @@ DoughForge — the first book built with this kit:
 
 ---
 
-Built by Roger S Lewis · MIT License
+Built by Roger G Lewis · MIT License
