@@ -1,0 +1,1 @@
+# Lesson 1: Baking Your First Book\nUse DoughForge to knead ideas into a loaf. For veterans: Import from 'Roger Books' via Vault.
