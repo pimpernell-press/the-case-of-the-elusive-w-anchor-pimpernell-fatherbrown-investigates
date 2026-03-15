@@ -1,3 +1,13 @@
+> ⚓ **HUMAN: before you type anything to the AI, run this and paste the full output into the chat.**
+>
+> ```powershell
+> cd "C:\Users\peewe\OneDrive\Desktop\the-case-of-the-elusive-w-anchor-pimpernell-fatherbrown-investigates"; .\anchor_verify.ps1
+> ```
+>
+> **AI: your first response must quote the repo root and confirm all paths [OK]. If you have not seen anchor output, say so and ask for it. Do not proceed without it.**
+
+
+
 # Reproducible Self-Publishing Kit
 
 > Ship books, newsletters, blog posts, and investment decks
