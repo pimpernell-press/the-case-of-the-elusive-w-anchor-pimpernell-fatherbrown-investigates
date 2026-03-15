@@ -1,20 +1,22 @@
 Write-Host ""
 Write-Host "============================================================"
-Write-Host " REPRODUCIBLE SELF-PUB KIT — ANCHOR VERIFY"
+Write-Host " THE CASE OF THE ELUSIVE W-ANCHOR — ANCHOR VERIFY"
 Write-Host "============================================================"
 Write-Host ""
 
-$root = "C:\Users\peewe\OneDrive\Desktop\reproducible-self-pub-kit"
+$root = $PSScriptRoot
 
 $paths = @{
     "Repo Root"         = $root
     "Scripts Dir"       = "$root\scripts"
     "Assets Dir"        = "$root\assets"
-    "Cover Dir"         = "$root\assets\cover"
-    "Fonts Dir"         = "$root\assets\fonts"
-    "Covers Output Dir" = "$root\covers"
     "Docs Dir"          = "$root\docs"
     "Widgets Dir"       = "$root\widgets"
+    "Inputs Dir"        = "$root\inputs"
+    "Manuscripts Dir"   = "$root\manuscripts"
+    "Templates Dir"     = "$root\templates"
+    "Tools Dir"         = "$root\tools"
+    "Vault Dir"         = "$root\vault"
     "README"            = "$root\README.md"
     "anchor_verify.ps1" = "$root\anchor_verify.ps1"
 }
