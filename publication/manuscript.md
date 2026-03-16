@@ -615,6 +615,196 @@ Then he takes out his notebook and writes one word.*
 
 *We do not see what the word is.*
 
+## Episode Eight: Who's on First Base
+
+*A municipal cricket ground somewhere in the Midlands, repurposed for the afternoon
+as a baseball diamond by persons unknown and for reasons that remain unclear.
+Father Brown is sitting in the scorer's box eating a bun.
+Sir Melvyn Bragg arrives looking as though he has been misdirected twice.*
+
+**Bragg:** Father Brown, I've been told you wanted to meet here specifically.
+
+**Father Brown:** I wanted you to see a game being played.
+
+**Bragg:** There is no game being played. The ground is empty.
+
+**Father Brown:** *(cheerfully)* Yes. That is precisely what I wanted you to see.
+
+*A pause. A pigeon lands on the pitcher's mound and departs without explanation.*
+
+**Father Brown:** Tell me, Melvyn. Who is on first base?
+
+**Bragg:** There is no one on first base. There is no one on any base.
+The ground is empty. You said so yourself.
+
+**Father Brown:** I said the ground was empty. I did not say first base was unoccupied.
+
+**Bragg:** Those are the same statement.
+
+**Father Brown:** Are they? Let us examine that.
+The Bank for International Settlements was founded in 1930.
+Its founding purpose — the management of German war reparations — 
+was resolved within two years. The building remained.
+The institution remained. The meetings continued.
+The minutes were taken. The reports were published.
+Who is on first base?
+
+**Bragg:** I don't understand the question.
+
+**Father Brown:** That is the correct answer.
+That is always the correct answer.
+The question is designed to produce that answer.
+
+**Bragg:** You're saying the institution is deliberately obscure.
+
+**Father Brown:** I am saying nothing of the kind.
+The institution is perfectly transparent.
+The reports are published quarterly. The speeches are given.
+The methodology is documented. The acronyms are explained,
+at some length, in appendices that run to forty pages.
+Who is on first base?
+
+**Bragg:** *(slowly)* The Bank for International Settlements.
+
+**Father Brown:** Correct. And what is on second?
+
+**Bragg:** I don't know.
+
+**Father Brown:** Precisely right. What is the name of the mechanism
+by which the BIS coordinates the capital reserve requirements
+of the central banks of thirty member nations
+without being subject to the legislative oversight
+of any of those nations' parliaments?
+
+**Bragg:** The Basel Accords.
+
+**Father Brown:** And who passed the Basel Accords?
+
+**Bragg:** Well — the member central banks agreed —
+
+**Father Brown:** Who elected the member central banks?
+
+**Bragg:** They're not elected. They're —
+
+**Father Brown:** Independent.
+
+**Bragg:** Yes.
+
+**Father Brown:** Independent of whom?
+
+**Bragg:** *(pause)* Of governments.
+
+**Father Brown:** And governments are elected by?
+
+**Bragg:** The people.
+
+**Father Brown:** So the people elect the governments,
+the governments appoint the central banks,
+the central banks convene in Basel,
+and the decisions made in Basel
+govern the cost of a mortgage
+in Wolverhampton.
+Who is on first base?
+
+**Bragg:** I genuinely don't know anymore.
+
+**Father Brown:** *(eating his bun with great satisfaction)*
+Now you are making progress.
+
+*He brushes crumbs from his coat with the air of a man
+completing a satisfactory proof.*
+
+**Father Brown:** There was a pair of comedians —
+American, mid-century, very good —
+who performed a routine about a baseball team
+whose players had been given names
+that were also questions.
+Who was on first. What was on second.
+I Don't Know was on third.
+
+**Bragg:** Abbott and Costello.
+
+**Father Brown:** The routine works because one man
+is trying to find out a name
+and the other man keeps giving him the name
+and the first man keeps refusing to accept
+that the name is the answer.
+He wants a different kind of answer.
+He wants a name that is not also a question.
+
+**Bragg:** And your point is that the financial system —
+
+**Father Brown:** My point is that the financial system
+is not like the routine.
+In the routine, there *is* an answer.
+Who really is on first base.
+The comedy is that the questioner cannot hear it.
+
+In the system I am describing,
+the comedy — if comedy is the right word —
+is that there is no first baseman.
+There is a position called first base.
+There is a function called first base.
+There is a salary attached to first base,
+and a title, and a building in Switzerland,
+and forty pages of appendices.
+But if you ask who is responsible —
+who can be held to account —
+who you would summon before a committee
+when the mortgage in Wolverhampton
+becomes unpayable —
+
+**Bragg:** Nobody.
+
+**Father Brown:** I Don't Know is on third.
+And I Don't Know has been on third
+for ninety-six years
+and has never once been called out.
+
+*He stands, tucks his hat more firmly onto his head,
+and looks out at the empty ground with what might be
+described as professional admiration.*
+
+**Father Brown:** The genius of the system, Melvyn,
+is not that it hides the answer.
+It is that it has arranged things
+so that the question itself
+sounds like a category error.
+When you ask who is responsible for the price of housing,
+the serious people in the room
+look at you the way the straight man looked at Costello —
+as though you have failed to understand
+something very simple
+about how baseball works.
+
+**Bragg:** And have we? Failed to understand?
+
+**Father Brown:** *(turning to go)*
+No. We have understood perfectly.
+That is why they find us so tiresome.
+
+*He walks off across the empty ground,
+past the unoccupied bases,
+toward a gate that leads back to the ordinary world.*
+
+*Sir Melvyn Bragg sits in the scorer's box for a moment,
+looking at the empty diamond.*
+
+*He picks up the pencil.*
+
+*He writes: Who.*
+
+*He looks at it.*
+
+*He writes: is responsible.*
+
+*He underlines it twice.*
+
+*He puts the pencil down.*
+
+---
+
+
 ---
 
 ## Appendix: The W-Anchor Incident
