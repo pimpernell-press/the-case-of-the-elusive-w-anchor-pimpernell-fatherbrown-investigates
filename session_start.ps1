@@ -1,7 +1,7 @@
 # =============================================================
 #  W-ANCHOR PROTOCOL — SESSION START  (4-repo coordinator)
 #  Works from ANY of the 4 repo roots — run as .\session_start.ps1
-#  2026-03-16
+#  2026-03-17 — Phase 5 added: progress log read at session open
 # =============================================================
 
 $ErrorActionPreference = "Continue"
@@ -81,7 +81,6 @@ foreach ($repo in $REPOS) {
     if ($short) {
         Write-Host "    Diff   :" -ForegroundColor Yellow
         $short | ForEach-Object { Write-Host "      $_" -ForegroundColor Yellow }
-        # Full diff summary (stat only — keeps output readable)
         git diff --stat 2>&1 | ForEach-Object { Write-Host "      $_" }
     } else {
         Write-Host "    Diff   : (clean)" -ForegroundColor Green
@@ -125,6 +124,23 @@ foreach ($repo in $REPOS) {
 }
 
 # ═══════════════════════════════════════════════════════════════
+Banner "PHASE 5  --  PROGRESS LOGS"
+
+foreach ($repo in $REPOS) {
+    $logPath = Join-Path $repo.Path "INTERIM_PROGRESS_LOG.md"
+    Write-Host ""
+    Write-Host "  >> $($repo.Name)" -ForegroundColor Yellow
+    if (Test-Path $logPath) {
+        Write-Host "  [OK] $logPath" -ForegroundColor Green
+        Get-Content $logPath | Select-Object -First 20 | ForEach-Object {
+            Write-Host "       $_"
+        }
+    } else {
+        Write-Host "  [MISSING] INTERIM_PROGRESS_LOG.md" -ForegroundColor Red
+    }
+}
+
+# ═══════════════════════════════════════════════════════════════
 Banner "SESSION STATE SUMMARY  --  paste to AI"
 
 Write-Host ""
@@ -142,6 +158,19 @@ foreach ($repo in $REPOS) {
     Write-Host $line -ForegroundColor $col
 }
 Write-Host ""
+Write-Host "  PROGRESS LOGS:"
+foreach ($repo in $REPOS) {
+    $logPath = Join-Path $repo.Path "INTERIM_PROGRESS_LOG.md"
+    if (Test-Path $logPath) {
+        Write-Host "    [OK     ] $($repo.Name.PadRight(36)) $logPath" -ForegroundColor Green
+        Get-Content $logPath | Select-Object -First 20 | ForEach-Object {
+            Write-Host "             $_"
+        }
+    } else {
+        Write-Host "    [MISSING] $($repo.Name)" -ForegroundColor Red
+    }
+    Write-Host ""
+}
 Write-Host "  ACTIVE PROJECTS:"
 Write-Host "    DoughForge           -- philosoetry audio ch03-ch25 COMPLETE (23/23)"
 Write-Host "    DoughForge           -- publisher bundle: tools\build_publisher_bundle.py"
