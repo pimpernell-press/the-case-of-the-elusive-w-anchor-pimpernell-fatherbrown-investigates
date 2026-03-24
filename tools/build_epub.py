@@ -37,9 +37,9 @@ author = cfg.get("author", "Roger G. Lewis")
 out = "dist/the-case-of-the-elusive-w-anchor.epub"
 
 # Cover image — use jpg if available
-cover = "assets/front_cover.jpg"
+cover = "assets/cover/w-anchor-pimpernell.jpg"
 if not os.path.exists(cover):
-    cover = "assets/front_cover.png"
+    cover = "assets/cover/w-anchor-pimpernell.jpg"
 
 cmd = [
     "pandoc",
@@ -70,3 +70,4 @@ else:
     if result.stderr:
         print(result.stderr[:3000])
     sys.exit(1)
+
