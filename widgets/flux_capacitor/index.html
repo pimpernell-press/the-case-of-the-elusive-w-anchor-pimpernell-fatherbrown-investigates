@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flux Capacitor of Strawberry Politics</title>
+    <style>
+        :root {
+            --primary: #ff6b6b;
+            --secondary: #4ecdc4;
+            --dark: #1a1a2e;
+            --light: #f7f9f9;
+            --amber: #f7b731;
+            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body {
+            background: linear-gradient(135deg, var(--dark) 0%, #16213e 100%);
+            color: var(--light); min-height: 100vh; padding: 2rem;
+        }
+        .container {
+            max-width: 860px; margin: 0 auto;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px); border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3); overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        header {
+            background: rgba(78,205,196,0.15); padding: 2rem;
+            text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        h1 {
+            font-size: 2.2rem; margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text; background-clip: text;
+            color: transparent;
+        }
+        .subtitle { font-size: 1rem; opacity: 0.8; max-width: 640px;
+            margin: 0 auto; line-height: 1.6; }
+        .input-section { padding: 2rem; }
+        .section-divider {
+            border: none; border-top: 1px solid rgba(255,255,255,0.1);
+            margin: 1.5rem 0;
+        }
+        .section-label {
+            font-size: 0.75rem; text-transform: uppercase;
+            letter-spacing: 2px; color: var(--amber);
+            margin-bottom: 1rem; opacity: 0.9;
+        }
+        .form-group { margin-bottom: 1.4rem; }
+        label { display: block; margin-bottom: 0.4rem;
+            font-weight: 600; color: var(--secondary); }
+        .cli-hint {
+            font-size: 0.72rem; color: rgba(255,255,255,0.4);
+            font-family: 'Courier New', monospace; margin-top: 0.3rem;
+        }
+        input, textarea, select {
+            width: 100%; padding: 11px 14px; border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(0,0,0,0.25); color: white;
+            font-size: 0.95rem; transition: var(--transition);
+        }
+        textarea { min-height: 110px; resize: vertical; }
+        input:focus, textarea:focus, select:focus {
+            outline: none; border-color: var(--secondary);
+            box-shadow: 0 0 0 3px rgba(78,205,196,0.25);
+        }
+
+        /* AQAL Checklist */
+        .aqal-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 0.8rem; margin-bottom: 1rem;
+        }
+        .aqal-item {
+            background: rgba(0,0,0,0.2); border-radius: 8px;
+            padding: 0.8rem 1rem; border: 1px solid rgba(255,255,255,0.06);
+            display: flex; align-items: flex-start; gap: 0.6rem;
+            cursor: pointer; transition: var(--transition);
+        }
+        .aqal-item:hover { border-color: var(--secondary); }
+        .aqal-item input[type="checkbox"] {
+            width: auto; margin-top: 3px; accent-color: var(--secondary);
+        }
+        .aqal-item .aqal-label { font-size: 0.85rem; line-height: 1.4; }
+        .aqal-item .aqal-quadrant {
+            font-weight: 700; color: var(--secondary); font-size: 0.8rem;
+        }
+        .aqal-item .aqal-voice {
+            font-size: 0.72rem; color: var(--amber); opacity: 0.8;
+        }
+
+        /* Anchor block */
+        .anchor-block {
+            background: rgba(0,0,0,0.3); border-radius: 10px;
+            padding: 1rem 1.2rem; border-left: 3px solid var(--amber);
+            font-family: 'Courier New', monospace; font-size: 0.82rem;
+            color: rgba(255,255,255,0.75); margin-bottom: 1rem;
+        }
+        .anchor-block .anchor-title {
+            color: var(--amber); font-weight: 700;
+            font-size: 0.75rem; text-transform: uppercase;
+            letter-spacing: 1px; margin-bottom: 0.5rem;
+        }
+
+        button {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: white; border: none; padding: 14px 30px;
+            border-radius: 10px; font-size: 1.05rem; font-weight: 600;
+            cursor: pointer; transition: var(--transition);
+            display: block; width: 100%; text-transform: uppercase;
+            letter-spacing: 1px; box-shadow: 0 4px 15px rgba(255,107,107,0.3);
+        }
+        button:hover { transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255,107,107,0.4); }
+
+        .output-section {
+            padding: 2rem; background: rgba(0,0,0,0.2);
+            border-top: 1px solid rgba(255,255,255,0.1); display: none;
+        }
+        .output-section.active { display: block; animation: fadeIn 0.6s ease; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .output-section h2 {
+            font-size: 1.8rem; margin-bottom: 1.5rem;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text; background-clip: text;
+            color: transparent;
+        }
+        .metrics-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.2rem; margin-bottom: 1.5rem;
+        }
+        .metric-card {
+            background: rgba(255,255,255,0.05); border-radius: 12px;
+            padding: 1.3rem; text-align: center;
+            border: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.85rem;
+        }
+        .metric-value { font-size: 2.2rem; font-weight: 700; margin: 0.4rem 0; }
+        .positive { color: #4ecdc4; }
+        .negative { color: #ff6b6b; }
+        .neutral { color: var(--amber); }
+
+        .bias-scale {
+            height: 18px;
+            background: linear-gradient(90deg, #ff6b6b, #888, #4ecdc4);
+            border-radius: 10px; margin: 1rem 0; position: relative;
+        }
+        .bias-marker {
+            position: absolute; top: -5px; width: 10px; height: 28px;
+            background: white; border-radius: 3px; transform: translateX(-50%);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+            transition: left 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .scale-labels {
+            display: flex; justify-content: space-between;
+            font-size: 0.78rem; opacity: 0.6; margin-bottom: 1.5rem;
+        }
+
+        /* AQAL quadrant result bars */
+        .quadrant-bars { margin: 1.2rem 0; }
+        .q-bar-row {
+            display: flex; align-items: center; gap: 0.8rem;
+            margin-bottom: 0.6rem; font-size: 0.82rem;
+        }
+        .q-bar-label { width: 120px; flex-shrink: 0; }
+        .q-bar-track {
+            flex: 1; height: 10px; background: rgba(255,255,255,0.1);
+            border-radius: 5px; overflow: hidden;
+        }
+        .q-bar-fill {
+            height: 100%; border-radius: 5px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            transition: width 1s ease;
+        }
+        .q-bar-pct { width: 36px; text-align: right; opacity: 0.7; }
+
+        .diagnosis {
+            background: rgba(0,0,0,0.3); border-left: 4px solid var(--secondary);
+            padding: 1.3rem; border-radius: 0 8px 8px 0; margin-top: 1.2rem;
+        }
+        .diagnosis h3 { margin-bottom: 0.6rem; color: var(--secondary); }
+        .voice-recommendation {
+            margin-top: 0.8rem; padding-top: 0.8rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.82rem; color: var(--amber);
+        }
+
+        /* Peirce pragmatic check */
+        .pragmatic-check {
+            background: rgba(78,205,196,0.08); border-radius: 10px;
+            padding: 1rem 1.2rem; margin-top: 1.2rem;
+            border: 1px solid rgba(78,205,196,0.2); font-size: 0.85rem;
+        }
+        .pragmatic-check h4 { color: var(--secondary); margin-bottom: 0.5rem; }
+
+        /* CLI equivalent panel */
+        .cli-panel {
+            background: rgba(0,0,0,0.4); border-radius: 10px;
+            padding: 1rem 1.2rem; margin-top: 1.2rem;
+            font-family: 'Courier New', monospace; font-size: 0.78rem;
+            color: #4ecdc4; border: 1px solid rgba(78,205,196,0.15);
+        }
+        .cli-panel .cli-header {
+            color: var(--amber); font-size: 0.72rem;
+            text-transform: uppercase; letter-spacing: 1px;
+            margin-bottom: 0.6rem;
+        }
+        .cli-panel .cli-line { margin-bottom: 0.3rem; }
+        .cli-panel .cli-comment { color: rgba(255,255,255,0.3); }
+
+        footer {
+            text-align: center; padding: 1.5rem; opacity: 0.6; font-size: 0.85rem;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0.8rem; }
+            h1 { font-size: 1.7rem; }
+            .aqal-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <h1>🍓 Flux Capacitor of Strawberry Politics</h1>
+        <p class="subtitle">Truthiness-optimised framework for wisdom abundance.
+        Input ideological content for AQAL quadrant analysis, bias detection,
+        and W-Anchor epistemological grounding.</p>
+    </header>
+
+    <div class="input-section">
+
+        <!-- W-ANCHOR BLOCK -->
+        <div class="section-label">⚓ W-Anchor Protocol — Confirm Before Analysis</div>
+        <div class="anchor-block">
+            <div class="anchor-title">Session Anchor</div>
+            <div id="anchorDisplay">[ paste session_start.ps1 output here, or fill fields below ]</div>
+        </div>
+
+        <div class="form-group">
+            <label for="commitHash">Commit Hash (Anchor)</label>
+            <input type="text" id="commitHash" placeholder="e.g. faa22c1">
+            <div class="cli-hint">CLI equivalent: git log --oneline -1 --format="%h"</div>
+        </div>
+        <div class="form-group">
+            <label for="repoRoot">Repo Root</label>
+            <input type="text" id="repoRoot"
+                placeholder="e.g. C:\Users\peewe\Documents\DoughForge">
+            <div class="cli-hint">CLI equivalent: cd $repoRoot; git status --porcelain</div>
+        </div>
+
+        <hr class="section-divider">
+
+        <!-- AQAL PRE-SCREENER -->
+        <div class="section-label">🔲 AQAL Worldview Audit — Pre-Analysis Screener</div>
+        <div class="aqal-grid">
+            <label class="aqal-item">
+                <input type="checkbox" id="q-I">
+                <div class="aqal-label">
+                    <div class="aqal-quadrant">I — Interior Individual</div>
+                    Inner experience, intention, phenomenology represented?
+                    <div class="aqal-voice">Voice: Blake · Shelley · Cuppy</div>
+                </div>
+            </label>
+            <label class="aqal-item">
+                <input type="checkbox" id="q-WE">
+                <div class="aqal-label">
+                    <div class="aqal-quadrant">WE — Interior Collective</div>
+                    Shared meanings, cultural context, whose "we"?
+                    <div class="aqal-voice">Voice: Ruskin · Blake (prophetic)</div>
+                </div>
+            </label>
+            <label class="aqal-item">
+                <input type="checkbox" id="q-IT">
+                <div class="aqal-label">
+                    <div class="aqal-quadrant">IT — Exterior Individual</div>
+                    Observable behaviour, measurable fact, falsifiable claim?
+                    <div class="aqal-voice">Voice: Peirce · Cuppy (footnote)</div>
+                </div>
+            </label>
+            <label class="aqal-item">
+                <input type="checkbox" id="q-ITS">
+                <div class="aqal-label">
+                    <div class="aqal-quadrant">ITS — Exterior Collective</div>
+                    Institutional, economic, ecological systems visible?
+                    <div class="aqal-voice">Voice: Peirce (semiotic) · Ruskin (pol. econ.)</div>
+                </div>
+            </label>
+        </div>
+
+        <hr class="section-divider">
+
+        <!-- STANDARD INPUTS -->
+        <div class="section-label">📄 Source Analysis</div>
+        <div class="form-group">
+            <label for="sourceText">Source Text</label>
+            <textarea id="sourceText"
+                placeholder="Paste content for analysis — session synthesis, chapter draft, policy document..."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="biasType">Known Bias Type</label>
+            <select id="biasType">
+                <option value="unknown">Unknown/Complex</option>
+                <option value="left">Left/Progressive</option>
+                <option value="right">Right/Conservative</option>
+                <option value="none">None Detected</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="baseReference">Unimpeachable Base Reference</label>
+            <input type="text" id="baseReference"
+                placeholder="e.g. https://bra.in/6pdemJ  or  SHA-256 checksum">
+            <div class="cli-hint">This is the external meta-language. Tarski's requirement.
+            The anchor that the system cannot generate from within itself.</div>
+        </div>
+        <div class="form-group">
+            <label for="selfAssessment">Self-Assessment (Optional)</label>
+            <textarea id="selfAssessment" style="min-height:70px"
+                placeholder="Your perspective on the content — the human halting condition."></textarea>
+        </div>
+
+        <button id="analyzeBtn">⚡ Activate Flux Capacitor</button>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="output-section" id="outputSection">
+        <h2>Wisdom Optimization Report</h2>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div>Contradiction Index</div>
+                <div class="metric-value neutral" id="contradictionIndex">—</div>
+                <div>(Maimonides Scale)</div>
+            </div>
+            <div class="metric-card">
+                <div>Perspective Score</div>
+                <div class="metric-value positive" id="perspectiveScore">—</div>
+                <div>(Anekāntavāda)</div>
+            </div>
+            <div class="metric-card">
+                <div>Bias Metric</div>
+                <div class="metric-value" id="biasMetric">—</div>
+                <div>(-100 to +100)</div>
+            </div>
+            <div class="metric-card">
+                <div>AQAL Balance</div>
+                <div class="metric-value positive" id="aqalBalance">—</div>
+                <div>(Quadrant Coverage)</div>
+            </div>
+        </div>
+
+        <div class="bias-scale">
+            <div class="bias-marker" id="biasMarker" style="left:50%;"></div>
+        </div>
+        <div class="scale-labels">
+            <span>Left Bias (-100)</span>
+            <span>Neutral (0)</span>
+            <span>Right Bias (+100)</span>
+        </div>
+
+        <!-- AQAL quadrant bars -->
+        <div class="section-label">AQAL Quadrant Coverage</div>
+        <div class="quadrant-bars">
+            <div class="q-bar-row">
+                <div class="q-bar-label">I (Interior Ind.)</div>
+                <div class="q-bar-track"><div class="q-bar-fill" id="bar-I" style="width:0%"></div></div>
+                <div class="q-bar-pct" id="pct-I">0%</div>
+            </div>
+            <div class="q-bar-row">
+                <div class="q-bar-label">WE (Interior Col.)</div>
+                <div class="q-bar-track"><div class="q-bar-fill" id="bar-WE" style="width:0%"></div></div>
+                <div class="q-bar-pct" id="pct-WE">0%</div>
+            </div>
+            <div class="q-bar-row">
+                <div class="q-bar-label">IT (Exterior Ind.)</div>
+                <div class="q-bar-track"><div class="q-bar-fill" id="bar-IT" style="width:0%"></div></div>
+                <div class="q-bar-pct" id="pct-IT">0%</div>
+            </div>
+            <div class="q-bar-row">
+                <div class="q-bar-label">ITS (Exterior Col.)</div>
+                <div class="q-bar-track"><div class="q-bar-fill" id="bar-ITS" style="width:0%"></div></div>
+                <div class="q-bar-pct" id="pct-ITS">0%</div>
+            </div>
+        </div>
+
+        <div class="diagnosis">
+            <h3>Diagnosis</h3>
+            <p id="diagnosisText">—</p>
+            <div class="voice-recommendation" id="voiceRec">—</div>
+        </div>
+
+        <div class="pragmatic-check">
+            <h4>Peirce Pragmatic Check</h4>
+            <p id="pragmaticText">—</p>
+        </div>
+
+        <!-- CLI EQUIVALENT -->
+        <div class="cli-panel">
+            <div class="cli-header">⌨ PowerShell Equivalent — W-Anchor Protocol</div>
+            <div class="cli-line cli-comment"># This is what the Flux Capacitor does in the terminal</div>
+            <div class="cli-line" id="cli-cd">cd "[ repo root ]"</div>
+            <div class="cli-line">.\session_start.ps1</div>
+            <div class="cli-line cli-comment"># Paste output to Claude before any other command</div>
+            <div class="cli-line cli-comment"># The commit hash is the external meta-language anchor</div>
+            <div class="cli-line cli-comment"># Tarski: truth cannot be defined from within the system</div>
+            <div class="cli-line cli-comment"># The terminal output IS the meta-language</div>
+            <div class="cli-line" id="cli-hash">git log --oneline -1  <span class="cli-comment"># → [ commit hash ]</span></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Strawberry Politics Framework | Integral Bias Analysis v1.0</p>
+        <p>AQAL Quadrant · Maimonides Contradiction · Jain Anekāntavāda · W-Anchor Protocol</p>
+        <p style="margin-top:0.4rem; font-size:0.78rem; opacity:0.5;">
+            The W-Anchor is a Flux Capacitor of Truthiness.<br>
+            The commit hash is the 1.21 gigawatts.
+        </p>
+    </footer>
+</div>
+
+<script>
+    // Update anchor display as user types
+    document.getElementById('commitHash').addEventListener('input', updateAnchorDisplay);
+    document.getElementById('repoRoot').addEventListener('input', updateAnchorDisplay);
+
+    function updateAnchorDisplay() {
+        const hash = document.getElementById('commitHash').value || '[ hash ]';
+        const root = document.getElementById('repoRoot').value || '[ repo root ]';
+        document.getElementById('anchorDisplay').textContent =
+            `Repo: ${root}\nCommit: ${hash}\nStatus: [ run session_start.ps1 to confirm ]`;
+        document.getElementById('cli-cd').textContent = `cd "${root}"`;
+        document.getElementById('cli-hash').innerHTML =
+            `git log --oneline -1  <span class="cli-comment">// → ${hash}</span>`;
+    }
+
+    document.getElementById('analyzeBtn').addEventListener('click', function() {
+        const sourceText  = document.getElementById('sourceText').value;
+        const biasType    = document.getElementById('biasType').value;
+        const baseRef     = document.getElementById('baseReference').value;
+        const commitHash  = document.getElementById('commitHash').value;
+
+        // AQAL checklist state
+        const qI   = document.getElementById('q-I').checked;
+        const qWE  = document.getElementById('q-WE').checked;
+        const qIT  = document.getElementById('q-IT').checked;
+        const qITS = document.getElementById('q-ITS').checked;
+        const checkedCount = [qI, qWE, qIT, qITS].filter(Boolean).length;
+
+        // Quadrant scores — checked boxes boost the relevant quadrant
+        // Text analysis: crude keyword heuristics for demo
+        const txt = sourceText.toLowerCase();
+        const iScore  = Math.min(100, (qI  ? 40 : 10) +
+            (['feel','experience','inner','intend','hope','dream'].filter(w=>txt.includes(w)).length * 8));
+        const weScore = Math.min(100, (qWE ? 40 : 10) +
+            (['culture','shared','community','narrative','we ','our '].filter(w=>txt.includes(w)).length * 8));
+        const itScore = Math.min(100, (qIT ? 40 : 10) +
+            (['data','evidence','fact','commit','hash','measure','ratio'].filter(w=>txt.includes(w)).length * 8));
+        const itsScore= Math.min(100, (qITS? 40 : 10) +
+            (['system','institution','structure','economy','power','bank','debt'].filter(w=>txt.includes(w)).length * 8));
+
+        const aqalBalance = Math.round((iScore + weScore + itScore + itsScore) / 4);
+
+        // Bias metric: right-leaning if IT+ITS dominate, left if I+WE dominate
+        const rightPull = (itScore + itsScore) / 2;
+        const leftPull  = (iScore  + weScore)  / 2;
+        let biasMetric  = Math.round((rightPull - leftPull) * 0.8);
+        biasMetric = Math.max(-100, Math.min(100, biasMetric));
+
+        // Contradiction index: high if bias extreme AND checklist incomplete
+        const contradictionIndex = ((Math.abs(biasMetric) / 100) *
+            (1 - checkedCount / 4) * 0.7 + 0.1).toFixed(2);
+
+        // Perspective score: based on checkedCount + text length
+        const perspScore = Math.min(7, checkedCount + Math.floor(sourceText.length / 200));
+
+        // Update metrics
+        document.getElementById('contradictionIndex').textContent = contradictionIndex;
+        document.getElementById('perspectiveScore').textContent   = `${perspScore}/7`;
+        document.getElementById('biasMetric').textContent =
+            biasMetric >= 0 ? `+${biasMetric}` : `${biasMetric}`;
+        document.getElementById('aqalBalance').textContent = `${aqalBalance}%`;
+
+        // Colour
+        document.getElementById('biasMetric').className =
+            biasMetric > 20 ? 'metric-value positive' :
+            biasMetric < -20 ? 'metric-value negative' : 'metric-value neutral';
+
+        // Bias marker
+        document.getElementById('biasMarker').style.left =
+            `${(biasMetric + 100) / 2}%`;
+
+        // Quadrant bars
+        [['I',iScore],['WE',weScore],['IT',itScore],['ITS',itsScore]].forEach(([q,v])=>{
+            document.getElementById(`bar-${q}`).style.width = `${v}%`;
+            document.getElementById(`pct-${q}`).textContent = `${v}%`;
+        });
+
+        // Diagnosis
+        let diag = '';
+        let voiceRec = '';
+        if (biasMetric > 50) {
+            diag = `Strong right-bias detected (IT/ITS dominance). The system-level and behavioural quadrants are over-represented. The inner life and cultural narrative are suppressed.`;
+            voiceRec = `Recommended voice widgets: Blake (I quadrant — inner vision), Ruskin (WE quadrant — shared moral economy). Coleridge's amaranths need to bloom here.`;
+        } else if (biasMetric < -50) {
+            diag = `Strong left-bias detected (I/WE dominance). Cultural narrative and inner experience dominate. Observable evidence and systemic analysis are under-represented.`;
+            voiceRec = `Recommended voice widgets: Peirce (IT — pragmatic evidence), Ruskin (ITS — political economy as system). The measuring rod needs grounding.`;
+        } else if (biasMetric > 20) {
+            diag = `Moderate right-lean (IT/ITS slight dominance). Behavioural and systemic analysis present but cultural narratives thin. Good anchor discipline; needs more Coleridge.`;
+            voiceRec = `Recommended voice widget: Blake or Shelley for I quadrant warmth. The Danegeld stanza belongs here.`;
+        } else if (biasMetric < -20) {
+            diag = `Moderate left-lean (I/WE slight dominance). Rich inner and cultural register. Needs more grounded evidence and systemic structure.`;
+            voiceRec = `Recommended voice widget: Peirce (footnote-evidence register) or Cuppy (self-deprecating empiricism).`;
+        } else {
+            diag = `Balanced perspective detected (${aqalBalance}% AQAL coverage). Quadrant equilibrium maintained. The W-Anchor is holding. Ceteris paribus.`;
+            voiceRec = `All four voice widgets available. Proceed with build.`;
+        }
+
+        // Anchor bonus
+        if (commitHash) {
+            diag += ` W-Anchor confirmed: commit ${commitHash}. External meta-language present.`;
+        } else {
+            diag += ` ⚠ No commit hash provided. Run session_start.ps1 and paste output before proceeding.`;
+        }
+
+        document.getElementById('diagnosisText').textContent = diag;
+        document.getElementById('voiceRec').textContent      = voiceRec;
+
+        // Peirce pragmatic check
+        const practicalConsequence = itsScore > 50 || itScore > 50
+            ? `Practical consequence identified in ${itsScore > itScore ? 'ITS (systemic)' : 'IT (behavioural)'} quadrant. The claim has real-world bearings. Proceed.`
+            : `Practical consequence unclear. Apply Peirce's Pragmatic Maxim: what effects does this claim have that might conceivably have practical bearings? If none — the passage is decorative.`;
+        document.getElementById('pragmaticText').textContent = practicalConsequence;
+
+        // Show and scroll
+        document.getElementById('outputSection').classList.add('active');
+        document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+</body>
+</html>
