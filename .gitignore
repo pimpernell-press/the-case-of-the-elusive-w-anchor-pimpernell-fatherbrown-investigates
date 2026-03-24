@@ -25,3 +25,9 @@ inputs/canonical/chunks/
 __pycache__/
 *.pyc
 covers/
+
+# Claude Code local config
+.claude/
+
+# Drift log backups (the log itself is evidence — always commit it)
+logs/DRIFT_LOG.csv.bak

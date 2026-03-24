@@ -1,0 +1,2 @@
+date,session_id,anchored,incident_type,minutes_lost,notes
+2026-03-24,session_001,Y,none,0,"First instrumented session — ch_cherry written, mindmap built, TheBrain resolved"

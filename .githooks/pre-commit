@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+# DoughForge pre-commit hook — M8
+# Blocks commits that include output files without a build attestation.
+#
+
+# Check if any file in dist/ is staged
+STAGED_OUTPUTS=$(git diff --cached --name-only -- 'dist/' 2>/dev/null | grep -v 'BUILD_ATTESTATION.json' | grep -v 'BUILD_SUMMARY.md')
+
+if [ -n "$STAGED_OUTPUTS" ]; then
+    # Output files are staged — check if attestation is also staged
+    ATTESTATION_STAGED=$(git diff --cached --name-only -- 'dist/BUILD_ATTESTATION.json' 2>/dev/null)
+
+    if [ -z "$ATTESTATION_STAGED" ]; then
+        echo ""
+        echo "================================================================"
+        echo " BLOCKED: Output files staged without build attestation."
+        echo "================================================================"
+        echo ""
+        echo " Staged output files:"
+        echo "$STAGED_OUTPUTS" | sed 's/^/   /'
+        echo ""
+        echo " Run:  python scripts/build_attestation.py"
+        echo " Then: git add dist/BUILD_ATTESTATION.json dist/BUILD_SUMMARY.md"
+        echo ""
+        echo " The attestation proves the outputs match the sources."
+        echo " Without it, the commit hash means nothing."
+        echo "================================================================"
+        echo ""
+        exit 1
+    fi
+fi
+
+exit 0
