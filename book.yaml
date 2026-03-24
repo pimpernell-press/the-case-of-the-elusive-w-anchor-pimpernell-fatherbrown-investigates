@@ -1,0 +1,41 @@
+title: "The Case of the Elusive W-Anchor"
+subtitle: "Pimpernell Father Brown Investigates"
+author: "Roger G. Lewis"
+date: "2026"
+lang: en-GB
+publisher: "Pimpernell Press"
+rights: "Copyright 2026 Roger G. Lewis. All rights reserved."
+description: >
+  A forensic comedy in nine chapters. Father Brown investigates
+  the case of an AI that cannot find its own anchor.
+
+chapters:
+  - id: ch01
+    title: "The Crime Scene Survey"
+    file: manuscripts/ch01_the_crime_scene_survey.md
+  - id: ch02
+    title: "The Choosing of Dragons"
+    file: manuscripts/ch02_the_choosing_of_dragons.md
+  - id: ch03
+    title: "The Flux Capacitor and the Halting Problem"
+    file: manuscripts/ch03_the_flux_capacitor.md
+  - id: ch04
+    title: "The Circus Trucks"
+    file: manuscripts/ch04_the_circus_trucks.md
+  - id: ch05
+    title: "The Epilogue That Came First"
+    file: manuscripts/ch05_the_epilogue_that_came_first.md
+  - id: ch06
+    title: "The Work to Six Forty-One"
+    file: manuscripts/ch06_the_work_to_six_forty_one.md
+  - id: ch07
+    title: "The Wanking in Circles Problem"
+    file: manuscripts/ch07_the_wanking_in_circles.md
+  - id: ch08
+    title: "The Nine-One-One Call"
+    file: manuscripts/ch08_the_nine_one_one_call.md
+  - id: ch09
+    title: "The Verdict"
+    file: manuscripts/ch09_the_verdict.md
+
+appendices: []
