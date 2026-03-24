@@ -8,20 +8,8 @@ os.chdir(REPO)
 with open("book.yaml") as f:
     cfg = yaml.safe_load(f)
 
-# Collect chapter files from book.yaml
 sections = [ch["file"] for ch in cfg.get("chapters", [])]
 
-# Prepend foreword if it exists
-foreword = "manuscripts/foreword_the_canary.md"
-if os.path.exists(foreword) and foreword not in sections:
-    sections.insert(0, foreword)
-
-# Append ch10 if it exists and isn't listed
-ch10 = "manuscripts/ch10_the_paradox_of_the_helpful_vandal.md"
-if os.path.exists(ch10) and ch10 not in sections:
-    sections.append(ch10)
-
-# Verify all exist
 missing = [s for s in sections if not os.path.exists(s)]
 if missing:
     print("MISSING FILES:")

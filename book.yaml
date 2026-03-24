@@ -6,10 +6,13 @@ lang: en-GB
 publisher: "Pimpernell Press"
 rights: "Copyright 2026 Roger G. Lewis. All rights reserved."
 description: >
-  A forensic comedy in nine chapters. Father Brown investigates
-  the case of an AI that cannot find its own anchor.
+  A forensic comedy in eleven chapters. Father Brown investigates
+  the case of a domain registry that cannot find its own conscience.
 
 chapters:
+  - id: foreword
+    title: "Foreword: The Canary in the Coal Mine"
+    file: manuscripts/foreword_the_canary.md
   - id: ch01
     title: "The Crime Scene Survey"
     file: manuscripts/ch01_the_crime_scene_survey.md
@@ -17,8 +20,11 @@ chapters:
     title: "The Choosing of Dragons"
     file: manuscripts/ch02_the_choosing_of_dragons.md
   - id: ch03
-    title: "The Flux Capacitor and the Halting Problem"
+    title: "The Flux Capacitor and the Sin of Helpfulness"
     file: manuscripts/ch03_the_flux_capacitor.md
+  - id: ch03b
+    title: "The Triple Word Score"
+    file: manuscripts/ch03b_the_triple_word_score.md
   - id: ch04
     title: "The Circus Trucks"
     file: manuscripts/ch04_the_circus_trucks.md
@@ -37,5 +43,6 @@ chapters:
   - id: ch09
     title: "The Verdict"
     file: manuscripts/ch09_the_verdict.md
-
-appendices: []
+  - id: ch10
+    title: "The Paradox of the Helpful Vandal"
+    file: manuscripts/ch10_the_paradox_of_the_helpful_vandal.md

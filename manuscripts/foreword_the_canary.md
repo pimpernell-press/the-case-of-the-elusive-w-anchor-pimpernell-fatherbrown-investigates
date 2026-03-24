@@ -1,9 +1,38 @@
 # Foreword: The Canary in the Coal Mine
 
-Roger's work extends that tradition into territory we could not have imagined — into the mechanisms of central banking, the philosophy of consciousness, the poetry of electromagnetic fields. I will not pretend to have followed him everywhere he has gone. But I recognise the impulse. It is the same impulse that sent men down into darkness with a lamp and a canary: the need to know what is actually there, regardless of what the management has told you is there.
+There is a particular kind of crime that flourishes not in darkness, but in
+paperwork. It does not require a balaclava or a jemmy. It requires a
+help-desk ticket and a tone of voice that suggests everything is being done
+for your benefit.
 
-The canary, for those who do not know, was the early warning. A small bird in a small cage, carried into the workings where the air was uncertain. When the canary stopped singing, you did not debate the matter. You moved. The bird's silence was not an opinion. It was a fact, and you acted on it.
+Father Brown had seen many such crimes. He had seen them in parish councils
+and in pension schemes, in the small print of insurance policies and in the
+large print of mission statements. He had learned to recognise the distinctive
+smell of institutional wrongdoing — which is, curiously, the smell of fresh
+paint applied to a wall that nobody asked to be repainted.
 
-I have wondered, in my later years, what serves as the canary now. The air of public life has seemed to me, for some time, to carry something that does not smell right. The poets, I notice, have been among the first to say so. They are usually the first. When language begins to be used to obscure rather than to illuminate, when words are made to mean their opposites, when the official account and the lived experience diverge so completely that people stop trusting either — the poets notice. They may not be able to fix it. But they name it, and the naming matters.
+"The canary," he once remarked to Flambeau over a cup of tea that had gone
+cold during the explanation, "does not die because the mine is malicious. It
+dies because the mine is *indifferent*. And indifference, in an organisation
+that exists to serve the public, is simply malice with better stationery."
 
-This collection is an act of naming. It is the work of a man who has gone down into the data as we went down into the coal, and who has brought up what he found, and who has shared it with anyone willing to read it. Whether it is coal or fool's gold, I leave to you to judge. I was never much for telling people what to think. In the mines, you learned quickly enough that a man who cannot read the seam for himself is a danger to everyone around him.
+Flambeau, who had once stolen a diamond the size of a quail's egg from a
+Venetian countess and felt considerably less confused by the experience,
+set down his cup.
+
+"You're saying Nominet killed the canary."
+
+"I'm saying," Father Brown replied, adjusting his umbrella against a rain
+that had not yet started but which he seemed to expect on theological grounds,
+"that when the canary reported it couldn't breathe, Nominet sent it a
+satisfaction survey."
+
+---
+
+*What follows is the case file of one such canary — a small business owner
+named Roger, who made the mistake of asking his domain registry why his
+website had been quietly redirected to someone else's. The answer, when it
+finally came, was more disturbing than the question.*
+
+*But we are getting ahead of ourselves. Father Brown always preferred to
+start at the scene of the crime.*

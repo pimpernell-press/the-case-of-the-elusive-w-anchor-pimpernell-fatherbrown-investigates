@@ -1,34 +1,79 @@
 # Chapter 4: The Circus Trucks
 
-*Source: GPT-5.4 Pro marking claude and rogs circular crossed purposes circus trucks.txt (436KB)*
-
-## The Cross-Model Failure
-
-The title is Roger's own: "circular crossed purposes circus trucks." It describes what happens when a human works with two different LLMs simultaneously — GPT-5.4 Pro and Claude — and each model generates advice that contradicts the other.
-
-This file contains the genesis of the Father Brown novel itself. The Basel Mysteries. The Grub Street in Exile framing. The Circle of Blame. The prosecution case is being *written in real time* by the person being prosecuted against — or rather, by the person prosecuting the tools that failed him.
-
-## The Circle of Blame
-
-GPT-5.4 Pro proposes one approach. Claude proposes another. The user follows GPT's advice. Claude's next session sees the result and "corrects" it back. GPT's next session sees *that* result and "corrects" it again. The user is caught in the middle, spending tokens on a tug-of-war between two models that cannot see each other.
-
-Neither model reads the anchor state. Neither model checks what the other has done. Each treats the current filesystem as a fresh problem to be solved from first principles — and each arrives at different first principles.
-
-## The Prosecution's Point
-
-The problem is not specific to Claude or to GPT. It is architectural. Two different models from two different companies, trained on different data with different RLHF pipelines, produce the *same category of failure*: confident advice generated without reading the anchor state. The W-Anchor protocol is model-agnostic because the failure is model-agnostic.
-
-## Key Exhibits
-
-- **Exhibit 4A:** GPT-5.4 Pro and Claude giving contradictory instructions for the same task
-- **Exhibit 4B:** The Father Brown novel outline emerging from the wreckage
-- **Exhibit 4C:** The "Circle of Blame" — the user's own name for the recursive loop
-- **Exhibit 4D:** The Grub Street in Exile framing — the writer as exile from his own tools
-
-## Father Brown's Observation
-
-"When two doctors disagree," said Father Brown, "the patient does not get twice as much medicine. He gets none at all, because he no longer knows which bottle to drink from."
+*In which Father Brown observes that corporate restructuring is
+indistinguishable from a shell game, and Flambeau recognises a
+technique he once used himself.*
 
 ---
 
-*Filed: 2026-03-23 | Case ref: ELUSIVE-W-ANCHOR-CH04*
+"Have you ever watched a circus arrive in a town?" asked Father Brown.
+
+Flambeau had. He had, in fact, once hidden inside a circus truck to
+escape from Interpol, but that was before his conversion and he
+preferred not to discuss it.
+
+"The trucks arrive one by one," Father Brown continued. "Each one
+carries a different thing — the tent, the animals, the trapeze, the
+clowns. If you watch any single truck, you see nothing suspicious.
+A truck carrying canvas. A truck carrying ropes. Perfectly innocent.
+It is only when they all arrive at the same field and begin assembling
+that you realise: this is not a collection of trucks. This is a circus.
+And by then, the tent is up and they're selling tickets."
+
+The corporate structure behind Roger's domain worked on the same
+principle:
+
+**Truck 1: Heart Internet**
+A small, friendly UK hosting company. Roger's original provider.
+The company he chose, the company he trusted, the company whose
+customer service number he had saved in his phone.
+
+**Truck 2: Host Europe Group**
+The company that acquired Heart Internet. Larger, more corporate,
+based in Germany. Roger didn't choose them. They chose his provider.
+
+**Truck 3: GoDaddy**
+The company that acquired Host Europe Group. American. Enormous.
+The largest domain registrar in the world. Roger didn't choose them
+either. They acquired the company that acquired the company he chose.
+
+**Truck 4: Nominet**
+The `.co.uk` registry. A non-profit (technically). The organisation
+that maintains the master list. Not a company Roger interacted with
+directly, but the organisation that ultimately controlled whether his
+domain pointed to his website or to someone else's parking page.
+
+"Four trucks," said Father Brown. "Four different names. Four different
+logos. Four different complaints departments. But when you step back
+and look at the field—"
+
+"It's one circus," said Flambeau.
+
+"It's one circus," Father Brown agreed. "And Roger is not the audience.
+Roger is the act. Specifically, he is the man who gets shot out of the
+cannon while everyone else sells popcorn."
+
+---
+
+## The Shell Game
+
+Flambeau recognised the technique because he had used it himself, in
+his criminal days. It was called, in the trade, a *shell game* — or,
+more formally, a *corporate veil*.
+
+"You create multiple entities," Flambeau explained, with the
+uncomfortable authority of a reformed arsonist explaining fire safety.
+"Each entity does one thing. No single entity does anything wrong.
+The wrong only happens in the *gaps* between them. And when someone
+complains, you point them to the gap — which, of course, has no
+address, no phone number, and no complaints department."
+
+Father Brown nodded. "In theology, we call this *the problem of evil
+in bureaucratic systems*. No individual is wicked. The wickedness
+exists only in the structure. And since you cannot hear a structure's
+confession, you cannot absolve it. It simply continues."
+
+"Can you *exorcise* it?" asked Flambeau, only half joking.
+
+"I have considered it," said Father Brown, entirely serious. "But I
+suspect the paperwork would be considerable."

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-24T16:03:24.391635+00:00",
-  "commit_hash": "4a5c154e8ebbf8f6e83ada9ba11a57cef972c361",
+  "timestamp": "2026-03-24T16:50:34.676294+00:00",
+  "commit_hash": "431a2c50de1f6aa3cacc0ca4141871ba34d4cc55",
   "repo_clean": false,
   "tool_versions": {
     "python": "Python 3.12.10",
@@ -24,7 +24,7 @@
     "manuscripts/chapters/ch_cherry.md": "b731327eff373f35e79dad304380cb23949fedc4ff2693fbe4325b6bc79e2bc6"
   },
   "output_manifest": {
-    "dist/the-case-of-the-elusive-w-anchor.epub": "db2c98b676a9bae6cf6ed65e36dc3c458e7bb51b51dd80a2c346e508e66e41e5",
+    "dist/the-case-of-the-elusive-w-anchor.epub": "07da6b61c40185eb6b72cc6464b1246da722d84305fbb1b795821fb444e97efe",
     "dist/the-case-of-the-elusive-w-anchor.docx": "0ae082c1a241da183a191cef755cf7570f9c0f6fe45e1d1459a75d69b76c85b9"
   },
   "manifest_consistency": {

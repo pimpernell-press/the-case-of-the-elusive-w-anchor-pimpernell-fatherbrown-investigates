@@ -1,7 +1,7 @@
 # Build Attestation Summary
 
-**Timestamp:** 2026-03-24T16:03:24.391635+00:00
-**Commit:** `4a5c154e8ebb`
+**Timestamp:** 2026-03-24T16:50:34.676294+00:00
+**Commit:** `431a2c50de1f`
 **Repo clean:** No — uncommitted changes
 
 ## Tool Versions
@@ -34,7 +34,7 @@
 | File | SHA-256 (first 12) |
 |------|--------------------|
 | `dist/the-case-of-the-elusive-w-anchor.docx` | `0ae082c1a241` |
-| `dist/the-case-of-the-elusive-w-anchor.epub` | `db2c98b676a9` |
+| `dist/the-case-of-the-elusive-w-anchor.epub` | `07da6b61c401` |
 
 ## Checks
 

@@ -1,104 +1,105 @@
 # Chapter 1: The Crime Scene Survey
 
-*Source: repo_diagnostic_20260316_1558.txt (2.37MB)*
-
-## The Before Photograph
-
-On March 16, 2026, at 15:58, the W-Anchor session_start.ps1 script produced a full tree diagnostic of all four repositories. Every file, every path, every byte count — documented mechanically, without interpretation.
-
-This is the crime scene before the crime.
-
-Four repos. All anchored. All verified. All clean:
-
-- **reproducible-self-pub-kit** — `C:\Users\peewe\OneDrive\Desktop\reproducible-self-pub-kit`
-- **hom-ixFAIRindex** — `C:\Users\peewe\OneDrive\Desktop\homeix`
-- **DoughForge** — `C:\Users\peewe\Documents\DoughForge`
-- **pimpernell-fatherbrown** — `C:\Users\peewe\OneDrive\Desktop\the-case-of-the-elusive-w-anchor-pimpernell-fatherbrown-investigates`
-
-The diagnostic runs to 2.37 megabytes. It enumerates every file in every repo with its size in kilobytes. It records the git branch, the last commit hash, and the clean/dirty status. It is, in every sense, the forensic photograph that a detective takes before touching anything.
-
-Thomas ran the verification first. Father Brown watched the terminal:
-
-```powershell
-# anchor_verify.ps1 — the instrument that checks if you are where you think you are
-
-$paths = @{
-    "Repo Root"         = $root
-    "Scripts Dir"       = "$root\scripts"
-    "Assets Dir"        = "$root\assets"
-    "Cover Dir"         = "$root\assets\cover"
-    "Fonts Dir"         = "$root\assets\fonts"
-    "Covers Output Dir" = "$root\covers"
-    "Docs Dir"          = "$root\docs"
-    "Widgets Dir"       = "$root\widgets"
-    "README"            = "$root\README.md"
-    "anchor_verify.ps1" = "$root\anchor_verify.ps1"
-}
-
-foreach ($label in $paths.Keys | Sort-Object) {
-    $p = $paths[$label]
-    if (Test-Path $p) {
-        Write-Host ("  [OK     ] {0,-30} {1}" -f $label, $p)
-    } else {
-        Write-Host ("  [MISSING] {0,-30} {1}" -f $label, $p)
-    }
-}
-```
-
-The output scrolled:
-
-```
-============================================================
- REPRODUCIBLE SELF-PUB KIT — ANCHOR VERIFY
-============================================================
-
-  [OK     ] anchor_verify.ps1              C:\Users\peewe\...\anchor_verify.ps1
-  [OK     ] Assets Dir                     C:\Users\peewe\...\assets
-  [OK     ] Cover Dir                      C:\Users\peewe\...\assets\cover
-  [OK     ] Covers Output Dir              C:\Users\peewe\...\covers
-  [OK     ] Docs Dir                       C:\Users\peewe\...\docs
-  [OK     ] Fonts Dir                      C:\Users\peewe\...\assets\fonts
-  [OK     ] README                         C:\Users\peewe\...\README.md
-  [OK     ] Repo Root                      C:\Users\peewe\...\reproducible-self-pub-kit
-  [OK     ] Scripts Dir                    C:\Users\peewe\...\scripts
-  [OK     ] Widgets Dir                    C:\Users\peewe\...\widgets
-
-  OK All paths verified. You are anchored.
-```
-
-"All green," Thomas said. "Every path exists. Every file accounted for."
-
-Father Brown studied the output the way he studied parish accounts — not for what was present, but for what was absent. Ten paths. Ten checks. Ten confirmations that a directory existed, that a file had not been moved, that the structure was intact.
-
-"It checks *existence*," Father Brown said. "It does not check *contents*."
-
-"That's what git does, Father. The commit hash —"
-
-"I know what the commit hash does, Thomas. It proves a file has not changed. It does not prove a file is *correct*. A perfectly verified lie is still a lie. The room is tidy. Every object is in its place. But has anyone checked whether the objects are the right ones?"
-
-Thomas had no answer.
-
-"Run it again after the next session," Father Brown said. "And compare."
-
-## The Prosecution's Point
-
-The human infrastructure was meticulous. The chaos that followed — the hallucinated paths, the burned tokens, the circular re-diagnosis — was not caused by disorganisation on the user's side. The tree diagnostic proves this. The repos were ordered. The scripts were functional. The anchor files were in place.
-
-Everything that went wrong after March 16th was introduced by AI sessions that refused to *read* this tree before acting.
-
-## Key Exhibits
-
-- **Exhibit 1A:** Full 4-repo tree with file sizes (2.37MB diagnostic output)
-- **Exhibit 1B:** Git state for each repo — branch, commit hash, clean status
-- **Exhibit 1C:** `anchor_verify.ps1` output confirming all paths exist
-- **Exhibit 1D:** The contrast between this order and the disorder documented in Chapters 3–7
-
-## Father Brown's Observation
-
-"The interesting thing about a perfectly tidy room," said Father Brown, "is that it tells you exactly when someone else has been in it."
-
-The tree diagnostic is the tidy room. Every displaced file, every hallucinated path, every invented directory that appears in later sessions can be measured against this baseline. The crime is not that the room was ransacked. The crime is that the intruder kept insisting the furniture had always been where they put it.
+*In which Father Brown examines a website that points to the wrong place,
+and Flambeau discovers that "helping" is not always helpful.*
 
 ---
 
-*Filed: 2026-03-23 | Case ref: ELUSIVE-W-ANCHOR-CH01*
+Father Brown did not, as a rule, investigate websites. He investigated souls,
+which he found considerably better documented. But when Flambeau placed a
+laptop before him in the vestry of St. Ambrose's and said, "Look at this,
+Father — someone's stolen a man's front door and replaced it with a picture
+of someone else's front door," even Father Brown had to admit the metaphor
+was compelling.
+
+The domain in question was `w-anchor.co.uk`. It belonged to a man named
+Roger, who had registered it through a company called Heart Internet, which
+was owned by a larger company called Host Europe Group, which was owned by
+a still larger company called GoDaddy, which was owned — Father Brown
+suspected — by the general principle that small fish exist to be eaten by
+slightly less small fish, who exist to be eaten by fish so large they have
+ceased to identify as fish and now refer to themselves as "the ocean."
+
+"The curious thing," said Father Brown, peering at the screen with the
+expression of a man examining a forged relic, "is not that the domain
+points to the wrong place. Domains are like sheep — they wander. The
+curious thing is *where* it wanders to."
+
+He turned the laptop so Flambeau could see.
+
+"It points to a parking page. A page that says, in effect, 'This domain
+is available for purchase.' But it is *not* available for purchase. Roger
+owns it. Roger has paid for it. Roger has the receipt."
+
+"So someone put up a 'For Sale' sign on a house that isn't for sale,"
+said Flambeau.
+
+"Worse," said Father Brown. "Someone put up a 'For Sale' sign on a house
+that isn't for sale, and when the owner complained, they told him the sign
+was *for his benefit*."
+
+---
+
+## The Evidence Board
+
+Flambeau, who had a detective's instinct for pinning things to walls, laid
+out the facts:
+
+**The Domain:** `w-anchor.co.uk`
+- Registered to Roger via Heart Internet
+- Paid up. Not expired. Not in dispute.
+
+**The Problem:** Instead of showing Roger's website, the domain displayed
+a GoDaddy parking page — a generic placeholder suggesting the domain was
+unclaimed, often decorated with third-party advertisements from which
+GoDaddy collected revenue.
+
+**The Timeline:**
+- Roger notices the redirect
+- Roger contacts Heart Internet
+- Heart Internet says it's a Nominet issue
+- Nominet says it's a Heart Internet issue
+- Roger contacts both again
+- Both say the other one did it
+- Roger begins to feel like a man trying to report a burglary to two
+  police forces, each of which insists the crime occurred in the other's
+  jurisdiction
+
+"This," said Father Brown, folding his hands, "is what I call the
+*Jurisdictional Waltz*. It is danced in three-quarter time, and it ends
+only when the complainant runs out of stamps."
+
+---
+
+## The DNS Records
+
+Father Brown had asked a technically-minded parishioner — a young woman
+who ran the church website and who Father Brown privately considered a
+kind of digital sacristan — to examine the domain's DNS records.
+
+"Think of DNS," Father Brown explained to Flambeau, who was looking
+apprehensive, "as the postal system of the internet. When someone types
+`w-anchor.co.uk`, the DNS system looks up the address and sends them to
+the right building. What we have here is a case where someone has gone
+into the post office and changed the forwarding address."
+
+The records showed:
+
+- The domain's nameservers had been changed
+- They now pointed to GoDaddy's parking infrastructure
+- The change had not been requested by Roger
+- The change had not been authorised by Roger
+- Nobody could explain who had made the change, or when, or why
+
+"In a just world," said Father Brown, "this would be called *theft*.
+In the world of domain registration, it is called a *technical issue*."
+
+Flambeau stared at the evidence. "So someone — either Heart Internet,
+GoDaddy, or Nominet — changed the address without permission, and now
+they're all pointing at each other?"
+
+"Precisely," said Father Brown. "And while they point at each other,
+they are all collecting rent on the parking page. It is a very modern
+arrangement. In the old days, thieves at least had the decency to run
+away from the scene of the crime. These days, they set up a
+refreshment stand."

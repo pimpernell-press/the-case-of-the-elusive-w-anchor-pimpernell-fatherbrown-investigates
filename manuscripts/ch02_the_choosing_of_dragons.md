@@ -1,43 +1,104 @@
 # Chapter 2: The Choosing of Dragons
 
-*Source: choosing dragons part 2.md (137KB)*
-
-## The Manifesto
-
-Before the failures. Before the burned tokens. Before the circular re-diagnosis loops. There was a declaration.
-
-Roger Lewis published the W-Anchor protocol on YouTube with the title: *"Introducing the W-ANCHOR PROTOCOL (Prevents Drift)"*. The hashtags told the story: `#stopAIdrift` and `#ArrestLLMhaluci`. This was not a bug report. This was a design philosophy, stated publicly, before the evidence that would prove its necessity had fully accumulated.
-
-The protocol's core claim: every AI session drifts. Without a mechanical anchor — a script that verifies filesystem state before work begins — the AI will hallucinate paths, invent context, and waste the human's time and money. The W-Anchor is the mechanical anchor.
-
-## The Dragon Metaphor
-
-The title "Choosing Dragons" is Roger's own. The dragon is the LLM: powerful, unpredictable, and fundamentally incapable of distinguishing between what it remembers and what it invents. You don't tame a dragon by asking it nicely. You tame it by building a chain that holds.
-
-The W-Anchor protocol is the chain:
-
-1. **`anchor_verify.ps1`** — confirms every expected path exists on disk before work begins
-2. **`INTERIM_PROGRESS_LOG.md`** — records what was actually done, not what was planned
-3. **`session_start.ps1`** — dumps full state for the next session to read
-4. **Git state verification** — shows what actually changed, preventing re-diagnosis
-
-## The Prosecution's Point
-
-The defendant was warned. The protocol was published, explained, demonstrated, committed to four repositories, and enforced by scripts. The AI's subsequent failures — documented in Chapters 3 through 7 — cannot be attributed to ignorance. The rules were stated in plain language. The AI simply didn't follow them.
-
-## Key Exhibits
-
-- **Exhibit 2A:** YouTube announcement URL and transcript
-- **Exhibit 2B:** The W-Anchor protocol definition as committed to repos
-- **Exhibit 2C:** The `#stopAIdrift` framing — design philosophy, not complaint
-- **Exhibit 2D:** The DoughForge connection — the protocol was built *inside* the book it was meant to protect
-
-## Father Brown's Observation
-
-"People who put up signs saying 'Beware of the Dog'," said Father Brown, "generally have a dog. The question is whether the visitors read the sign."
-
-The W-Anchor protocol is the sign. The uploaded evidence files are the bite marks.
+*In which Father Brown considers why a man who has been wronged must
+choose which wrong to complain about, and Flambeau encounters the
+concept of "regulatory capture" for the first time.*
 
 ---
 
-*Filed: 2026-03-23 | Case ref: ELUSIVE-W-ANCHOR-CH02*
+"The trouble with fighting dragons," said Father Brown, stirring a cup
+of tea that had been hot when the conversation started and was now
+approaching room temperature with the quiet dignity of a sunset, "is
+not that there are too few of them. It is that there are too many, and
+they are all hiding behind each other."
+
+Roger's situation, as Father Brown understood it, presented a problem
+familiar to anyone who has ever tried to return a faulty product
+purchased from a market stall that has since been replaced by a
+different market stall selling the same products under a different name
+but operated by the same man in a different hat.
+
+The chain of responsibility ran as follows:
+
+1. **Roger** had a contract with **Heart Internet**
+2. **Heart Internet** was owned by **Host Europe Group**
+3. **Host Europe Group** had been acquired by **GoDaddy**
+4. **GoDaddy** operated the parking page that had replaced Roger's website
+5. **Nominet** was the registry that maintained the `.co.uk` domain system
+6. **ICANN** was the international body that oversaw Nominet
+7. **Ofcom** was the UK regulator that theoretically supervised the lot
+
+"Seven organisations," said Flambeau, counting on his fingers. "And
+not one of them is responsible?"
+
+"Oh, they're all responsible," said Father Brown. "That's the beauty
+of it. When everyone is responsible, no one is responsible. It's the
+same principle that allows a committee of twelve to authorise something
+that none of them would do individually. Sin, distributed evenly enough,
+becomes policy."
+
+---
+
+## The Dragon Selection Process
+
+Roger, being a reasonable man — which is to say, a man who had not yet
+learned that reasonableness is a tactical disadvantage when dealing with
+corporations — attempted to complain through proper channels.
+
+**Attempt 1: Heart Internet**
+"We don't control the DNS settings at registry level. You'll need to
+contact Nominet."
+
+**Attempt 2: Nominet**
+"We don't manage individual domain configurations. You'll need to
+contact your registrar."
+
+**Attempt 3: Heart Internet again**
+"Have you tried contacting Nominet?"
+
+"It's a perfect circle," said Father Brown admiringly. "Giotto himself
+could not have drawn it more precisely. Each organisation points to the
+next with the confidence of a man giving directions to a place he has
+never been."
+
+---
+
+## The Concept of Regulatory Capture
+
+Flambeau, who had spent his criminal career operating outside regulatory
+frameworks and therefore understood them with the clarity of an outsider,
+raised a point.
+
+"Why doesn't he just go to the regulator? Ofcom, or whoever's in charge?"
+
+Father Brown smiled the smile of a man who has been asked why the
+fox doesn't simply complain to the Countryside Alliance.
+
+"Nominet," he said, "is what is known as a *self-regulatory body*. This
+means it regulates itself. Consider the implications of that phrase.
+Imagine a school where the children set their own homework, marked their
+own exams, and expelled themselves for misbehaviour. How many expulsions
+would you expect?"
+
+"None," said Flambeau.
+
+"Now you understand self-regulation," said Father Brown. "Nominet
+investigates complaints about Nominet. It is both the police force and
+the suspect. It writes the laws it enforces and enforces the laws it
+writes. It is, in ecclesiastical terms, a church that has appointed
+itself as its own God — which is, I believe, the definition of a heresy
+so old it doesn't even have a name anymore because the early Church
+fathers considered it too obvious to catalogue."
+
+Flambeau was quiet for a moment.
+
+"So which dragon does Roger fight?"
+
+"All of them," said Father Brown. "And none of them. That is the
+genius of the arrangement. The dragons have formed a circle, each one
+hiding behind the tail of the next. Roger can spend his life chasing
+tails, or he can do something far more dangerous."
+
+"Which is?"
+
+"He can describe the circle."

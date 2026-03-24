@@ -8,18 +8,8 @@ os.chdir(REPO)
 with open("book.yaml") as f:
     cfg = yaml.safe_load(f)
 
-# Collect chapter files from book.yaml
+# Collect chapter files from book.yaml — foreword is now listed there
 sections = [ch["file"] for ch in cfg.get("chapters", [])]
-
-# Prepend foreword if it exists
-foreword = "manuscripts/foreword_the_canary.md"
-if os.path.exists(foreword) and foreword not in sections:
-    sections.insert(0, foreword)
-
-# Append ch10 if it exists and isn't listed
-ch10 = "manuscripts/ch10_the_paradox_of_the_helpful_vandal.md"
-if os.path.exists(ch10) and ch10 not in sections:
-    sections.append(ch10)
 
 # Verify all exist
 missing = [s for s in sections if not os.path.exists(s)]
@@ -36,8 +26,7 @@ title = cfg.get("title", "The Case of the Elusive W-Anchor")
 author = cfg.get("author", "Roger G. Lewis")
 out = "dist/the-case-of-the-elusive-w-anchor.epub"
 
-# Cover image — use jpg if available
-cover = "assets/cover/w-anchor-pimpernell.jpg"
+cover = "assets/cover/front_cover.jpg"
 if not os.path.exists(cover):
     cover = "assets/cover/w-anchor-pimpernell.jpg"
 
@@ -70,4 +59,3 @@ else:
     if result.stderr:
         print(result.stderr[:3000])
     sys.exit(1)
-
