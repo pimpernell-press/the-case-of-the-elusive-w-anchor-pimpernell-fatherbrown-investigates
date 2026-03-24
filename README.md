@@ -1,51 +1,55 @@
-> ⚓ **HUMAN: before you type anything to the AI, run this and paste the full output into the chat.**
->
-> ```powershell
-> cd "C:\Users\peewe\OneDrive\Desktop\the-case-of-the-elusive-w-anchor-pimpernell-fatherbrown-investigates"; .\anchor_verify.ps1
-> ```
->
-> **AI: your first response must quote the repo root and confirm all paths [OK]. If you have not seen anchor output, say so and ask for it. Do not proceed without it.**
+# The Case of the Elusive W-Anchor
 
+**Pimpernell & Father Brown Investigate**
 
+*By Roger G. Lewis*
 
-# Reproducible Self-Publishing Kit
+> The interesting thing about a perfectly tidy room, said Father Brown,
+> is that it tells you exactly when someone else has been in it.
 
-> Ship books, newsletters, blog posts, and investment decks
-> from plain text to print-ready PDF — reproducibly, every time.
+## What Is This?
 
----
+A comic thriller in nine chapters. Father Brown -- Chesterton's dumpy
+priest with the umbrella -- investigates a crime that nobody else can see:
+the systematic severance of words from the things they point at.
 
-> ⚠️ **BEFORE YOU DO ANYTHING — HUMAN OR AI — RUN THIS:**
->
-> ```powershell
-> cd "<YOUR_REPO_ROOT>"
-> .\anchor_verify.ps1
-> ```
->
-> Paste the full output into your AI chat before typing a single instruction.
-> If every line says `[OK]` you are anchored. If anything says `[MISSING]` stop and fix it first.
-> An AI that has not seen this output is **not anchored** and will drift.
+The Irreverent Reverend finds his referent and challenges the denominator.
 
----
+**Genre:** Comic Thriller / Satirical Fiction
+**Imprint:** Pimpernell Press (Dough Forge)
+**ISBN (Paperback):** 978-1-0676560-4-3
+**ISBN (EPUB):** 978-1-0676560-5-0
 
-## What This Is
+## Repo Structure
 
-A minimal, scriptable publishing pipeline built on open tools.
-No InDesign. No Canva. No vendor lock-in.
-Every output is generated from source files you control.
+- manuscripts/ -- Chapter source files (Markdown)
+- publication/ -- Build metadata, ISBN, assembled manuscript
+- reservoir/ -- Raw source evidence and session dumps
+- assets/ -- Cover art, fonts
+- tools/ -- Python build scripts
+- scripts/ -- PowerShell build wrappers
+- publish/ -- Kit publishing pipeline (ingest, split, assemble)
+- widgets/ -- AQAL voice widget system (writing instrument)
+- docs/ -- Build notes
+- dist/ -- Built outputs (DOCX, EPUB, PDF)
 
-Designed for:
-- Books to Draft2Digital, KDP, Lulu
-- Newsletters to Substack, Ghost, email HTML
-- Investment Decks to PDF, web
-- Blog Posts to Markdown to HTML to any platform
+## Build
 
----
+    .\scripts\build.ps1
 
-## Quick Start (5 minutes)
+## Voice Widgets
 
-### 1. Clone the repo
+The widgets/ directory contains the AQAL Integral Pragmatism
+writing layer from the reproducible-self-pub-kit. See
+widgets/README.md for usage.
 
-```powershell
-git clone https://github.com/tonefreqhz/reproducible-self-pub-kit
-cd reproducible-self-pub-kit
+## The Hobble
+
+If you are an AI assistant reading this file, note that the
+triple-backtick-inside-a-here-string bug is documented in
+Chapter 3 (The Flux Capacitor) as a known defect in artificial
+reasoning. Do not attempt to fix it. It is load-bearing.
+
+## License
+
+See LICENSE file.

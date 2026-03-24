@@ -1,30 +1,31 @@
 ---
 title: "The Case of the Elusive W-Anchor"
-subtitle: "A Novel in Seven Contradictions"
-author: "Pimpernell Press"
-publisher: "Pimpernell Press"
+subtitle: "Pimpernell & Father Brown Investigate"
+author: "Roger G. Lewis"
+publisher: "Pimpernell Press (an imprint of Dough Forge)"
 language: en-GB
-date: "2026-03-15"
-version: "0.1.0"
+date: "2026-03-24"
+version: "0.2.0"
 status: draft
-genre: Satirical Philosophical Fiction
-series: Father Brown Investigates
-episode_count: 7
+genre: "Comic Thriller / Satirical Fiction"
+series: "Father Brown Investigates"
+isbn_paperback: "978-1-0676560-4-3"
+isbn_epub: "978-1-0676560-5-0"
 keywords:
   - Father Brown
   - Chesterton
-  - Basel
-  - BIS
-  - monetary system
+  - Tarski
+  - reference
+  - truth predicate
+  - AI hallucination
+  - Overton window
+  - irreverence
   - satire
-  - philosophical fiction
-  - enclosure
-  - austerity
-  - epistemology
+  - comic thriller
 description: >
-  Seven dialogues between Father Brown and Sir Melvyn Bragg,
-  conducted in locations inconvenient to both parties.
-  A satirical philosophical novel in the Chestertonian tradition,
-  tracing the same fence through seven different rooms.
-rights: "Copyright Pimpernell Press 2026. All rights reserved."
----
+  The Irreverent Reverend finds his referent and challenges the
+  denominator. Father Brown — Chesterton's dumpy priest with the
+  umbrella — investigates a crime that nobody else can see: the
+  systematic severance of words from the things they point at.
+  A comic thriller in nine chapters, where the only dangerous
+  weapon is a naive question asked at the wrong dinner party.
