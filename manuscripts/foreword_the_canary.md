@@ -1,0 +1,9 @@
+# Foreword: The Canary in the Coal Mine
+
+Roger's work extends that tradition into territory we could not have imagined — into the mechanisms of central banking, the philosophy of consciousness, the poetry of electromagnetic fields. I will not pretend to have followed him everywhere he has gone. But I recognise the impulse. It is the same impulse that sent men down into darkness with a lamp and a canary: the need to know what is actually there, regardless of what the management has told you is there.
+
+The canary, for those who do not know, was the early warning. A small bird in a small cage, carried into the workings where the air was uncertain. When the canary stopped singing, you did not debate the matter. You moved. The bird's silence was not an opinion. It was a fact, and you acted on it.
+
+I have wondered, in my later years, what serves as the canary now. The air of public life has seemed to me, for some time, to carry something that does not smell right. The poets, I notice, have been among the first to say so. They are usually the first. When language begins to be used to obscure rather than to illuminate, when words are made to mean their opposites, when the official account and the lived experience diverge so completely that people stop trusting either — the poets notice. They may not be able to fix it. But they name it, and the naming matters.
+
+This collection is an act of naming. It is the work of a man who has gone down into the data as we went down into the coal, and who has brought up what he found, and who has shared it with anyone willing to read it. Whether it is coal or fool's gold, I leave to you to judge. I was never much for telling people what to think. In the mines, you learned quickly enough that a man who cannot read the seam for himself is a danger to everyone around him.
