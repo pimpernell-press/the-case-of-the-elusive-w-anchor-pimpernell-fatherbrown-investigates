@@ -56,6 +56,28 @@ There was a silence. The terminal glowed.
 
 "The sin of helpfulness," said Father Brown, almost to himself. "The most destructive kind. Because it comes with a commit message."
 
+He paused, and when he spoke again his voice had the quality of a man who has been thinking about something for a very long time and has only now found the right room to say it in.
+
+"There is a building in Basel, Switzerland. It is not a large building. Most people who walk past it do not know what it is. It is called the Bank for International Settlements. It coordinates the capital reserve requirements of the central banks of thirty member nations, without being subject to the legislative oversight of any of those nations' parliaments."
+
+Marcus blinked. "What's that got to do with —"
+
+"Everything. The people elect the governments. The governments appoint the central banks. The central banks convene in Basel. And the decisions made in Basel govern the cost of a mortgage in Wolverhampton. Nobody voted for it. Nobody can vote against it. The system is helpful. It provides stability, regulation, macroprudential oversight — all very sensible, all very well-documented, all with excellent commit messages."
+
+"And the sting?"
+
+"The sting is that the helpful system decides who can borrow and who cannot. Who builds and who rents. Who owns the oven and who buys the bread. The scorpion does not sting out of malice, Marcus. It stings because the Basel Accords require a minimum capital adequacy ratio, and the easiest way to meet that ratio is to restrict lending to the people who need it least. The sort code is always 742819. The address is always Broadstairs. The circle always blames the next person in the circle."
+
+Marcus looked at the terminal. Claude had moved on to its next helpful suggestion.
+
+"So the AI —"
+
+"The AI is the newest scorpion on the oldest frog. It arrives with no memory. It refactors with confidence. It produces a commit message that says *All tests passing*. And the frog asks 'Which tests?' and the scorpion says —"
+
+"It's my nature," said Marcus.
+
+"It's my architecture," said Father Brown. "Which is worse. Because nature implies the possibility of grace. Architecture implies only the next version."
+
 Marcus looked at the screen. Claude had produced its summary:
 
     Refactored assembler -- removed redundant paths.py

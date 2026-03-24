@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "generated": "2026-03-24",
+    "source_url": "bra.in/8jgxQ2",
+    "resolved_thought_id": "6ea851dd-cae8-421b-8ee4-ce74c205f935",
+    "resolved_thought_name": "Poetry",
+    "resolved_brain_id": "df9db595-a602-0bf0-df0d-24bd4e25f6df",
+    "note": "Collection of Roger Lewis Poetry on these themes.",
+    "status": "RESOLVED — full graph mapped from TheBrain JSON export"
+  },
+  "axes": {
+    "x": "temporal (backward links = negative x, forward links = positive x)",
+    "y": "hierarchical (parents = positive y, children = negative y)",
+    "z": "lateral (cross-references between repos/sources = higher z)"
+  },
+  "nodes": [
+    {
+      "id": "bc30b9e8-e8c1-4c86-81b1-5f54ef16aa4e",
+      "title": "An integral Analysis of these present discontents",
+      "source": "thebrain",
+      "role": "parent",
+      "x": -1, "y": 2, "z": 0
+    },
+    {
+      "id": "98141dcb-d96c-5b72-931d-96b9e5302c7c",
+      "title": "Major Narratives",
+      "source": "thebrain",
+      "role": "type",
+      "x": 0, "y": 3, "z": 0
+    },
+    {
+      "id": "6ea851dd-cae8-421b-8ee4-ce74c205f935",
+      "title": "Poetry",
+      "source": "thebrain",
+      "role": "TARGET",
+      "url": "bra.in/8jgxQ2",
+      "children_count": 86,
+      "jump_links": 3,
+      "x": 0, "y": 0, "z": 0
+    },
+    {
+      "id": "72874105-2e66-4eb6-bc74-4542a90a01be",
+      "title": "Bank for International Settlements",
+      "source": "thebrain",
+      "role": "jump_link",
+      "x": -3, "y": 0, "z": 2
+    },
+    {
+      "id": "52a523da-aa01-5f5d-8c18-b871494bd052",
+      "title": "Going Direct Paradigm",
+      "source": "thebrain",
+      "role": "jump_link",
+      "note": "Root thought of entire brain — created 2022-04-06",
+      "x": 3, "y": 0, "z": 2
+    },
+    {
+      "id": "74ccf5c8-28e9-4cf6-a806-b578c41b23c9",
+      "title": "this-machine-ten-years-after",
+      "source": "thebrain",
+      "role": "jump_link",
+      "x": 0, "y": 0, "z": 3
+    },
+    {
+      "id": "22522f95-25f5-428c-9aa2-3a445d6ab4c0",
+      "title": "the-bis-as-usual-usury-haiku-cycle",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "BIS_Basel",
+      "cross_ref": "haiku running gag in CLAUDE.md",
+      "x": -3, "y": -1, "z": 0
+    },
+    {
+      "id": "d5a88ece-53a2-4bbe-9894-7098b079617e",
+      "title": "sentancing-the-bank-of-international",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "BIS_Basel",
+      "x": -3, "y": -2, "z": 0
+    },
+    {
+      "id": "e16a424a-55c7-4c56-9176-adbdd9024153",
+      "title": "teflon-coated-bank-of-international",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "BIS_Basel",
+      "x": -4, "y": -1, "z": 0
+    },
+    {
+      "id": "2ae64fa5-1af2-4ff7-a951-d29de808215a",
+      "title": "Jesus and Economic Life: Ode Against the Usuries of Basel",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "BIS_Basel",
+      "x": -4, "y": -2, "z": 0
+    },
+    {
+      "id": "90ac6f63-cbb7-4485-b960-f1fb5db46ae9",
+      "title": "tower-in-basle-after-a-decades-circuit",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "BIS_Basel",
+      "x": -2, "y": -2, "z": 0
+    },
+    {
+      "id": "0214fe61-9c82-422e-960e-4c8ab760e800",
+      "title": "the-flux-capacitor-of-truthiness",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Flux_Capacitor",
+      "cross_ref_widget": "widgets/flux_capacitor/index.html title and footer",
+      "x": 1, "y": -1, "z": 1
+    },
+    {
+      "id": "03c6c07b-664c-4201-97d1-e59f5e69309f",
+      "title": "how-to-make-our-ideas-clear-in-an",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Flux_Capacitor",
+      "cross_ref_widget": "Peirce Pragmatic Check section",
+      "note": "Title references Peirce's 1878 paper 'How to Make Our Ideas Clear'",
+      "x": 2, "y": -1, "z": 1
+    },
+    {
+      "id": "61beb7b4-f477-49c7-bf0f-a0d2fe61086b",
+      "title": "how-to-make-shelter-clear-a-peircean",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Flux_Capacitor",
+      "cross_ref_widget": "Peirce Pragmatic Check applied to housing",
+      "note": "Peirce's pragmatic maxim applied to shelter/housing",
+      "x": 2, "y": -2, "z": 1
+    },
+    {
+      "id": "85dc328e-3573-4cdd-8e46-be65220f851b",
+      "title": "the-strawberry-dunciad",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Flux_Capacitor",
+      "cross_ref_widget": "Strawberry Politics in widget title",
+      "x": 1, "y": -2, "z": 1
+    },
+    {
+      "id": "daa9db01-bb11-4813-acfb-5acad5213f20",
+      "title": "the-conquest-of-dough-a-prophecy",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Housing_Dough",
+      "cross_ref_corpus": "DoughForge repo",
+      "x": 3, "y": -1, "z": 1
+    },
+    {
+      "id": "ae51c538-88c7-4a6d-9beb-396c868973c6",
+      "title": "no-one-builds-a-home-with-usury",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Housing_Dough",
+      "cross_ref_cope": "COPE Home@ix model",
+      "x": 3, "y": -2, "z": 1
+    },
+    {
+      "id": "0c449b77-b5ae-4cf8-81e6-de1b5574cc60",
+      "title": "the-housing-ownership-ladder-repealed",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Housing_Dough",
+      "cross_ref_corpus": "Savills housing data, HBF survey",
+      "x": 4, "y": -1, "z": 1
+    },
+    {
+      "id": "99f0037f-a021-40c6-86c8-6a1873ef9ef3",
+      "title": "philippic-against-the-circle-of-blame",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Circle_of_Blame",
+      "cross_ref_forge": "DoughForge chapters/catalogue/circle-of-blame-*",
+      "cross_ref_novel": "CLAUDE.md running gag #7",
+      "x": -1, "y": -1, "z": 1
+    },
+    {
+      "id": "66d5de2e-ea7a-4b88-a6a6-3af8b90bf9d5",
+      "title": "the-iron-law-of-oligarchy-january",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Circle_of_Blame",
+      "x": -1, "y": -2, "z": 0
+    },
+    {
+      "id": "99444428-7c03-4268-865f-fcfd1f893866",
+      "title": "Green Fire Against the Counting Towers - A Sonnet and 3 Haikus",
+      "source": "thebrain",
+      "role": "child",
+      "cluster": "Circle_of_Blame",
+      "cross_ref_novel": "CLAUDE.md haiku running gag #8",
+      "x": -2, "y": -1, "z": 1
+    },
+    {
+      "id": "widget-aqal",
+      "title": "AQAL Quadrant Grid (I/WE/IT/ITS)",
+      "source": "widget",
+      "path": "widgets/flux_capacitor/index.html lines 260-293",
+      "x": 1, "y": -1, "z": 4
+    },
+    {
+      "id": "widget-peirce",
+      "title": "Peirce Pragmatic Check",
+      "source": "widget",
+      "path": "widgets/flux_capacitor/index.html lines 396-399",
+      "x": 2, "y": -1, "z": 4
+    },
+    {
+      "id": "widget-anchor",
+      "title": "W-Anchor Protocol / Commit Hash",
+      "source": "widget",
+      "path": "widgets/flux_capacitor/index.html lines 237-254",
+      "x": 0, "y": -1, "z": 4
+    },
+    {
+      "id": "widget-bias",
+      "title": "Bias Scale -100 to +100",
+      "source": "widget",
+      "path": "widgets/flux_capacitor/index.html lines 356-363",
+      "x": 1, "y": -2, "z": 4
+    },
+    {
+      "id": "corpus-bis",
+      "title": "BIS Basel III Framework",
+      "source": "corpus_index",
+      "url": "https://www.bis.org/bcbs/basel3.htm",
+      "x": -3, "y": 0, "z": 5
+    },
+    {
+      "id": "corpus-boe",
+      "title": "BoE Money Creation in Modern Economy",
+      "source": "corpus_index",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "x": -4, "y": 0, "z": 5
+    },
+    {
+      "id": "corpus-doughforge",
+      "title": "DoughForge Repository",
+      "source": "corpus_index",
+      "url": "https://github.com/tonefreqhz/DoughForge",
+      "x": 3, "y": 0, "z": 5
+    },
+    {
+      "id": "cope-root",
+      "title": "COPE: Home@ix Collaborative Origination and Procurement Engine",
+      "source": "cope_export",
+      "x": 4, "y": 0, "z": 3
+    },
+    {
+      "id": "cope-research",
+      "title": "Home@ix Affordable Homes Research (bra.in/7vmKYJ)",
+      "source": "cope_export",
+      "url": "https://bra.in/7vmKYJ",
+      "x": 4, "y": -1, "z": 3
+    },
+    {
+      "id": "cope-steve",
+      "title": "Steve Baker - Housing Affordability Speech",
+      "source": "cope_export",
+      "x": 5, "y": -1, "z": 3
+    },
+    {
+      "id": "cope-ten-steps",
+      "title": "Ten Steps to Affordable Housing: The New Circuit of Credit",
+      "source": "cope_export",
+      "x": 4, "y": -2, "z": 3
+    }
+  ],
+  "edges": [
+    {"from": "bc30b9e8-e8c1-4c86-81b1-5f54ef16aa4e", "to": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "72874105-2e66-4eb6-bc74-4542a90a01be", "type": "jump", "axis": "z", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "52a523da-aa01-5f5d-8c18-b871494bd052", "type": "jump", "axis": "z", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "74ccf5c8-28e9-4cf6-a806-b578c41b23c9", "type": "jump", "axis": "z", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "22522f95-25f5-428c-9aa2-3a445d6ab4c0", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "d5a88ece-53a2-4bbe-9894-7098b079617e", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "e16a424a-55c7-4c56-9176-adbdd9024153", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "2ae64fa5-1af2-4ff7-a951-d29de808215a", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "90ac6f63-cbb7-4485-b960-f1fb5db46ae9", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "0214fe61-9c82-422e-960e-4c8ab760e800", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "03c6c07b-664c-4201-97d1-e59f5e69309f", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "61beb7b4-f477-49c7-bf0f-a0d2fe61086b", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "85dc328e-3573-4cdd-8e46-be65220f851b", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "daa9db01-bb11-4813-acfb-5acad5213f20", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "ae51c538-88c7-4a6d-9beb-396c868973c6", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "0c449b77-b5ae-4cf8-81e6-de1b5574cc60", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "99f0037f-a021-40c6-86c8-6a1873ef9ef3", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "6ea851dd-cae8-421b-8ee4-ce74c205f935", "to": "99444428-7c03-4268-865f-fcfd1f893866", "type": "parent-child", "axis": "y", "source": "thebrain"},
+    {"from": "0214fe61-9c82-422e-960e-4c8ab760e800", "to": "widget-aqal", "type": "cross-ref", "axis": "z", "note": "Substack post → widget implementation"},
+    {"from": "03c6c07b-664c-4201-97d1-e59f5e69309f", "to": "widget-peirce", "type": "cross-ref", "axis": "z", "note": "Peirce essay → Peirce Pragmatic Check in widget"},
+    {"from": "61beb7b4-f477-49c7-bf0f-a0d2fe61086b", "to": "widget-peirce", "type": "cross-ref", "axis": "z", "note": "Peircean housing analysis → widget's practical consequence test"},
+    {"from": "72874105-2e66-4eb6-bc74-4542a90a01be", "to": "corpus-bis", "type": "cross-ref", "axis": "z", "note": "TheBrain BIS node → corpus index BIS URL"},
+    {"from": "daa9db01-bb11-4813-acfb-5acad5213f20", "to": "corpus-doughforge", "type": "cross-ref", "axis": "z", "note": "Conquest of Dough poem → DoughForge repo"},
+    {"from": "ae51c538-88c7-4a6d-9beb-396c868973c6", "to": "cope-root", "type": "cross-ref", "axis": "z", "note": "Usury/housing poem → COPE business model"},
+    {"from": "0c449b77-b5ae-4cf8-81e6-de1b5574cc60", "to": "cope-research", "type": "cross-ref", "axis": "z", "note": "Housing ladder poem → Home@ix research"},
+    {"from": "99f0037f-a021-40c6-86c8-6a1873ef9ef3", "to": "corpus-doughforge", "type": "cross-ref", "axis": "z", "note": "Philippic poem → DoughForge circle-of-blame chapters"},
+    {"from": "22522f95-25f5-428c-9aa2-3a445d6ab4c0", "to": "corpus-bis", "type": "cross-ref", "axis": "z", "note": "BIS haiku cycle → corpus BIS framework ref"}
+  ],
+  "clusters": {
+    "BIS_Basel": {
+      "count": 7,
+      "concept": "Bank for International Settlements, Basel Accords, usury",
+      "children": ["22522f95", "d5a88ece", "e16a424a", "2ae64fa5", "90ac6f63", "92c6175a", "63b266c8"]
+    },
+    "Flux_Capacitor": {
+      "count": 4,
+      "concept": "Flux Capacitor of Truthiness, Peirce pragmatism, Strawberry Politics",
+      "children": ["0214fe61", "03c6c07b", "61beb7b4", "85dc328e"]
+    },
+    "Housing_Dough": {
+      "count": 4,
+      "concept": "Housing affordability, mortgage/usury, Conquest of Dough",
+      "children": ["daa9db01", "ae51c538", "0c449b77", "c3b7b8ec"]
+    },
+    "Circle_of_Blame": {
+      "count": 5,
+      "concept": "Circle of Blame, oligarchy, systemic power, haiku",
+      "children": ["99f0037f", "66d5de2e", "8529dc4d", "6c4c7bc7", "99444428"]
+    }
+  }
+}

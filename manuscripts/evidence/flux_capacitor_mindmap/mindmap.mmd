@@ -1,0 +1,89 @@
+%%{ init: { 'theme': 'dark' } }%%
+graph TB
+    subgraph Z_AXIS["Z-AXIS: LATERAL CROSS-REPO LINKS"]
+        direction LR
+
+        subgraph BOOK["THE BOOK (pimpernell-fatherbrown)"]
+            CLAUDE_MD["CLAUDE.md<br/>Character defs, chapter manifest"]
+            CH03A["ch03_the_flux_capacitor.md<br/>Halting Problem chapter"]
+            CH03B["ch03b_the_triple_word_score.md<br/>Scrabble / AQAL chapter"]
+            CH03C["ch03_the_sin_of_helpfulness.md<br/>Frog & Scorpion"]
+            CH01["ch01_the_crime_scene_survey.md<br/>Baseline diagnostic"]
+            MANUSCRIPT["publication/manuscript.md<br/>Basel / BIS dialogue"]
+            WIDGET_BOOK["widgets/flux_capacitor/index.html<br/>LOCAL COPY — identical to Forge"]
+        end
+
+        subgraph FORGE["THE FORGE (DoughForge)"]
+            WIDGET_FORGE["widgets/flux_capacitor/index.html<br/>SOURCE — not pushed to GitHub"]
+            ANCHOR_WANKER[".from anchorto wanker 16 nmarch.md<br/>Circle of Blame theory"]
+            HOMEIX_DRAFT["chapters/0001-homeix-full-working-book-draft.md<br/>Basel III housing analysis"]
+            COB_CHAPTERS["chapters/catalogue/<br/>circle-of-blame-anthology (multiple)"]
+            CLAUDE_SONNET["Claude 4.6 Sonnet.md<br/>Fart Carstens BIS ref"]
+        end
+
+        subgraph INDEX["THE INDEX (hom-ixFAIRindex)"]
+            CORPUS["tools/homeix_corpus_index.html<br/>1675 lines, NO bra.in URLs"]
+            FAIR_DASH["tonefreqhz.github.io/hom-ixFAIRindex<br/>Live dashboard"]
+        end
+
+        subgraph KIT["THE KIT (reproducible-self-pub-kit)"]
+            ANCHOR_VERIFY["anchor_verify.ps1<br/>[OK] [OK] [OK] [MISSING]"]
+            SESSION_START["session_start.ps1<br/>4-repo coordinator"]
+        end
+
+        subgraph THEBRAIN["THEBRAIN (external)"]
+            BRAIN_8jgxQ2["bra.in/8jgxQ2<br/>Thought: 6ea851dd-cae8-421b-8ee4-ce74c205f935<br/>Brain: df9db595-a602-0bf0-df0d-24bd4e25f6df<br/>STATUS: APP ERRORED — content unknown"]
+            BRAIN_6pdemJ["bra.in/6pdemJ<br/>Referenced as placeholder in widget<br/>Unimpeachable Base Reference field"]
+        end
+
+        subgraph EXTERNAL["EXTERNAL REFERENCES (from corpus index)"]
+            BOE["bankofengland.co.uk<br/>Money Creation in Modern Economy"]
+            BIS["bis.org/bcbs/basel3.htm<br/>Basel III framework"]
+            SAVILLS["savills.co.uk<br/>Housing supply data"]
+            HBF["hbf.co.uk<br/>SME builder survey"]
+            GDRIVE["Google Drive archive<br/>6-year corpus"]
+        end
+    end
+
+    %% Y-AXIS: HIERARCHICAL (parent-child)
+    CLAUDE_MD -->|"defines characters for"| CH03A
+    CLAUDE_MD -->|"defines characters for"| CH03B
+    CLAUDE_MD -->|"defines characters for"| CH03C
+    CLAUDE_MD -->|"defines characters for"| CH01
+    CLAUDE_MD -->|"references"| WIDGET_BOOK
+
+    %% Z-AXIS: LATERAL (cross-repo jumps)
+    WIDGET_FORGE -.->|"byte-identical copy"| WIDGET_BOOK
+    WIDGET_BOOK -.->|"placeholder ref"| BRAIN_6pdemJ
+    ANCHOR_VERIFY -.->|"transcluded into"| CH01
+    WIDGET_BOOK -.->|"transcluded into"| CH03A
+    SESSION_START -.->|"coordinates"| ANCHOR_VERIFY
+
+    %% X-AXIS: TEMPORAL (past → future)
+    HOMEIX_DRAFT -->|"Basel III analysis feeds"| MANUSCRIPT
+    MANUSCRIPT -->|"BIS dialogue feeds"| CH03C
+    ANCHOR_WANKER -->|"Circle of Blame feeds"| CH03C
+    COB_CHAPTERS -->|"anthology feeds"| ANCHOR_WANKER
+    CLAUDE_SONNET -->|"Fart Carstens ref feeds"| CLAUDE_MD
+
+    %% Cross-repo data flows
+    CORPUS -.->|"DoughForge URL ref"| WIDGET_FORGE
+    CORPUS -.->|"links to"| BOE
+    CORPUS -.->|"links to"| BIS
+    CORPUS -.->|"links to"| SAVILLS
+    CORPUS -.->|"links to"| HBF
+    CORPUS -.->|"links to"| GDRIVE
+    CORPUS -.->|"powers"| FAIR_DASH
+
+    %% The missing link
+    BRAIN_8jgxQ2 -.->|"BLOCKED: app error<br/>content unknown"| CORPUS
+    BRAIN_8jgxQ2 -.->|"same brain as?"| BRAIN_6pdemJ
+
+    %% Running gag connections
+    CH03B -.->|"AQAL quadrants map to<br/>Scrabble players"| WIDGET_BOOK
+    BIS -.->|"742819 sort code trail"| MANUSCRIPT
+
+    style BRAIN_8jgxQ2 fill:#ff6b6b,stroke:#ff0000,color:#fff
+    style CORPUS fill:#4ecdc4,stroke:#fff
+    style WIDGET_FORGE fill:#f7b731,stroke:#fff
+    style ANCHOR_VERIFY fill:#4ecdc4,stroke:#fff

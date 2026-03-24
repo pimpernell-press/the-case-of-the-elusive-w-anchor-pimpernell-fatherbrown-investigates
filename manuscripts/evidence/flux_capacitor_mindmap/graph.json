@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "generated": "2026-03-24",
+    "source_url": "bra.in/8jgxQ2",
+    "resolved_thought": "6ea851dd-cae8-421b-8ee4-ce74c205f935",
+    "resolved_brain": "df9db595-a602-0bf0-df0d-24bd4e25f6df",
+    "status": "PARTIAL — TheBrain web app errored, content of target thought unknown"
+  },
+  "axes": {
+    "x": "temporal (past ← → future, backward vs forward links)",
+    "y": "hierarchical (parent ↑ → child ↓)",
+    "z": "lateral (jump links, cross-references between repos)"
+  },
+  "nodes": [
+    {
+      "id": "brain-8jgxQ2",
+      "title": "bra.in/8jgxQ2 — Target Thought (BLOCKED)",
+      "type": "thebrain_thought",
+      "brain_id": "df9db595-a602-0bf0-df0d-24bd4e25f6df",
+      "thought_id": "6ea851dd-cae8-421b-8ee4-ce74c205f935",
+      "status": "APP_ERROR — content unknown, needs browser access",
+      "x": 0, "y": 0, "z": 5
+    },
+    {
+      "id": "brain-6pdemJ",
+      "title": "bra.in/6pdemJ — Widget Placeholder Reference",
+      "type": "thebrain_thought",
+      "source": "flux_capacitor/index.html baseReference placeholder",
+      "status": "REFERENCED but not resolved",
+      "x": -1, "y": 0, "z": 5
+    },
+    {
+      "id": "widget-book",
+      "title": "Flux Capacitor (Book copy)",
+      "type": "html_widget",
+      "repo": "the-case-of-the-elusive-w-anchor",
+      "path": "widgets/flux_capacitor/index.html",
+      "lines": 544,
+      "x": 0, "y": -1, "z": 0
+    },
+    {
+      "id": "widget-forge",
+      "title": "Flux Capacitor (DoughForge source)",
+      "type": "html_widget",
+      "repo": "DoughForge",
+      "path": "widgets/flux_capacitor/index.html",
+      "lines": 544,
+      "note": "byte-identical to book copy; 404 on GitHub — not pushed to remote",
+      "x": 0, "y": -1, "z": 3
+    },
+    {
+      "id": "corpus-index",
+      "title": "Home@ix Corpus Index",
+      "type": "html_tool",
+      "repo": "hom-ixFAIRindex",
+      "path": "tools/homeix_corpus_index.html",
+      "lines": 1675,
+      "brain_links_found": 0,
+      "note": "ZERO bra.in URLs. Rich in external refs: BoE, BIS, Savills, HBF, Google Drive",
+      "x": -2, "y": 0, "z": 2
+    },
+    {
+      "id": "anchor-verify",
+      "title": "anchor_verify.ps1",
+      "type": "powershell_script",
+      "repo": "reproducible-self-pub-kit",
+      "path": "anchor_verify.ps1",
+      "lines": 41,
+      "output_pattern": "[OK] / [MISSING] for 10 paths",
+      "x": -3, "y": 1, "z": 1
+    },
+    {
+      "id": "session-start",
+      "title": "session_start.ps1",
+      "type": "powershell_script",
+      "repo": "reproducible-self-pub-kit",
+      "path": "session_start.ps1",
+      "note": "5-phase 4-repo coordinator; calls anchor_verify in each repo",
+      "x": -3, "y": 2, "z": 1
+    },
+    {
+      "id": "claude-md",
+      "title": "CLAUDE.md — Project Anchor",
+      "type": "markdown",
+      "repo": "the-case-of-the-elusive-w-anchor",
+      "path": "CLAUDE.md",
+      "references": ["BIS", "Fart Carstens", "742819", "Broadstairs", "all 4 repos"],
+      "x": 0, "y": 2, "z": 0
+    },
+    {
+      "id": "ch01",
+      "title": "Ch01: The Crime Scene Survey",
+      "type": "chapter",
+      "path": "manuscripts/ch01_the_crime_scene_survey.md",
+      "status": "OUTLINED → COLOURING",
+      "x": -2, "y": -1, "z": 0
+    },
+    {
+      "id": "ch03a",
+      "title": "Ch03a: The Flux Capacitor and the Halting Problem",
+      "type": "chapter",
+      "path": "manuscripts/ch03_the_flux_capacitor.md",
+      "status": "COLOURED",
+      "x": 0, "y": -1, "z": 0
+    },
+    {
+      "id": "ch03b",
+      "title": "Ch03b: The Triple Word Score",
+      "type": "chapter",
+      "path": "manuscripts/ch03b_the_triple_word_score.md",
+      "status": "FIXED — escape chars stripped",
+      "x": 1, "y": -1, "z": 0
+    },
+    {
+      "id": "ch03c",
+      "title": "Ch03c: The Frog and the Scorpion (Sin of Helpfulness)",
+      "type": "chapter",
+      "path": "manuscripts/ch03_the_sin_of_helpfulness.md",
+      "status": "DEVELOPED → SHADING",
+      "x": 2, "y": -1, "z": 0
+    },
+    {
+      "id": "manuscript",
+      "title": "publication/manuscript.md — Basel/BIS Dialogue",
+      "type": "manuscript",
+      "path": "publication/manuscript.md",
+      "bis_refs": ["lines 102-108", "line 312", "lines 373-378", "lines 674-707", "lines 898-908"],
+      "x": 1, "y": 0, "z": 0
+    },
+    {
+      "id": "homeix-draft",
+      "title": "DoughForge: Full Working Book Draft",
+      "type": "source_corpus",
+      "repo": "DoughForge",
+      "path": "chapters/0001-homeix-full-working-book-draft.md",
+      "contains": ["Basel III analysis", "BIS Papers ref", "housing credit", "macroprudential"],
+      "x": -2, "y": 0, "z": 3
+    },
+    {
+      "id": "cob-chapters",
+      "title": "Circle of Blame Anthology",
+      "type": "source_corpus",
+      "repo": "DoughForge",
+      "path": "chapters/catalogue/the-circle-of-blame-*",
+      "x": -3, "y": -1, "z": 3
+    },
+    {
+      "id": "anchor-wanker",
+      "title": "From Anchor to Wanker (16 March)",
+      "type": "source_corpus",
+      "repo": "DoughForge",
+      "path": ".from anchorto wanker 16 nmarch.md",
+      "contains": ["circle of blame", "going-direct paradigm", "Broadstairs", "mort-gage"],
+      "x": -1, "y": 0, "z": 3
+    },
+    {
+      "id": "bis-external",
+      "title": "BIS Basel III Framework",
+      "type": "external_ref",
+      "url": "https://www.bis.org/bcbs/basel3.htm",
+      "x": -3, "y": 0, "z": 4
+    },
+    {
+      "id": "boe-external",
+      "title": "BoE: Money Creation in Modern Economy",
+      "type": "external_ref",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "x": -3, "y": -1, "z": 4
+    }
+  ],
+  "edges": [
+    {"from": "brain-8jgxQ2", "to": "corpus-index", "direction": "blocked", "axis": "z", "note": "TARGET LINK — bra.in/8jgxQ2 NOT FOUND in corpus index"},
+    {"from": "brain-8jgxQ2", "to": "brain-6pdemJ", "direction": "lateral", "axis": "z", "note": "Same brain? Both TheBrain thoughts, relationship unknown"},
+    {"from": "brain-6pdemJ", "to": "widget-forge", "direction": "backward", "axis": "z", "note": "Referenced as placeholder in baseReference field"},
+    {"from": "widget-forge", "to": "widget-book", "direction": "forward", "axis": "z", "note": "Byte-identical copy"},
+    {"from": "widget-book", "to": "ch03a", "direction": "forward", "axis": "y", "note": "HTML transcluded into chapter narrative"},
+    {"from": "anchor-verify", "to": "ch01", "direction": "forward", "axis": "z", "note": "Script output transcluded into chapter"},
+    {"from": "session-start", "to": "anchor-verify", "direction": "down", "axis": "y", "note": "Calls anchor_verify in Phase 1"},
+    {"from": "claude-md", "to": "ch01", "direction": "down", "axis": "y", "note": "Defines chapter structure"},
+    {"from": "claude-md", "to": "ch03a", "direction": "down", "axis": "y", "note": "Defines chapter structure"},
+    {"from": "claude-md", "to": "ch03b", "direction": "down", "axis": "y", "note": "Defines chapter structure"},
+    {"from": "claude-md", "to": "ch03c", "direction": "down", "axis": "y", "note": "Defines chapter structure"},
+    {"from": "homeix-draft", "to": "manuscript", "direction": "forward", "axis": "x", "note": "Basel III analysis feeds dialogue"},
+    {"from": "manuscript", "to": "ch03c", "direction": "forward", "axis": "x", "note": "BIS dialogue feeds shade pass"},
+    {"from": "anchor-wanker", "to": "ch03c", "direction": "forward", "axis": "x", "note": "Circle of Blame feeds Scorpion chapter"},
+    {"from": "cob-chapters", "to": "anchor-wanker", "direction": "forward", "axis": "x", "note": "Anthology feeds synthesis"},
+    {"from": "corpus-index", "to": "bis-external", "direction": "lateral", "axis": "z", "note": "Links to Basel III framework"},
+    {"from": "corpus-index", "to": "boe-external", "direction": "lateral", "axis": "z", "note": "Links to BoE money creation paper"},
+    {"from": "corpus-index", "to": "widget-forge", "direction": "lateral", "axis": "z", "note": "DoughForge URL reference"},
+    {"from": "ch03b", "to": "widget-book", "direction": "lateral", "axis": "z", "note": "AQAL quadrants map to Scrabble players"}
+  ],
+  "blocked_connections": [
+    {
+      "from": "brain-8jgxQ2",
+      "reason": "TheBrain web app returned 'An error has occurred. Please reload and try again.' — requires browser access or desktop TheBrain app",
+      "resolution": "Open https://bra.in/8jgxQ2 in browser, export thought connections, then re-run trace"
+    },
+    {
+      "from": "widget-forge",
+      "to": "github-remote",
+      "reason": "404 on GitHub — DoughForge widgets/flux_capacitor/ not pushed to remote",
+      "resolution": "git push DoughForge to sync widget to GitHub"
+    }
+  ]
+}
