@@ -1,0 +1,966 @@
+{
+  "meta": {
+    "title": "COPE Transclusion Corpus",
+    "source": "The Home@ix Collaborative Origination and Procurement Engine",
+    "date": "2026-03-25",
+    "thoughts": 156,
+    "links": 280,
+    "attachments": 152,
+    "mapped": 89,
+    "orphans": 67,
+    "cawdor_open_branches": 10
+  },
+  "parts": {
+    "I: WHY": [
+      {
+        "id": "b2-ch01",
+        "name": "The Tadpole Lesson",
+        "nodes": 6,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "6befc833",
+            "full_id": "6befc833",
+            "name": "[unresolved: 6befc833]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "7ac6fd16",
+            "full_id": "7ac6fd16",
+            "name": "[unresolved: 7ac6fd16]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "67a42dbb",
+            "full_id": "67a42dbb",
+            "name": "[unresolved: 67a42dbb]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "342ff314",
+            "full_id": "342ff314",
+            "name": "[unresolved: 342ff314]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "2d60a2a1",
+            "full_id": "2d60a2a1",
+            "name": "[unresolved: 2d60a2a1]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "dc47abc2",
+            "full_id": "dc47abc2",
+            "name": "[unresolved: dc47abc2]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      },
+      {
+        "id": "b2-ch02",
+        "name": "The FAIR-Index Thesis",
+        "nodes": 8,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "66127fb7",
+            "full_id": "66127fb7",
+            "name": "[unresolved: 66127fb7]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "4a88662d",
+            "full_id": "4a88662d",
+            "name": "[unresolved: 4a88662d]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "52d66bd6",
+            "full_id": "52d66bd6",
+            "name": "[unresolved: 52d66bd6]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "b2f7d444",
+            "full_id": "b2f7d444",
+            "name": "[unresolved: b2f7d444]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "fdbd10f5",
+            "full_id": "fdbd10f5",
+            "name": "[unresolved: fdbd10f5]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "94cb8a2b",
+            "full_id": "94cb8a2b",
+            "name": "[unresolved: 94cb8a2b]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "f7ee46e4",
+            "full_id": "f7ee46e4",
+            "name": "[unresolved: f7ee46e4]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "83b6b6b5",
+            "full_id": "83b6b6b5",
+            "name": "[unresolved: 83b6b6b5]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      },
+      {
+        "id": "b2-ch03",
+        "name": "The Inversion",
+        "nodes": 9,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "e1974d07",
+            "full_id": "e1974d07",
+            "name": "[unresolved: e1974d07]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "b2649da2",
+            "full_id": "b2649da2",
+            "name": "[unresolved: b2649da2]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "aa873799",
+            "full_id": "aa873799",
+            "name": "[unresolved: aa873799]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "ef2a7314",
+            "full_id": "ef2a7314",
+            "name": "[unresolved: ef2a7314]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "b95e2716",
+            "full_id": "b95e2716",
+            "name": "[unresolved: b95e2716]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "2ad5f156",
+            "full_id": "2ad5f156",
+            "name": "[unresolved: 2ad5f156]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "fe415a66",
+            "full_id": "fe415a66",
+            "name": "[unresolved: fe415a66]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "5767a8c6",
+            "full_id": "5767a8c6",
+            "name": "[unresolved: 5767a8c6]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "14baa562",
+            "full_id": "14baa562",
+            "name": "[unresolved: 14baa562]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      }
+    ],
+    "II: WHAT": [
+      {
+        "id": "b2-ch04",
+        "name": "Origination",
+        "nodes": 13,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "c6258f69",
+            "full_id": "c6258f69",
+            "name": "[unresolved: c6258f69]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "7bec98c6",
+            "full_id": "7bec98c6",
+            "name": "[unresolved: 7bec98c6]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "ef80adeb",
+            "full_id": "ef80adeb",
+            "name": "[unresolved: ef80adeb]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "a4c63146",
+            "full_id": "a4c63146",
+            "name": "[unresolved: a4c63146]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "d17f8454",
+            "full_id": "d17f8454",
+            "name": "[unresolved: d17f8454]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "8012d573",
+            "full_id": "8012d573",
+            "name": "[unresolved: 8012d573]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "2fb9f2fd",
+            "full_id": "2fb9f2fd",
+            "name": "[unresolved: 2fb9f2fd]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "3fb02bde",
+            "full_id": "3fb02bde",
+            "name": "[unresolved: 3fb02bde]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "34bf1893",
+            "full_id": "34bf1893",
+            "name": "[unresolved: 34bf1893]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "bac9550d",
+            "full_id": "bac9550d",
+            "name": "[unresolved: bac9550d]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "58dd33c2",
+            "full_id": "58dd33c2",
+            "name": "[unresolved: 58dd33c2]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "4f8623dc",
+            "full_id": "4f8623dc",
+            "name": "[unresolved: 4f8623dc]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "95b609c4",
+            "full_id": "95b609c4",
+            "name": "[unresolved: 95b609c4]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      },
+      {
+        "id": "b2-ch05",
+        "name": "Procurement",
+        "nodes": 13,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "dfdbf16b",
+            "full_id": "dfdbf16b",
+            "name": "[unresolved: dfdbf16b]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "66b25634",
+            "full_id": "66b25634",
+            "name": "[unresolved: 66b25634]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "ecc99a41",
+            "full_id": "ecc99a41",
+            "name": "[unresolved: ecc99a41]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "e3b45ac8",
+            "full_id": "e3b45ac8",
+            "name": "[unresolved: e3b45ac8]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "24f90eb6",
+            "full_id": "24f90eb6",
+            "name": "[unresolved: 24f90eb6]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "2bd0ec67",
+            "full_id": "2bd0ec67",
+            "name": "[unresolved: 2bd0ec67]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "76288974",
+            "full_id": "76288974",
+            "name": "[unresolved: 76288974]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "737061bb",
+            "full_id": "737061bb",
+            "name": "[unresolved: 737061bb]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "4707c116",
+            "full_id": "4707c116",
+            "name": "[unresolved: 4707c116]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "debdd548",
+            "full_id": "debdd548",
+            "name": "[unresolved: debdd548]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "2e00e257",
+            "full_id": "2e00e257",
+            "name": "[unresolved: 2e00e257]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "cebaab70",
+            "full_id": "cebaab70",
+            "name": "[unresolved: cebaab70]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "c081ac00",
+            "full_id": "c081ac00",
+            "name": "[unresolved: c081ac00]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      },
+      {
+        "id": "b2-ch06",
+        "name": "The Dashboard",
+        "nodes": 8,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "d68b6f78",
+            "full_id": "d68b6f78",
+            "name": "[unresolved: d68b6f78]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "d56e1f66",
+            "full_id": "d56e1f66",
+            "name": "[unresolved: d56e1f66]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "bbb85ba8",
+            "full_id": "bbb85ba8",
+            "name": "[unresolved: bbb85ba8]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "778e5cf8",
+            "full_id": "778e5cf8",
+            "name": "[unresolved: 778e5cf8]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "e81496e6",
+            "full_id": "e81496e6",
+            "name": "[unresolved: e81496e6]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "0403039b",
+            "full_id": "0403039b",
+            "name": "[unresolved: 0403039b]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "d59e7900",
+            "full_id": "d59e7900",
+            "name": "[unresolved: d59e7900]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "04a556ef",
+            "full_id": "04a556ef",
+            "name": "[unresolved: 04a556ef]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      },
+      {
+        "id": "b2-ch07",
+        "name": "Process",
+        "nodes": 11,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "3e316a07",
+            "full_id": "3e316a07",
+            "name": "[unresolved: 3e316a07]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "e1a01020",
+            "full_id": "e1a01020",
+            "name": "[unresolved: e1a01020]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "6ae2a99b",
+            "full_id": "6ae2a99b",
+            "name": "[unresolved: 6ae2a99b]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "b8ae1a3d",
+            "full_id": "b8ae1a3d",
+            "name": "[unresolved: b8ae1a3d]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "92b16e7f",
+            "full_id": "92b16e7f",
+            "name": "[unresolved: 92b16e7f]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "61c03d60",
+            "full_id": "61c03d60",
+            "name": "[unresolved: 61c03d60]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "21ed89fc",
+            "full_id": "21ed89fc",
+            "name": "[unresolved: 21ed89fc]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "126730e4",
+            "full_id": "126730e4",
+            "name": "[unresolved: 126730e4]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "314598e2",
+            "full_id": "314598e2",
+            "name": "[unresolved: 314598e2]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "2b4a8418",
+            "full_id": "2b4a8418",
+            "name": "[unresolved: 2b4a8418]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "bf9c999c",
+            "full_id": "bf9c999c",
+            "name": "[unresolved: bf9c999c]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      }
+    ],
+    "III: WHERE": [
+      {
+        "id": "b2-ch08",
+        "name": "Cawdor Gardens",
+        "nodes": 10,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "21ed8544",
+            "full_id": "21ed8544",
+            "name": "[unresolved: 21ed8544]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "4446e7f1",
+            "full_id": "4446e7f1",
+            "name": "[unresolved: 4446e7f1]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "5e192867",
+            "full_id": "5e192867",
+            "name": "[unresolved: 5e192867]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "1243df0e",
+            "full_id": "1243df0e",
+            "name": "[unresolved: 1243df0e]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "4c216f8a",
+            "full_id": "4c216f8a",
+            "name": "[unresolved: 4c216f8a]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "51ebb4c2",
+            "full_id": "51ebb4c2",
+            "name": "[unresolved: 51ebb4c2]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "6627b0dd",
+            "full_id": "6627b0dd",
+            "name": "[unresolved: 6627b0dd]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "5209efd4",
+            "full_id": "5209efd4",
+            "name": "[unresolved: 5209efd4]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "d1dd6beb",
+            "full_id": "d1dd6beb",
+            "name": "[unresolved: d1dd6beb]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          },
+          {
+            "id": "de2e6135",
+            "full_id": "de2e6135",
+            "name": "[unresolved: de2e6135]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "OPEN BRANCH"
+          }
+        ]
+      },
+      {
+        "id": "b2-ch09",
+        "name": "Regional Engine",
+        "nodes": 5,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "7dff1a86",
+            "full_id": "7dff1a86",
+            "name": "[unresolved: 7dff1a86]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "2e40809d",
+            "full_id": "2e40809d",
+            "name": "[unresolved: 2e40809d]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "746c4f9d",
+            "full_id": "746c4f9d",
+            "name": "[unresolved: 746c4f9d]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "6cb57d47",
+            "full_id": "6cb57d47",
+            "name": "[unresolved: 6cb57d47]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "721e0ebb",
+            "full_id": "721e0ebb",
+            "name": "[unresolved: 721e0ebb]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      }
+    ],
+    "IV: HOW": [
+      {
+        "id": "b2-ch10",
+        "name": "Moneym@ix",
+        "nodes": 6,
+        "att": 0,
+        "ev": 0,
+        "leaves": [
+          {
+            "id": "834b7598",
+            "full_id": "834b7598",
+            "name": "[unresolved: 834b7598]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "626539a0",
+            "full_id": "626539a0",
+            "name": "[unresolved: 626539a0]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "336bf828",
+            "full_id": "336bf828",
+            "name": "[unresolved: 336bf828]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "bab1bb21",
+            "full_id": "bab1bb21",
+            "name": "[unresolved: bab1bb21]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "11d8118d",
+            "full_id": "11d8118d",
+            "name": "[unresolved: 11d8118d]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          },
+          {
+            "id": "5ba87c43",
+            "full_id": "5ba87c43",
+            "name": "[unresolved: 5ba87c43]",
+            "children": 0,
+            "attachments": 0,
+            "attachment_list": [],
+            "status": "mapped"
+          }
+        ]
+      }
+    ]
+  },
+  "cawdor_open_branches": [
+    {
+      "id": "21ed8544",
+      "name": "[unresolved: 21ed8544]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "4446e7f1",
+      "name": "[unresolved: 4446e7f1]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "5e192867",
+      "name": "[unresolved: 5e192867]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "1243df0e",
+      "name": "[unresolved: 1243df0e]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "4c216f8a",
+      "name": "[unresolved: 4c216f8a]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "51ebb4c2",
+      "name": "[unresolved: 51ebb4c2]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "6627b0dd",
+      "name": "[unresolved: 6627b0dd]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "5209efd4",
+      "name": "[unresolved: 5209efd4]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "d1dd6beb",
+      "name": "[unresolved: d1dd6beb]",
+      "chapter": "b2-ch08"
+    },
+    {
+      "id": "de2e6135",
+      "name": "[unresolved: de2e6135]",
+      "chapter": "b2-ch08"
+    }
+  ]
+}
