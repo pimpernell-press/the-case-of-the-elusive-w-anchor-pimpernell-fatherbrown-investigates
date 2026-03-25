@@ -1,37 +1,39 @@
 {
-  "timestamp": "2026-03-24T16:50:34.676294+00:00",
-  "commit_hash": "431a2c50de1f6aa3cacc0ca4141871ba34d4cc55",
-  "repo_clean": false,
+  "timestamp": "2026-03-25T16:48:27.488326+00:00",
+  "commit_hash": "85a12927db16f83c8aa6e47c65f9e77d312fc77b",
+  "repo_clean": true,
   "tool_versions": {
-    "python": "Python 3.12.10",
+    "python": "Python 3.13.12",
     "pandoc": "pandoc 3.9.0.1",
     "lualatex": "This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)"
   },
   "source_manifest": {
-    "manuscripts/ch01_the_crime_scene_survey.md": "665d3c47ff7900f4ae571d843f1cc306cbdb1aab31bdd9e39490803434623ed6",
-    "manuscripts/ch02_the_choosing_of_dragons.md": "a67e8cfa1a078aa31cb85360b1303d8e4d74583d36c9c79ca3c4f174d4a223d6",
-    "manuscripts/ch03_the_flux_capacitor.md": "4f4199ab9aeac02be99e3ea5bb82e42fbd750b364307d3c6a87a1fccf4940675",
-    "manuscripts/ch04_the_circus_trucks.md": "f76a05f80e49fb12a1c73ccf117ee5b7c8c0d1856a8283f38c76db70fa1702a2",
-    "manuscripts/ch05_the_epilogue_that_came_first.md": "89562bcad85bd5530341253baf25f8818c0d61429684214f01093e29d5a5920d",
-    "manuscripts/ch06_the_work_to_six_forty_one.md": "6b95084adb4c55769cda5d0a47bc0eb17c402c582822db554a407c843891f316",
-    "manuscripts/ch07_the_wanking_in_circles.md": "ee437a0884a28f56e6be2a9b33fff89651635e077ef97a1dc26ba98137fe195a",
-    "manuscripts/ch08_the_nine_one_one_call.md": "43f3423817bfe65b309ff520f0c9ddf72789c48cdb1108bcbd6304c7200bd356",
-    "manuscripts/ch09_the_verdict.md": "e546de339284885d4c1c6cf113ab3edc6159a487a45817f6648ef1185916d554",
-    "book.yaml": "99346a0fb25310db67a58c7abf4909c9d74ab20e2b5691ba25019c956aaaef34",
+    "manuscripts/ch01_the_crime_scene_survey.md": "44f9ad260c441b7c89530b767e4ac6c189478a036654383d1060ec1f926c81a2",
+    "manuscripts/ch02_the_choosing_of_dragons.md": "39eff8aab661f28a431abca0e3d0a5eeb8e7c38fc7fc30c068d239a0dd4cb1fb",
+    "manuscripts/ch03_the_flux_capacitor.md": "085b7c2c8c8f6309ea806eadaa0fde396bb164560b7ddb9f4624d0ff9d636e6a",
+    "manuscripts/ch04_the_circus_trucks.md": "dc755ecaa5c32f5bdbe2818a865f7249d42cb6ab34df212ad581a491a25036ff",
+    "manuscripts/ch05_the_epilogue_that_came_first.md": "a0df5717c70b4cbc7b504dd337162d790026d0a53e7346c80eabc3b5cb3e8c77",
+    "manuscripts/ch06_the_work_to_six_forty_one.md": "da704320ee9fe18f30cd9b78f4bdba5bf86e69bef55df90e14aebf1a46a68480",
+    "manuscripts/ch07_the_wanking_in_circles.md": "c21aa8a8bad64665a41d7fff0c919323085a829958a2c39587cf3b4ae7fee705",
+    "manuscripts/ch08_the_nine_one_one_call.md": "af2b904de8284c012c8c50dec18d77c94a49c6f50eb2ce8013f2e712b305371d",
+    "manuscripts/ch09_the_verdict.md": "4eeae6bf4c3c03ccdba0fdd5f44b5280d0b3de35a63fd01944acd39ebaa35564",
+    "book.yaml": "dc12e103d32e93c9b9a6c7e4b3b801a9ba28cd1ca1e2f27885af1df4fdb9735d",
     "anchor.py": "3a07bca33c51141012a654bb564bb056ee9406f05beb6bfc5338e43aee4caec4",
     "manuscripts/ch03b_the_triple_word_score.md": "51ab3255cebde55c6a84d63e83acaa571af5099dc24003eda559c7735b2d4257",
     "manuscripts/ch03_the_sin_of_helpfulness.md": "75d7034ff91927fe8b44b16fcbb891b435f4cc89438151f696360232f54b9625",
     "manuscripts/chapters/ch_cherry.md": "b731327eff373f35e79dad304380cb23949fedc4ff2693fbe4325b6bc79e2bc6"
   },
   "output_manifest": {
-    "dist/the-case-of-the-elusive-w-anchor.epub": "07da6b61c40185eb6b72cc6464b1246da722d84305fbb1b795821fb444e97efe",
-    "dist/the-case-of-the-elusive-w-anchor.docx": "0ae082c1a241da183a191cef755cf7570f9c0f6fe45e1d1459a75d69b76c85b9"
+    "dist/the-case-of-the-elusive-w-anchor.epub": "8bf237a77bce6a864ef0b3378c82161f22716b53e86d1b9f8f5618d088dc201d",
+    "dist/the-case-of-the-elusive-w-anchor.docx": "0d82059ca8d4ecac2e94ea04f66e47e72882b9d944ff394a65e3bcbb8d0f8fae"
   },
   "manifest_consistency": {
     "pass": true,
     "missing": [],
     "extra": [
       "manuscripts/00_book_structure.md",
+      "manuscripts/ch10_the_paradox_of_the_helpful_vandal.md",
+      "manuscripts/ch_three_states_of_the_anchor.md",
       "manuscripts/foreword_the_canary.md"
     ]
   },
