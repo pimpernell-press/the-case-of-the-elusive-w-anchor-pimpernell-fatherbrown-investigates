@@ -266,6 +266,141 @@
       "title": "Ten Steps to Affordable Housing: The New Circuit of Credit",
       "source": "cope_export",
       "x": 4, "y": -2, "z": 3
+    },
+    {
+      "id": "cawdor-0001",
+      "title": "Cawdor: Plot Identification & Residential Principle",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "origination",
+      "status": "confirmed",
+      "x": 5, "y": -3, "z": 4
+    },
+    {
+      "id": "cawdor-0002",
+      "title": "Cawdor: Design Brief — 25 Homes, Arch Retained, Plot Passport",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "origination",
+      "status": "confirmed",
+      "x": 5, "y": -4, "z": 4
+    },
+    {
+      "id": "cawdor-0003",
+      "title": "Cawdor: Planning Strategy — Malmesbury Precedent, SB Act",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "origination",
+      "status": "confirmed",
+      "x": 5, "y": -5, "z": 4
+    },
+    {
+      "id": "cawdor-0004",
+      "title": "Cawdor: House Types [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "origination",
+      "status": "needs_input",
+      "x": 5, "y": -6, "z": 4
+    },
+    {
+      "id": "cawdor-0005",
+      "title": "Cawdor: Potton Timber Frame Procurement",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "procurement",
+      "status": "confirmed",
+      "x": 6, "y": -3, "z": 4
+    },
+    {
+      "id": "cawdor-0006",
+      "title": "Cawdor: Tier 1 Supply Chain Map [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "procurement",
+      "status": "needs_input",
+      "x": 6, "y": -4, "z": 4
+    },
+    {
+      "id": "cawdor-0007",
+      "title": "Cawdor: BIM Model & Component Library [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "procurement",
+      "status": "needs_input",
+      "x": 6, "y": -5, "z": 4
+    },
+    {
+      "id": "cawdor-0008",
+      "title": "Cawdor: Material Specification [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "procurement",
+      "status": "needs_input",
+      "x": 6, "y": -6, "z": 4
+    },
+    {
+      "id": "cawdor-0009",
+      "title": "Cawdor: Build Programme [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "process",
+      "status": "needs_input",
+      "x": 7, "y": -3, "z": 4
+    },
+    {
+      "id": "cawdor-0010",
+      "title": "Cawdor: Site Logistics — Arch Access, Shuttle Traffic",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "process",
+      "status": "confirmed",
+      "x": 7, "y": -4, "z": 4
+    },
+    {
+      "id": "cawdor-0011",
+      "title": "Cawdor: QA & Inspection Protocol [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "process",
+      "status": "needs_input",
+      "x": 7, "y": -5, "z": 4
+    },
+    {
+      "id": "cawdor-0012",
+      "title": "Cawdor: Handover Protocol [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "process",
+      "status": "needs_input",
+      "x": 7, "y": -6, "z": 4
+    },
+    {
+      "id": "cawdor-0013",
+      "title": "Cawdor: Digital Twin — Lifetime Data Asset [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "integration",
+      "status": "needs_input",
+      "x": 8, "y": -3, "z": 4
+    },
+    {
+      "id": "cawdor-0014",
+      "title": "Cawdor: Post-Occupancy Evaluation [NEEDS INPUT]",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "process",
+      "status": "needs_input",
+      "x": 8, "y": -4, "z": 4
+    },
+    {
+      "id": "cawdor-0015",
+      "title": "Cawdor: Project Economics — £13.8m GDV, 25% Margin",
+      "source": "cope_operational",
+      "cluster": "Cawdor_COPE",
+      "category": "cost_margin",
+      "status": "confirmed",
+      "x": 8, "y": -5, "z": 4
     }
   ],
   "edges": [
@@ -317,6 +452,14 @@
       "count": 5,
       "concept": "Circle of Blame, oligarchy, systemic power, haiku",
       "children": ["99f0037f", "66d5de2e", "8529dc4d", "6c4c7bc7", "99444428"]
+    },
+    "Cawdor_COPE": {
+      "count": 15,
+      "concept": "Cawdor Gardens operational COPE walkthrough — origination, procurement, process, integration, cost",
+      "children": ["cawdor-0001", "cawdor-0002", "cawdor-0003", "cawdor-0004", "cawdor-0005", "cawdor-0006", "cawdor-0007", "cawdor-0008", "cawdor-0009", "cawdor-0010", "cawdor-0011", "cawdor-0012", "cawdor-0013", "cawdor-0014", "cawdor-0015"],
+      "confirmed": 6,
+      "needs_input": 9,
+      "note": "The operational shed gets walls. 6 confirmed from repo evidence, 9 flagged for human input."
     }
   }
 }
