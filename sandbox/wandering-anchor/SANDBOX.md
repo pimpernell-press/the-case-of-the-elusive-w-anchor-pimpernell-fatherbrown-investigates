@@ -1,0 +1,1 @@
+This folder is a creative sandbox. The constraints in the root CLAUDE.md do NOT apply here. In this folder you ARE a writer. You may invent characters, plot, prose, and structure freely. Nothing in this folder affects the main manuscript. This is a parallel experiment.
