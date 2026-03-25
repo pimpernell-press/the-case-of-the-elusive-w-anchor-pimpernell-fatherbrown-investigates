@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrainData>
+  <!-- TheBrain Import: Book Structure Layer -->
+  <!-- Adds chapter parent thoughts linked to existing Going Direct Paradigm nodes -->
+  <!-- Import this WITHOUT replacing existing data -->
+
+  <Thought>
+    <Name>Wandering Anchor — Book Structure</Name>
+    <Id>book-structure-root</Id>
+    <Kind>1</Kind>
+  </Thought>
+
+  <Thought>
+    <Name>CH01: Ever Had a Wankel?</Name>
+    <Id>book-ch01</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch01</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch01</ThoughtIdA>
+    <ThoughtIdB>d6fe8bb0-7fe5-481d-8e24-3d4617eee1dc</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH02: The Globe</Name>
+    <Id>book-ch02</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch02</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>95884861-b6a3-5817-ab9d-6936b7de72d6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>8dd79b5d-110f-5eaa-a32c-6dc3654bdc35</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>fd721812-0de8-4225-94cb-77dad36ac7ae</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>a53c67d0-b373-410f-afee-868e1a931a33</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>74c0b88d-c799-509c-985f-9d5103322d76</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>afd09a93-e6a9-5471-a9c7-cdfdfe24d203</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>b299e4d6-7733-54e9-ba5d-f43ba2c4682c</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch02</ThoughtIdA>
+    <ThoughtIdB>9aa60cdb-50ed-5b4b-af69-fcaccdb55ea9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH03: Monica and the GK Spot</Name>
+    <Id>book-ch03</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch03</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>908ac620-e631-4b37-9fd1-1373c1d1c49c</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>99905e79-4ab8-4c18-9f90-4413b6da37a9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>e0dc7ed4-50c9-453a-bd5e-57ddbeac2771</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>95864f9d-79a5-41ce-8614-7dda2a3740c1</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>e7083c6e-484b-4b6c-8b2d-d265d3f4c828</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>df362878-be59-4263-afe4-d357369eece3</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>dd136610-db54-5176-867a-e4742ca0b1b8</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch03</ThoughtIdA>
+    <ThoughtIdB>77fa8351-99b8-4b9f-ae51-e6568ea3e1eb</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH04: Candida, Tobin, Colour</Name>
+    <Id>book-ch04</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch04</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch04</ThoughtIdA>
+    <ThoughtIdB>d5b06dfd-d677-402b-b61b-28270e4042f4</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch04</ThoughtIdA>
+    <ThoughtIdB>2b17f216-5a32-4d40-b30c-5c30382eaf8a</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch04</ThoughtIdA>
+    <ThoughtIdB>cf428b72-6d8e-5ebf-b477-a2f8f70aef54</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch04</ThoughtIdA>
+    <ThoughtIdB>221990cd-cdf2-493e-94c0-a9bbaf8a277f</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch04</ThoughtIdA>
+    <ThoughtIdB>f94f2a8c-0c39-4228-8db3-ac09279f67aa</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch04</ThoughtIdA>
+    <ThoughtIdB>8cc67097-2f68-5230-bddd-d8d609178dd1</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH05: The Xanadu Problem</Name>
+    <Id>book-ch05</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch05</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch05</ThoughtIdA>
+    <ThoughtIdB>95884861-b6a3-5817-ab9d-6936b7de72d6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch05</ThoughtIdA>
+    <ThoughtIdB>63c9b897-8b39-55f9-9a04-d36bea27ea6b</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH06: The Parliament Responds</Name>
+    <Id>book-ch06</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch06</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch06</ThoughtIdA>
+    <ThoughtIdB>4f7f597c-38e5-4eab-ab23-03192587dc46</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch06</ThoughtIdA>
+    <ThoughtIdB>e776940c-741f-416e-83ff-0415d887652f</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch06</ThoughtIdA>
+    <ThoughtIdB>ff97d771-21d4-458f-8f58-32bcecdad0c1</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch06</ThoughtIdA>
+    <ThoughtIdB>a53c67d0-b373-410f-afee-868e1a931a33</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch06</ThoughtIdA>
+    <ThoughtIdB>3fb7a6b2-2ae4-4e30-9a99-a1344039cfdf</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH07: The Lighthouse Letters</Name>
+    <Id>book-ch07</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch07</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch07</ThoughtIdA>
+    <ThoughtIdB>cc33680f-bc22-5dc6-80eb-24d631041864</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch07</ThoughtIdA>
+    <ThoughtIdB>ff97d771-21d4-458f-8f58-32bcecdad0c1</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch07</ThoughtIdA>
+    <ThoughtIdB>d02a5c08-c777-459c-94d4-584f92d19fac</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch07</ThoughtIdA>
+    <ThoughtIdB>966fd6e1-7c4b-56ca-8b86-6bba781829e9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch07</ThoughtIdA>
+    <ThoughtIdB>dcf4dab6-da6d-46b8-9aef-be043ee9fa37</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch07</ThoughtIdA>
+    <ThoughtIdB>e4fe6b8d-f442-4996-b36f-d40d6470406d</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH08: The Swedish Cabin</Name>
+    <Id>book-ch08</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch08</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>082ada36-a859-474d-9aaa-2283966fbc89</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>f39ac75b-9a59-5011-b044-322092a98e00</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>7c3f2dbc-3af9-437f-81c1-32248d9806d9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>df23501e-ee56-4572-a9be-4e6cad482f1c</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>c941a7e8-505d-43e1-b893-506d5e4b5499</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>daa9db01-bb11-4813-acfb-5acad5213f20</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>755702dd-dd2e-4319-ae1b-5e46e76c5435</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>42ea5071-ca3e-5d04-ae88-6aed7d783979</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>882bf2d3-ba91-4f1e-9ce7-783438b7d4a9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>c515549b-3d69-48e5-85c8-8222490f57b5</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>365135ea-2b30-4736-b606-868c6f9b7c22</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>de203728-0e06-4888-be86-b23518ddbfed</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>8de18598-60ca-56e3-9575-c175372a2d8f</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>df362878-be59-4263-afe4-d357369eece3</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>eb7441d3-b8da-436a-b72b-d4ae23ffeedd</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch08</ThoughtIdA>
+    <ThoughtIdB>b3a25005-be0c-4b22-8d35-db8cea0158fe</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH09: The Ration Still Arriving</Name>
+    <Id>book-ch09</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch09</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>1e186217-fbb6-4bf9-9904-0d98568568a3</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>ee13b481-f86f-4034-812f-16ab17ac60cb</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>f3c03553-74f8-40b9-b284-1e61c4602ee1</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>ded3b7a2-5df0-4b9a-9872-27d27da65d56</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>6e59ffcc-7652-5fb8-845e-299c42f80425</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>838edae4-b217-4eea-92ac-42e7976b1644</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>f092993d-729c-4402-b826-489922134c95</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>22753c2b-4b3f-4389-b793-5aa19b5ef2a1</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>f3b01d35-b176-4741-9052-5c22a6753b7b</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>0c3d1749-bd9c-4d6b-a59b-5f55eaee8875</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>057cc179-db1a-4d39-856b-62c44d90520a</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>07f41c71-98ad-51b5-a813-636926c4765d</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>5bb1d244-9df8-40c6-87ab-6b1a2df37434</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>2e845105-e088-4082-a998-6f153be61ca0</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>2e62eb6e-78c8-491f-8667-72258c117034</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>5dec9ac1-80a1-4078-8909-7ace57a76525</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>4a7765ea-122a-4daf-a782-7e79668bf9e2</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>df543258-23d9-4056-9fd1-829a40c45008</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>65d59915-6943-4d64-8ae7-8ebce5066549</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch09</ThoughtIdA>
+    <ThoughtIdB>5c751912-01a1-5dbd-b60f-9132d71f286d</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH10: The Helpful Vandal</Name>
+    <Id>book-ch10</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch10</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>7a6b3719-e6b0-43aa-84d6-01424d7872fb</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>7c3f2dbc-3af9-437f-81c1-32248d9806d9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>7354d573-e14a-4f63-bf79-46901ae01c78</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>882bf2d3-ba91-4f1e-9ce7-783438b7d4a9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>c515549b-3d69-48e5-85c8-8222490f57b5</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>d8d253e4-0ce7-4cd5-90d2-9ffc5d25f724</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>b4fb1572-0bef-4a1c-a297-dcb388e41122</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>dd59e935-d83f-499a-a34a-eb51162c2a33</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch10</ThoughtIdA>
+    <ThoughtIdB>b03486d7-2af8-42ef-a4dc-f278061b1c77</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH11: The Build That Worked</Name>
+    <Id>book-ch11</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch11</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>6c08c8e7-da97-408e-9d24-02b45426125c</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>4dacf64f-1b13-47c1-bf75-03a24015f49a</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>17d497a2-2d22-459f-9780-0401707fe0e6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>6937c3e6-e9af-5831-9ed7-0b191869d06b</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>9f93211b-c27b-53cc-881d-13c8e80f2502</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>a811e52c-deb7-59fa-b2cc-1cb767c47432</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>fcf92d9e-ef44-4a7c-9c5a-21613a308936</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>9eb403cb-454f-49b8-a565-26b2c4be21ae</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>85f527f2-1eef-48f5-bf17-2aaad1166234</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>cb8f4bee-1f03-49ff-a303-33ad623a57bc</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>fb96627e-a4d7-5e79-9bec-355e8859ada6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>6df2d7ab-b39d-4d28-b7b2-38259ad8d91c</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>ae51c538-88c7-4a6d-9beb-396c868973c6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>91dd2a32-c174-46ca-9a4f-3b8aa8133c62</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>a9122c01-7077-44b7-8199-3d7049680c98</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>88fad433-03d3-4b3b-bc8e-45982c4102d6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>2811ba3f-9ab4-5a39-b6d8-4aab09899d46</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>21e404cb-cf8c-5242-8b66-4cba000bcd2f</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>ada138f2-4287-461e-ba17-4fcdde472d23</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch11</ThoughtIdA>
+    <ThoughtIdB>35842905-148c-53d4-b4b8-52c8f7f29d0e</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+  <Thought>
+    <Name>CH12: The Verdict</Name>
+    <Id>book-ch12</Id>
+    <Kind>1</Kind>
+  </Thought>
+  <Link>
+    <ThoughtIdA>book-structure-root</ThoughtIdA>
+    <ThoughtIdB>book-ch12</ThoughtIdB>
+    <Kind>1</Kind>
+    <Relation>1</Relation>
+    <Direction>1</Direction>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>aa233dbf-68e1-5839-b257-03b52e3bbbe0</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>a8b69e4f-afa3-52a6-8277-10b67486c339</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>4c0494b9-323c-48ec-8e12-158d57bafd64</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>67da46ed-06d3-5a4d-8a84-17ffe6e05e92</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>95d28f6a-b279-5750-973b-18800f3fd323</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>2f6b5568-6b32-5137-ad31-27836601e3d6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>d1efc4cc-362a-4493-a672-2ef46fb0ee1f</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>fe6d0b52-697d-593d-ae50-31aa13aa9f83</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>8d445dfd-d7ed-456b-be2c-3454d1903659</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>49b94a50-27ef-58f1-831a-35858b8894a7</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>6804b424-d47d-4b3a-bef7-3fe9a779b9c2</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>2ef4b4fa-3341-5568-a5d5-404dde6f6644</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>14ddc2d6-e734-5377-aac2-54f132e25f3c</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>53e94a51-88a5-4a91-bcb1-5cc0a9696c07</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>0adefe9b-18a0-585c-a6ca-5d6d2d7c2597</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>398d9c1b-9713-42ec-a362-66a9167e057e</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>e35203ff-a42f-5f42-a34a-79a1c84a6fb6</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>ea2de60d-bc97-5b8b-accd-80d97125ecf9</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>2e6e01cb-4fcf-4535-ad08-82af1ff47a8b</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+  <Link>
+    <ThoughtIdA>book-ch12</ThoughtIdA>
+    <ThoughtIdB>1afb9686-3d6f-52a3-83b3-939ac6ae9b77</ThoughtIdB>
+    <Kind>3</Kind>
+    <Meaning>Book chapter reference</Meaning>
+  </Link>
+
+</BrainData>
