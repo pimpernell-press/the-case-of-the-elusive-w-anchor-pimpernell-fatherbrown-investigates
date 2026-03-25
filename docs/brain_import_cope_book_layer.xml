@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TheBrain Import: Book Structure Layer over COPE
+  Brain: Going Direct Paradigm (bra.in/5jgN2r)
+  Purpose: Add chapter nodes as a navigable layer without modifying existing topology
+  Generated: 2026-03-25
+
+  INSTRUCTIONS:
+  1. Open Going Direct Paradigm brain in TheBrain desktop app
+  2. File > Import > TheBrain XML
+  3. Select this file
+  4. The "Book Structure" parent thought will appear
+  5. Each chapter thought links to existing COPE nodes via jump links
+  6. Existing topology is preserved — this adds a layer, does not modify
+-->
+<BrainData>
+  <!-- Book Structure Parent Node -->
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000001</guid>
+    <name>Book Structure: The Instruments of Valuation</name>
+    <label>Autobiography chapter map over COPE domain</label>
+  </Thought>
+
+  <!-- Chapter Nodes -->
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000010</guid>
+    <name>Ch 1: The Calibration (1964-75)</name>
+    <label>Birth, mining heritage, Tonyrefail, the ration</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000020</guid>
+    <name>Ch 2: The Apprenticeship (1975-83)</name>
+    <label>School, Blake, West Germany, Thatcher</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000030</guid>
+    <name>Ch 3: The Qualification (1983-90)</name>
+    <label>MRICS, red book, surveyor's instruments</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000040</guid>
+    <name>Ch 4: The Practice (1990-97)</name>
+    <label>Bristol, valuations, the widow's question</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000050</guid>
+    <name>Ch 5: The Deviation (1997-01)</name>
+    <label>Monetary awakening, ouroboros, Zarlenga</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000060</guid>
+    <name>Ch 6: The Connections (2001-05)</name>
+    <label>Golem XIV, blogosphere, community</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000070</guid>
+    <name>Ch 7: The Double Life (2001-05)</name>
+    <label>Surveyor by day, reader by night</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000080</guid>
+    <name>Ch 8: The Library (1975-2005)</name>
+    <label>Reading as mining, Blake to Zarlenga</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000090</guid>
+    <name>Ch 9: The Departure (2005-11)</name>
+    <label>Leaving profession, first blog, Sweden</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0001-0000-0000-0000-000000000100</guid>
+    <name>Ch 10: The New Instruments (2005-26)</name>
+    <label>Home@ix, FAIR-Index, W-Anchor, Potton, Cawdor</label>
+  </Thought>
+
+  <!-- Father Brown Prosecution Layer -->
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000001</guid>
+    <name>Book Structure: The Case of the Elusive W-Anchor</name>
+    <label>Father Brown prosecution — 9 chapters</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000010</guid>
+    <name>FB Ch 1: The Crime Scene Survey</name>
+    <label>Domain redirect, the opening act</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000020</guid>
+    <name>FB Ch 2: The Choosing of Dragons</name>
+    <label>Which wrong to prosecute</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000030</guid>
+    <name>FB Ch 3: The Frog and the Scorpion</name>
+    <label>AI helpfulness as structural hazard</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000040</guid>
+    <name>FB Ch 4: The Circus Trucks</name>
+    <label>Corporate restructuring as shell game</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000050</guid>
+    <name>FB Ch 5: The Epilogue That Came First</name>
+    <label>Temporal paradox — fix before complaint</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000060</guid>
+    <name>FB Ch 6: The Work to Six Forty-One</name>
+    <label>Metadata forensics</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000070</guid>
+    <name>FB Ch 7: The Wanking in Circles</name>
+    <label>Complaints as designed exhaustion</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000080</guid>
+    <name>FB Ch 8: The Nine-One-One Call</name>
+    <label>Absence of emergency as architecture</label>
+  </Thought>
+  <Thought>
+    <guid>b00c0002-0000-0000-0000-000000000090</guid>
+    <name>FB Ch 9: The Verdict</name>
+    <label>Father Brown's summation</label>
+  </Thought>
+
+  <!-- Parent-Child Links: Book Structure → Chapters -->
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000010</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000020</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000030</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000040</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000050</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000060</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000070</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000080</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000090</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0001-0000-0000-0000-000000000100</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+
+  <!-- Father Brown Parent → Chapters -->
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000010</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000020</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000030</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000040</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000050</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000060</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000070</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000080</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000001</thoughtIdA>
+    <thoughtIdB>b00c0002-0000-0000-0000-000000000090</thoughtIdB>
+    <relation>1</relation>
+  </Link>
+
+  <!--
+    JUMP LINKS: Chapter → Existing COPE Nodes
+
+    These connect the new Book Structure layer to existing thoughts
+    in the Going Direct Paradigm brain. They are jump links (kind=1),
+    not parent-child links, so existing topology is preserved.
+
+    The existing thought IDs below are from the brain export.
+    Verify in TheBrain before importing.
+  -->
+
+  <!-- Ch 10 (New Instruments) → Poetry node (the COPE target thought) -->
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000100</thoughtIdA>
+    <thoughtIdB>6ea851dd-cae8-421b-8ee4-ce74c205f935</thoughtIdB>
+    <kind>1</kind>
+  </Link>
+
+  <!-- Ch 10 → Going Direct Paradigm (root thought) -->
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000100</thoughtIdA>
+    <thoughtIdB>52a523da-aa01-5f5d-8c18-b871494bd052</thoughtIdB>
+    <kind>1</kind>
+  </Link>
+
+  <!-- Ch 5 (Deviation) → BIS node -->
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000050</thoughtIdA>
+    <thoughtIdB>72874105-2e66-4eb6-bc74-4542a90a01be</thoughtIdB>
+    <kind>1</kind>
+  </Link>
+
+  <!-- Ch 8 (Library) → Poetry node -->
+  <Link>
+    <thoughtIdA>b00c0001-0000-0000-0000-000000000080</thoughtIdA>
+    <thoughtIdB>6ea851dd-cae8-421b-8ee4-ce74c205f935</thoughtIdB>
+    <kind>1</kind>
+  </Link>
+
+  <!-- FB Ch 3 (Scorpion) → Flux Capacitor of Truthiness -->
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000030</thoughtIdA>
+    <thoughtIdB>0214fe61-9c82-422e-960e-4c8ab760e800</thoughtIdB>
+    <kind>1</kind>
+  </Link>
+
+  <!-- FB Ch 7 (Circles) → Circle of Blame philippic -->
+  <Link>
+    <thoughtIdA>b00c0002-0000-0000-0000-000000000070</thoughtIdA>
+    <thoughtIdB>99f0037f-a021-40c6-86c8-6a1873ef9ef3</thoughtIdB>
+    <kind>1</kind>
+  </Link>
+
+</BrainData>
