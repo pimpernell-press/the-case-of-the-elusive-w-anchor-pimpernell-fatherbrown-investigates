@@ -43,7 +43,7 @@ The mining communities that formed above the seams — Tonyrefail, Tonypandy, Tr
 
 Foster Lewis was born in 1902 in this world. He started school in 1905 wearing petticoats, because boys in Tonyrefail were not put into trousers until the age of five. He remembered it clearly in his eighties because of the toffee — the teacher had slipped one into his clasped hands during prayers, and he had thought, even then, that she had done a wicked thing. He still thought so. The memory had not softened in eighty years.
 
-His grandson Roger was born approximately sixty years later, into a world where the pits were closing but the culture had not yet dissolved.
+His grandson Roger was born approximately sixty years later — not in the Valleys, but in a household that carried the Valleys with it. The childhood was in Oxfordshire, in a village called Barford St Michael. But the grandparents' house was in South Wales, and the ration still arrived from the brewery, and the dining table was where the two worlds met.
 
 ---
 
@@ -51,23 +51,30 @@ His grandson Roger was born approximately sixty years later, into a world where 
 
 *Witness voice. ~500 words. The grandparents' house. The dining table. The ration.*
 
+**Corpus fragments available to the author:**
+- Foreword: "long evenings sat at the dining table with Nanny listening to the Television and Grampy and Dad chatting away with a glass of Worthington's pale ale, from the ration still sent every month from the brewery."
+- Ch0.2: "I was transported back immediately to long evenings at the dining table — Nanny watching television, Grampy and Dad talking, a glass of Worthington's pale ale from the ration still sent every month from the brewery."
+- Foreword (Foster Lewis, synthesised): "The Workmen's Institute at Tonyrefail, the reading rooms, the debating societies."
+- Barford transcript: "I was brought up in a small village called Barford St Michael" — so the visits to the grandparents' house were from Oxfordshire to South Wales, not within the Valleys.
+
 > **[WITNESS]**
 >
-> **Author prompt:** Write from the dining table. You are a child. Grampy and Dad are talking. Nanny is watching television. The Worthington's pale ale is on the table — the ration, still sent every month from the brewery. What does the room look like? What does it smell like? What are Grampy and Dad talking about — do you understand it, or is it the sound of adult conversation flowing over your head like the television?
+> **Author prompt:** Write from the grandparents' house in South Wales. You are visiting from Oxfordshire — from Barford St Michael. This is not your everyday world; this is the other world, the Valleys world, the grandparents' world. You travel to it. You arrive.
 >
-> The foreword gives us: "long evenings sat at the dining table with Nanny listening to the Television and Grampy and Dad chatting away with a glass of Worthington's pale ale, from the ration still sent every month from the brewery."
+> The dining table is the centre. Grampy and Dad are talking. Nanny is watching television. The Worthington's is on the table.
 >
 > Questions to expand from:
-> - Where was this house? Talbot Green? Tonyrefail? Elsewhere?
-> - What did Nanny watch on television? Was it always on?
+> - How did you get to South Wales? By car? How long was the journey from Barford/Oxfordshire?
+> - Was the house in Talbot Green? Tonyrefail? What did it look like from outside?
+> - What did Nanny (Doris) watch on television? Was it always on?
 > - Did Grampy talk about the pit, or was the pit something that was finished and not spoken of?
-> - What did the Worthington's look like? Was it bottled? Canned? Did Grampy pour it into a glass?
-> - Were there other family members present? Your sister Suzanne? Your parents?
-> - Was there a garden? A front room kept for best? A kitchen where the real life happened?
-> - What was the walk to the house like — the approach, the door, the greeting?
+> - What did the Worthington's look like? Bottled? Canned? Did Grampy pour it into a glass?
+> - Were other family present? Suzanne? Your parents? Cousin Russel?
+> - What was different about this house compared to Barford St Michael? The accent? The hills? The terraces?
 > - What did Grampy's hands look like? A miner's hands, after decades?
+> - Was Llewellyn Harrison (other grandfather) still alive? Did you visit him too? Were the two grandfathers' houses different?
 >
-> **Register:** The foreword voice. Short sentences for the physical details. Longer sentences when the memory opens. No analysis. The analysis comes in Chapter 7. This is the raw material the analysis will later work on.
+> **Register:** The foreword voice. Short sentences for the physical details. The child arriving in a different world — the Valleys are not home, but they are origin. The dining table is where the two worlds meet.
 >
 > **Target:** ~500 words.
 
@@ -184,16 +191,16 @@ Roger Lewis places this quotation at the end of his grandfather's foreword. The 
 
 | Section | Voice | Status | Words |
 |---------|-------|--------|-------|
-| 1. The Deep Time | Surveyor | **WRITTEN** | ~250 |
+| 1. The Deep Time | Surveyor | **WRITTEN** | ~270 |
 | 2. The Household | Witness | **AUTHOR NEEDED** | ~500 |
 | 3. The Two Grandfathers | Surveyor | **WRITTEN** | ~250 |
 | 4. The Memoir Before the Reading | Witness | **AUTHOR NEEDED** | ~400 |
 | 5. The Ration | Witness | **AUTHOR NEEDED** | ~400 |
 | 6. The Baards | Surveyor | **WRITTEN** | ~200 |
 | 7. The Forward Connection | Witness | **AUTHOR NEEDED** | ~200 |
-| **Total** | | | **~2,200** |
+| **Total** | | | **~2,220** |
 
-**Surveyor words written:** ~700 (Sections 1, 3, 6)
+**Surveyor words written:** ~720 (Sections 1, 3, 6)
 **Witness words needed from author:** ~1,500 (Sections 2, 4, 5, 7)
 
 The scaffold is 30% built. The remaining 70% is the author's memory.
@@ -205,7 +212,20 @@ The scaffold is 30% built. The remaining 70% is the author's memory.
 | Source | What was taken | Section |
 |--------|---------------|---------|
 | Poetic Legislator foreword (245 words) | The dining table, Suzanne, Worthington's, Llewellyn Harrison, Janos Arany | Seed for all sections |
-| DoughForge ch008 (The Ration Still Arriving) | Foster Lewis biography (1905, Tonyrefail, petticoats, toffee), the memoir's production history, check-weighman, *cythraul canu*, "the ration still arriving" | Sections 1, 3, 5, 6, 7 |
-| Poetic Legislator Book I | "cultural osmosis," "stories that permeate the valleys," lessons of economic consciousness | Section 1 (historical context) |
+| DoughForge Ch0.2 (The Ration Still Arriving) | Foster Lewis biography (1905, Tonyrefail, petticoats, toffee), the memoir's production history, check-weighman, *cythraul canu*, "the ration still arriving," Grampy's bibliography | Sections 1, 3, 5, 6, 7 |
+| DoughForge foreword_foster_lewis.md | "Every lump from the Rhondda had a man behind it," Tonyrefail reading rooms | Section 1, 2 context |
+| Poetic Legislator Book I | "cultural osmosis," "stories that permeate the valleys" | Section 1 |
 | Poetic Legislator poem 35 (Celtic Baards) | The bards burned for truth, Welsh tradition | Section 6 |
-| Home@ix corpus index | "Roger G. Lewis MRICS" — professional context | Omitted (belongs in Ch3-4, not Ch1) |
+| Barford St Michael transcript (11 march) | **"Brought up in Barford St Michael" — CRITICAL CORRECTION: childhood in Oxfordshire, not South Wales. Visits to grandparents were cross-country journeys.** | Section 2 context update |
+
+## Key Correction from Corpus Mine
+
+**The childhood was in Oxfordshire.** The 01_outline.md assumed South Wales;
+the Barford St Michael transcript reveals Roger grew up in an English village,
+attending Warriner school, playing cricket in Bloxom. The grandparents' house
+in South Wales was the visited world, not the everyday world. This changes
+Chapter 1's framing: the dining table is the place where two Englands meet —
+the Oxfordshire village and the Welsh valleys — and the child travels between them.
+
+Chapter 2 (The Moleskin Trousers) must now be reframed as the Oxfordshire
+childhood + West Germany + military boarding school, not the Valleys.
