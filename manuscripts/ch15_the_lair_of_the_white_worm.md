@@ -122,6 +122,75 @@ The pigeon shat on the Scrabble board.
 
 Nobody noticed. The tile it obscured connected WORM to BREAD.
 
+On Mrs. Ledger's phone, the screen had not been locked. A Substack
+page was open — the blog she'd been reading all week in the kitchen
+while doing the parish accounts. *Grub Street in Exile*. The post
+was titled: *THE SOUTH BANK SHOW SPECIAL: "The Conquest of Dough —
+Wales, Memory and the Information War."* Below it, a list of
+episodes she'd bookmarked:
+
+*The Unacknowledged Legislators Scream.*
+*The Circle of Blame: Ten Pathways.*
+*The Trial of Usury.*
+*The Strawberry Fields Paradox.*
+
+Father Brown glanced at it as he passed. He stopped. He read the
+titles again.
+
+"Mrs. Ledger," he said quietly, "what is this?"
+
+"Oh, that blog. It's been going all summer. Some sort of — well,
+it's presented as South Bank Show episodes, but I don't think
+they're real episodes. Someone's written them as if they were.
+Rather clever, actually. Melvyn Bragg interviews poets about the
+banking system. There are satirical adverts between the segments.
+One of them's about a thing called PlatformLife — 'the new, improved
+feudalism for the digital age.' Made me laugh, which is unusual
+for anything involving Melvyn Bragg."
+
+"And the argument?"
+
+"The argument is — well, it's the same argument, isn't it? The
+same one you've been making. About the scales. About the money
+trick. About — what was the phrase — 'people who work are being
+farmed.' There's a man called Roger in it. A poet. Welsh, I think.
+And a filmmaker called David. And someone who calls himself Shelley,
+though obviously it isn't Shelley."
+
+Father Brown sat down.
+
+He had been investigating the crime for fifteen chapters. He had
+traced the domain theft to the regulatory capture to the AI cost
+loops to the Great Money Trick to the Bank of Mum and Dad to the
+BIS. He had identified the serpent. He had named the oven. He had
+the haiku in his pocket and the check-weighman's scales in his
+memory and twenty-seven years of FAIR-Index data and a dead mouse
+on the floor at three in the morning and a cat that knew things
+it had never been taught.
+
+And the whole time, someone had been writing it down. Publishing
+it. Posting it on a Substack that Mrs. Ledger read in the kitchen.
+The South Bank Show that was always on in the vestry. The podcast
+on Dex's phone. The notification on Flambeau's screen. The same
+argument, the same evidence, the same conclusion — the same book,
+written before he'd finished investigating it.
+
+The epilogue came first. It always comes first. And the reader
+who follows the Substack will find it before the reader who follows
+Father Brown. Which is, of course, exactly how it should be.
+
+The check-weighman publishes his readings. The territory is public.
+The map is the book you are holding. And the blog that Mrs. Ledger
+reads in the kitchen is the meta-language that Tarski said the
+system could not generate from within itself.
+
+It came from outside. It came from a Welshman and a Trinidadian
+drinking Guinness in the Larrick in Marylebone, discussing
+Chesterton, and it was published on the internet where anyone could
+read it, and Mrs. Ledger did, and Father Brown did not, because he
+was too busy investigating the crime to notice that the evidence
+was playing on every screen in the building.
+
 ---
 
 <!-- TRANSCLUSION: TYPE=cross_repo_literature REPO=DoughForge PATH=chapters/AppC-Bibliography.md LAYER=Literary -->

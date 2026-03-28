@@ -12,6 +12,20 @@ Father — someone's stolen a man's front door and replaced it with a picture
 of someone else's front door," even Father Brown had to admit the metaphor
 was compelling.
 
+The television in the corner of the vestry was on, as it always was — Mrs.
+Hennessy left it running for company during the day. The South Bank Show
+was playing — a repeat, or a special, or one of those extended editions
+Melvyn Bragg did when he had something he couldn't fit into an hour. A
+voice Father Brown didn't recognise was saying: "When I pay attention to
+something beautiful, that attention was traditionally understood as a form
+of love. Now it's harvested, quantified, and sold back to us as content."
+Father Brown did not look at the screen. But he heard Melvyn Bragg reply,
+with the careful neutrality of a man who has been asking questions for
+forty years: "But surely people have always influenced each other's
+thoughts?" The first voice said: "The scale and the sophistication,
+certainly. But more fundamentally, the transformation of attention from
+a gift into a resource."
+
 The domain in question was `w-anchor.co.uk`. It belonged to a man named
 Roger, who had registered it through a company called Heart Internet, which
 was owned by a larger company called Host Europe Group, which was owned by

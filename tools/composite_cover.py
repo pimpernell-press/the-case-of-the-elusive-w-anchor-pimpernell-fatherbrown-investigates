@@ -53,8 +53,8 @@ FONT_TITLE_PATH    = os.path.join(FONTS_DIR, "VT323-Regular.ttf")
 FONT_SUBTITLE_PATH = os.path.join(FONTS_DIR, "Noto_Sans", "NotoSans-VariableFont_wdth,wght.ttf")
 FONT_AUTHOR_PATH   = os.path.join(FONTS_DIR, "Noto_Sans", "NotoSans-VariableFont_wdth,wght.ttf")
 
-FONT_TITLE_SIZE    = 120
-FONT_SUBTITLE_SIZE = 52
+FONT_TITLE_SIZE    = 58
+FONT_SUBTITLE_SIZE = 26
 FONT_AUTHOR_SIZE   = 64
 FONT_EDITION_SIZE  = 44
 

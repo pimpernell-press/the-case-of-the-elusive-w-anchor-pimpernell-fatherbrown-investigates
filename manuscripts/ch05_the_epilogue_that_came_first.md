@@ -109,3 +109,34 @@ unreasonable one."
 
 "That," said Father Brown, "is because you were a *criminal*, my
 dear Flambeau. These people are *professionals*."
+
+---
+
+In the parish hall kitchen, the radio was on — or was it the laptop?
+Mrs. Ledger had something streaming while she reconciled the parish
+accounts. The South Bank Show again, a different episode. Melvyn Bragg
+was interviewing someone about usury in the Middle Ages. A woman's
+voice — an academic, or perhaps an actress reading testimony — was
+explaining to a farmer why his land now belonged to the monastery.
+
+"You borrowed the seed corn. The seed corn grew. The harvest was good.
+But the interest on the seed corn grew faster than the harvest, and now
+the interest exceeds the value of the land. The land is mine. This is
+not injustice. This is arithmetic."
+
+The farmer's voice: "But you created the debt from nothing. You had no
+seed corn. You wrote a number in a ledger."
+
+The moneylender's voice, patient, warm, almost kind: "The ledger *is*
+the seed corn. That is the miracle of credit."
+
+Father Brown stood very still in the doorway, holding a biscuit he had
+forgotten to eat. He had heard that voice before. Not the actress's voice.
+The argument. The structure of the argument. He had heard it in the
+parking page revenue model, in the direct debit scheme, in the DNS
+redirect. The epilogue written before the story. The debt created before
+the asset. The fix applied before the complaint.
+
+He ate the biscuit and said nothing. But he made a note in the margin of
+his pocket diary: *Find the programme. Find the writer. The writer knows
+something.*

@@ -104,3 +104,11 @@ The internet should be no different."
 Father Brown smiled.
 
 "Roger," he said, "has written it down."
+
+On Flambeau's phone, abandoned face-up on the table, a notification
+pulsed. A Substack post. The thumbnail showed Melvyn Bragg in his
+studio, books stacked behind him. The title read: *THE SOUTH BANK
+SHOW SPECIAL: "The Trial of Usury — In Which the Poets Gather to
+Judge the Inter-Alpha Group."*
+
+Neither of them noticed.
