@@ -46,3 +46,20 @@ chapters:
   - id: ch10
     title: "The Paradox of the Helpful Vandal"
     file: manuscripts/ch10_the_paradox_of_the_helpful_vandal.md
+  - id: ch11
+    title: "The Great Money Trick"
+    file: manuscripts/ch11_the_great_money_trick.md
+  - id: ch15
+    title: "The Lair of the White Worm"
+    file: manuscripts/ch15_the_lair_of_the_white_worm.md
+  - id: ch16
+    title: "Father Brown's Last Cup of Tea"
+    file: manuscripts/ch16_epilogue_last_cup_of_tea.md
+
+isbn: "978-1-0676560-4-1"
+
+covers:
+  ebook: assets/cover/front_cover_father_brown.png
+
+output:
+  epub: dist/the_case_of_the_elusive_w_anchor.epub
