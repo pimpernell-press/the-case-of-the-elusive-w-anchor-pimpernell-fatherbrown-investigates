@@ -189,7 +189,7 @@ Thread these through ALL chapters. Do not invent new ones.
 ```powershell
 # Verify project integrity (run from The Kit)
 cd "C:\Users\peewe\OneDrive\Desktop\reproducible-self-pub-kit"
-.\tools\anchor_verify.ps1
+.\anchor_verify.ps1
 
 # Build EPUB (run from The Book)
 cd "C:\Users\peewe\OneDrive\Desktop\the-case-of-the-elusive-w-anchor-pimpernell-fatherbrown-investigates"
