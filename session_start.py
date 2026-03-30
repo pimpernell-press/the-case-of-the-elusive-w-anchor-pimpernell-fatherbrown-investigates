@@ -104,7 +104,7 @@ def run_git(args, cwd):
             cwd=cwd,
             capture_output=True,
             text=True,
-            timeout=30,
+            timeout=120,
         )
         return result.returncode, result.stdout.strip()
     except Exception as e:
